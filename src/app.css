@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-fredericka
+  }
+  h2, h3, h4 {
+    @apply font-acme
+  }
+  p,
+	a,
+	ul,
+	li,
+	table,
+	th,
+	tr,
+	td,
+	label,
+	form,
+	span {
+		@apply font-quattrocento;
+	}
+
+}
+

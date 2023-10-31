@@ -1,2 +1,3 @@
-# out-ECES
-Site que mostra o estado da arte dos Ensinos Clássicos ns universidades públicas brasileiras
+## ECES
+
+Site que mostra o estado da arte dos Estudos Clássicos nas universidades públicas brasileiras.
