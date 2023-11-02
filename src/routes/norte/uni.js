@@ -3,7 +3,7 @@ export let uni = [
     id: 1,
     uni_nome: "UNIR",
     uni_link: "https://www.unir.br/homepage",
-    cursos: {
+    cursos: [{
       c1: "Português",
       cl1: "https://letrasguajara.unir.br/homepage",
       e1: "ppc",
@@ -29,13 +29,13 @@ export let uni = [
       e5: "matriz curricular",
       el5:
         "https://letrasingles.unir.br/uploads/98051164/TCC%202017%20A%202020/quarto%20periodo.pdf",
-    },
+    }],
   },
   {
     id: 2,
     uni_nome: "UFRR",
     uni_link: "https://ufrr.br/",
-    cursos: {
+    cursos: [{
       c1: "Português",
       cl1: "https://ufrr.br/letrasportugues/",
       e1: "ppc",
@@ -46,6 +46,6 @@ export let uni = [
       e2: "ppc",
       el2:
         "https://ufrr.br/letrasfrances/wp-content/uploads/sites/32/2023/07/PPC-Letras-Frances_2018.pdf",
-    },
+    }],
   },
 ];

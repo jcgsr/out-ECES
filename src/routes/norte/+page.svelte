@@ -6,18 +6,18 @@
 
 <section class="flex flex-col m-auto text-center">
 	<div class="norte text-white">
+		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
 		<img
 			src={Eagle}
 			alt="Imagem de uma Águia Romana"
-			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-24 opacity-75 rounded-lg"
+			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-4  opacity-75 rounded-lg"
 		/>
-		<span class="text-xs mt-2 text-white"
+		<span class="text-xs my-2 text-white"
 			>Foto: <a href="https://www.walksinsiderome.com/blog/about-rome/the-symbols-of-roman-history/"
 				>WIR</a
 			></span
 		>
 
-		<h2 class="my-3 text-2xl">Região Norte</h2>
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
 			<p class="mb-4">
 				A região norte possui 10 universidades federais oferecendo um total de 29 cursos de Letras,
