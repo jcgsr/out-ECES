@@ -31,5 +31,13 @@ export let norte = [
     obras: {
       o1: "Dicionário de Latim-Português",
     },
+  },  {
+    id: 5,
+    autor: "LIMA, A. G.",
+    aparic: 5,
+    obras: {
+      o1: "Uma estranha língua?",
+    },
   },
+
 ];

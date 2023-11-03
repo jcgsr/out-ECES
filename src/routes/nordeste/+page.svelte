@@ -1,5 +1,6 @@
 <script>
-	import Lupa from '../../lib/lupa.jpg';
+	import Seo from '../../lib/seo.svelte';
+	import Lupa from '$lib/img/lupa.jpg';
 	// material icons
 	export let size = '6rem';
 	export let color = '#3b0764';
@@ -14,10 +15,11 @@
 		<img
 			src={Lupa}
 			alt="Imagem de uma Águia Romana"
-			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto  opacity-75 rounded-lg"
+			class="w-4/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto opacity-75 rounded-lg"
 		/>
 		<span class="text-xs mt-2 text-violet-950"
-			>Foto de <a class="underline"
+			>Foto de <a
+				class="underline"
 				href="https://www.pexels.com/pt-br/foto/heranca-patrimonio-sucessao-antigo-5959325/
 ">Nikita Belokhonov</a
 			></span
@@ -31,3 +33,9 @@
 		</button>
 	</section>
 </div>
+<Seo
+	title="Nordeste"
+	description="EC na região Nordeste"
+	type="website"
+	image="https://ecesb.netlify.app/_app/immutable/assets/lupa.f9884b07.jpg"
+/>

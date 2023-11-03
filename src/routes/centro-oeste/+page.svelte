@@ -1,5 +1,5 @@
 <script>
-	import Clock from '../../lib/clock.jpg';
+	import Clock from '../../lib/img/clock.jpg';
 	// material icons
 	export let size = '6rem';
 	export let color = '#3b0764';
@@ -15,7 +15,7 @@
 		<img
 			src={Clock}
 			alt="Imagem de uma Águia Romana"
-			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto opacity-75 rounded-lg"
+			class="w-4/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto opacity-75 rounded-lg"
 		/>
 		<span class="text-xs mt-2 text-violet-950"
 			>Foto de <a

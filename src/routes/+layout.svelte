@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import Logo from '../lib/coliseum-svgrepo-com-white.svg';
+	import Logo from '../lib/img/coliseum-svgrepo-com-white.svg';
 
 	import { fade } from 'svelte/transition';
 	export let data;
@@ -22,10 +22,10 @@
 <div>
 	<div>
 		<nav
-			class="fixed w-full top-0 z-10 lg:flex bg-fuchsia-950 opacity-50 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:bg-fuchsia-950 dark:shadow-white"
+			class="fixed w-full top-0 z-10 lg:flex bg-fuchsia-950 opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:bg-fuchsia-950 dark:shadow-white"
 		>
 			<div class="flex items-center align-middle justify-between">
-				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Colisseum SVG" /> </a>
+				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Coliseo SVG" /> </a>
 				<!-- Mobile menu button -->
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
@@ -77,12 +77,12 @@
 		</nav>
 	</div>
 	{#key data.pathname}
-		<div in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
+		<div class="flex flex-col min-h-screen" in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
 			<slot />
 		</div>
 	{/key}
 	<footer
-		class="flex flex-col mt-2 text-center bg-gradient-to-r from-fuchsia-900 via-gray-900 to-black text-white opacity-30"
+		class="flex flex-col mt-auto text-center bg-gradient-to-r from-fuchsia-900 via-gray-900 to-black text-white opacity-30"
 	>
 		<hr />
 		<p class="my-2">
