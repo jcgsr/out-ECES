@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { norte } from './norte.js';
 	import { uni } from './uni.js';
 	import Eagle from '../../lib/Eagle.jpg';
@@ -10,24 +11,30 @@
 		<img
 			src={Eagle}
 			alt="Imagem de uma Águia Romana"
-			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-4  opacity-75 rounded-lg"
+			class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-4 opacity-75 rounded-lg"
 		/>
-		<span class="text-xs my-2 text-white"
+		<span class="text-xs my-2 text-violet-950"
 			>Foto: <a href="https://www.walksinsiderome.com/blog/about-rome/the-symbols-of-roman-history/"
 				>WIR</a
 			></span
 		>
 
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
-			<p class="mb-4">
-				A região norte possui 10 universidades federais oferecendo um total de 29 cursos de Letras,
-				dos quais apenas 03 não têm nenhuma disciplina referente aos Estudos Clássicos.
+			<p class="my-4">
+				A região norte possui 10 universidades federais oferecendo um total de 33 cursos de Letras
+				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas 04 não têm nenhuma
+				disciplina referente aos Estudos Clássicos.
 			</p>
 			<p>
-				Abaixo, estão todos os autores e todas as obras que fazem parte das referências básicas e/ou
-				complementares extraídas dos ementários oficiais mais atuais de cada curso. Se desejar
-				acessar o site do curso ou seu ementário, basta clicar no respectivo nome. Se quiser
-				pesquisar na Amazon as obras do autor, basta clicar no nome do autor.
+				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
+				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
+				extraídos dos ementários oficiais mais atuais de cada curso. Se desejar acessar o site do
+				curso ou seu ementário, basta clicar no respectivo nome. Se quiser pesquisar na Amazon as
+				obras do autor, basta clicar em seu nome.
+			</p>
+			<p class="my-4">
+				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,
+				tendo sido obtidos por meio de e-mail pelo autor.
 			</p>
 		</section>
 		<h3 class="mb-2 text-xl">Autores e obras</h3>
@@ -36,7 +43,7 @@
 				<th class="border p-1 md:p-3">Posição</th>
 				<th class="border p-1 md:p-3">Autor</th>
 				<th class="border p-1 md:p-3">Obra</th>
-				<th class="border p-1 md:p-3">Aparições</th>
+				<th class="border p-1 md:p-3">Indicações</th>
 			</tr>
 			{#each norte as { id, autor, aparic, obras }}
 				<tr>
@@ -44,7 +51,7 @@
 					<td class="border p-2 md:p-3">
 						<a
 							href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
-							>{autor}</a
+							target="_blank">{autor}</a
 						>
 					</td>
 					<td class="border p-1">
@@ -85,6 +92,12 @@
 							<li>
 								<a class="p-1 md:py-3" href={cursos.cl5}>{cursos.c5}</a>
 							</li>
+							<li>
+								<a class="p-1 md:py-3" href={cursos.cl6}>{cursos.c6}</a>
+							</li>
+							<li>
+								<a class="p-1 md:py-3" href={cursos.cl7}>{cursos.c7}</a>
+							</li>
 						</ul>
 					</td>
 					<td class=" border p-1 md:py-3">
@@ -104,6 +117,12 @@
 							<li>
 								<a href={cursos.el5}>{cursos.e5}</a>
 							</li>
+							<li>
+								<a href={cursos.el6}>{cursos.e6}</a>
+							</li>
+							<li>
+								<a href={cursos.el7}>{cursos.e7}</a>
+							</li>
 						</ul>
 					</td>
 				</tr>
@@ -115,6 +134,12 @@
 <style>
 	a {
 		text-decoration: underline;
+	}
+	a:empty {
+		display: none;
+	}
+	li:empty {
+		display: none;
 	}
 	/* .norte { */
 	/* 	display: flex; */

@@ -50,28 +50,28 @@
 			>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-violet-500 duration-500"
+					class="text-xl text-gray-300 hover:text-white duration-500"
 					href="/norte">norte</a
 				>
 				<a
 					on:click={toggleNavbar}
 					href="/nordeste"
-					class="text-xl hover:text-violet-500 duration-500 text-gray-300">nordeste</a
+					class="text-xl hover:text-white duration-500 text-gray-300">nordeste</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-violet-500 duration-500"
+					class="text-xl text-gray-300 hover:text-white duration-500"
 					href="/centro-oeste">centro-oeste</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-violet-500 duration-500"
+					class="text-xl text-gray-300 hover:text-white duration-500"
 					href="/sul">sul</a
 				>
 				<a
 					on:click={toggleNavbar}
 					href="/sudeste"
-					class="text-xl text-gray-300 hover:text-violet-500 duration-500">sudeste</a
+					class="text-xl text-gray-300 hover:text-white duration-500">sudeste</a
 				>
 			</div>
 		</nav>
