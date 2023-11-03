@@ -1,5 +1,4 @@
 <script>
-	// import Eagle from '../lib/Eagle.jpg';
 	import Coliseu from '../lib/coliseu.jpg';
 </script>
 
