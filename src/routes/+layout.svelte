@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
-	import Logo from '../lib/img/coliseum-svgrepo-com-white.svg';
-
+	import Logo from '../lib/img/coliseum-svgrepo-com.svg';
 	import { fade } from 'svelte/transition';
 	export let data;
 
@@ -22,7 +21,7 @@
 <div>
 	<div>
 		<nav
-			class="fixed w-full top-0 z-10 lg:flex bg-fuchsia-950 opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:bg-fuchsia-950 dark:shadow-white"
+			class="fixed w-full top-0 z-10 lg:flex bg-papyrusdark opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:bg-fuchsia-950 dark:shadow-white"
 		>
 			<div class="flex items-center align-middle justify-between">
 				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Coliseo SVG" /> </a>
@@ -50,39 +49,43 @@
 			>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-white duration-500"
+					class="text-xl text-black hover:text-white duration-500"
 					href="/norte">norte</a
 				>
 				<a
 					on:click={toggleNavbar}
 					href="/nordeste"
-					class="text-xl hover:text-white duration-500 text-gray-300">nordeste</a
+					class="text-xl hover:text-white duration-500 text-black">nordeste</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-white duration-500"
+					class="text-xl text-black hover:text-white duration-500"
 					href="/centro-oeste">centro-oeste</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-gray-300 hover:text-white duration-500"
+					class="text-xl text-black hover:text-white duration-500"
 					href="/sul">sul</a
 				>
 				<a
 					on:click={toggleNavbar}
 					href="/sudeste"
-					class="text-xl text-gray-300 hover:text-white duration-500">sudeste</a
+					class="text-xl text-black hover:text-white duration-500">sudeste</a
 				>
 			</div>
 		</nav>
 	</div>
 	{#key data.pathname}
-		<div class="flex flex-col min-h-screen" in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
+		<div
+			class="flex flex-col min-h-screen"
+			in:fade={{ duration: 300, delay: 400 }}
+			out:fade={{ duration: 300 }}
+		>
 			<slot />
 		</div>
 	{/key}
 	<footer
-		class="flex flex-col mt-auto text-center bg-gradient-to-r from-fuchsia-900 via-gray-900 to-black text-white opacity-30"
+		class="flex flex-col mt-auto text-center bg-papyrusultradark text-papyrus opacity-90"
 	>
 		<hr />
 		<p class="my-2">
@@ -93,3 +96,4 @@
 		</p>
 	</footer>
 </div>
+

@@ -11,9 +11,15 @@ export default {
         fredericka: ['"Fredericka the Great"', 'serif'],
         acme: ['Acme', 'sans-serif'],
         quattrocento: ['"Quattrocento Sans"', 'sans-serif']
+      },
+      colors: {
+        papyrus: '#D6C2AE',
+        papyrusdark: '#BD8F58',
+        papyrusultradark: '#5A1C15'
       }
     },
   },
   plugins: [],
+  darkMode: 'media'
 }
 

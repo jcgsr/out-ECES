@@ -12,14 +12,14 @@
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="norte text-white">
+	<div class="norte text-black">
 		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
 		<img
 			src={Eagle}
 			alt="Imagem de uma Águia Romana"
 			class=" w-4/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-4 opacity-75 rounded-lg"
 		/>
-		<span class="text-xs my-2 text-violet-950"
+		<span class="text-xs my-2 text-papyrusultradark"
 			>Foto: <a href="https://www.walksinsiderome.com/blog/about-rome/the-symbols-of-roman-history/"
 				>WIR</a
 			></span
@@ -27,7 +27,7 @@
 
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região norte possui 10 universidades federais oferecendo um total de 33 cursos de Letras
+				A região Norte possui 10 universidades federais oferecendo um total de 33 cursos de Letras
 				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas 04 não têm nenhuma
 				disciplina referente aos Estudos Clássicos.
 			</p>
@@ -147,6 +147,9 @@
 />
 
 <style>
+  table, tr, th, td {
+    border-color: #5A1C15;
+  }
 	a {
 		text-decoration: underline;
 	}
