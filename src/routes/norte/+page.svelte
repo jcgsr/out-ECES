@@ -12,7 +12,7 @@
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="norte text-black">
+	<div class="norte text-black dark:text-white">
 		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
 		<img
 			src={Eagle}
@@ -67,7 +67,7 @@
 				</tr>
 			{/each}
 		</table>
-		<hr class="text-white w-2/4 m-auto pt-4 mt-6" />
+		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
 		<h3 class="my-4 text-xl">Universidades, cursos e ementários</h3>
 		<table

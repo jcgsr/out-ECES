@@ -8,7 +8,7 @@
 
 	// material icons
 	export let size = '40px';
-	export let color = 'rgb(209 213 219)';
+	export let color = 'black';
 
 	import Close from 'svelte-material-icons/Close.svelte';
 	import Menu from 'svelte-material-icons/Menu.svelte';
@@ -21,16 +21,16 @@
 <div>
 	<div>
 		<nav
-			class="fixed w-full top-0 z-10 lg:flex bg-papyrusdark opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:bg-fuchsia-950 dark:shadow-white"
+			class="fixed w-full top-0 z-10 lg:flex bg-papyrusdark opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:shadow-white"
 		>
 			<div class="flex items-center align-middle justify-between">
-				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Coliseo SVG" /> </a>
+				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Coliseu SVG" /> </a>
 				<!-- Mobile menu button -->
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
 					<button
 						type="button"
-						class="text-white hover:text-violet-400 focus:outline-none focus:text-gray-400 duration-500"
+						class="text-black hover:text-violet-400 focus:outline-none focus:text-gray-400 duration-500"
 					>
 						{#if showMenu}
 							<Close {size} {color} />
@@ -85,7 +85,7 @@
 		</div>
 	{/key}
 	<footer
-		class="flex flex-col mt-auto text-center bg-papyrusultradark text-papyrus opacity-90"
+		class="flex flex-col mt-auto text-center bg-papyrusultradark dark:bg-gradient-to-r from-black via-papyrusdark to-papyrusultradark  text-papyrus opacity-90"
 	>
 		<hr />
 		<p class="my-2">

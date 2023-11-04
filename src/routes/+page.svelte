@@ -7,7 +7,7 @@
 </script>
 
 <svelte:window bind:scrollY={y} />
-<h1 class="text-black font-fredericka text-lg my-8 mt-24">
+<h1 class="text-black font-fredericka text-lg my-8 mt-24 dark:text-white">
 	Estudos Clássicos no Ensino Superior do Brasil
 </h1>
 <div class="flex flex-col m-auto text-center">
@@ -16,12 +16,12 @@
 		alt="Imagem do Coliseu "
 		class="w-3/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto opacity-75 rounded-lg"
 	/>
-	<span class="text-xs mt-2 text-papyrusultradark"
+	<span class="text-xs mt-2 text-papyrusultradark dark:text-papyrus"
 		>Foto de <a href="https://www.pexels.com/pt-br/foto/coliseu-italia-1797161/"
 			>Chait Goli
 		</a></span
 	>
-	<section class="w-3/4 m-auto py-3 text-left text-black">
+	<section class="w-3/4 m-auto py-3 text-left text-black dark:text-white">
 		<p class="aos-hidden-left" class:aos-show={y >= 40}>
 			1 Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam
 			qui ipsorum lingua Celtae, nostra Galli appellantur. 2 Hi omnes lingua, institutis, legibus
