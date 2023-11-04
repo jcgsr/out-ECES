@@ -21,7 +21,7 @@
 <div>
 	<div>
 		<nav
-			class="fixed w-full top-0 z-10 lg:flex bg-papyrusdark opacity-80 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:shadow-white"
+			class="fixed w-full top-0 z-10 lg:flex bg-papyrusdark opacity-90 px-6 lg:px-8 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-black dark:shadow-white"
 		>
 			<div class="flex items-center align-middle justify-between">
 				<a href="/"><img src={Logo} class="h-10 inline ml-2" alt="Coliseu SVG" /> </a>
