@@ -7,7 +7,7 @@
 </script>
 
 <svelte:window bind:scrollY={y} />
-<h1 class="text-black font-fredericka text-lg my-8 mt-24 dark:text-white">
+<h1 class="text-black font-fredericka text-lg my-8 mt-24 dark:text-papyrus">
 	Estudos Clássicos no Ensino Superior do Brasil
 </h1>
 <div class="flex flex-col m-auto text-center">
@@ -21,7 +21,7 @@
 			>Chait Goli
 		</a></span
 	>
-	<section class="w-3/4 m-auto py-3 text-left text-black dark:text-white">
+	<section class="w-3/4 m-auto py-3 text-left text-black dark:text-papyrus">
 		<p class="aos-hidden-left" class:aos-show={y >= 40}>
 			1 Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam
 			qui ipsorum lingua Celtae, nostra Galli appellantur. 2 Hi omnes lingua, institutis, legibus

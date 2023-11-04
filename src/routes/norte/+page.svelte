@@ -6,20 +6,28 @@
 	// seo
 	import Seo from '../../lib/seo.svelte';
 
+	// auto counter
+	let counter = 0;
+	let increment = () => {
+		counter++;
+		return counter;
+	};
+	const getCount = counter;
+
 	// aos
 	let y;
 </script>
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="norte text-black dark:text-white">
+	<div class="norte text-black dark:text-papyrus">
 		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
 		<img
 			src={Eagle}
 			alt="Imagem de uma Águia Romana"
 			class=" w-4/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto mt-4 opacity-75 rounded-lg"
 		/>
-		<span class="text-xs my-2 text-papyrusultradark"
+		<span class="text-xs my-2 text-papyrusultradark dark:text-papyrus"
 			>Foto: <a href="https://www.walksinsiderome.com/blog/about-rome/the-symbols-of-roman-history/"
 				>WIR</a
 			></span
@@ -34,9 +42,10 @@
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
 				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
 				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
-				extraídos dos ementários oficiais mais atuais de cada curso. Se desejar acessar o site do
-				curso ou seu ementário, basta clicar no respectivo nome. Se quiser pesquisar na Amazon as
-				obras do autor, basta clicar em seu nome.
+				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
+				por indicação das obras. Se desejar acessar o site do curso ou seu ementário, basta clicar
+				no respectivo nome. Se quiser pesquisar na Amazon as obras do autor, basta clicar em seu
+				nome.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,
@@ -51,9 +60,9 @@
 				<th class="border p-1 md:p-3">Obra</th>
 				<th class="border p-1 md:p-3">Indicações</th>
 			</tr>
-			{#each norte as { id, autor, aparic, obras }}
+			{#each norte as { autor, aparic, obra }}
 				<tr>
-					<td class="border">{id}</td>
+					<td class="border">{increment(getCount)}</td>
 					<td class="border p-2 md:p-3">
 						<a
 							href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
@@ -61,7 +70,7 @@
 						>
 					</td>
 					<td class="border p-1">
-						<em>{obras.o1}</em>
+						<em>{obra}</em>
 					</td>
 					<td class="border">{aparic}</td>
 				</tr>
@@ -147,9 +156,12 @@
 />
 
 <style>
-  table, tr, th, td {
-    border-color: #5A1C15;
-  }
+	table,
+	tr,
+	th,
+	td {
+		border-color: #5a1c15;
+	}
 	a {
 		text-decoration: underline;
 	}
