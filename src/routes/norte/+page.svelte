@@ -43,9 +43,9 @@
 				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
 				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
 				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
-				por indicação das obras. Se desejar acessar o site do curso ou seu ementário, basta clicar
-				no respectivo nome. Se quiser pesquisar na Amazon as obras do autor, basta clicar em seu
-				nome.
+				por indicação das obras. Se uma obra tiver dois ou mais autores, só consta o nome do
+				primeiro autor. Se desejar acessar o site do curso ou seu ementário, basta clicar no
+				respectivo nome. Se quiser pesquisar na Amazon as obras do autor, basta clicar em seu nome.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,

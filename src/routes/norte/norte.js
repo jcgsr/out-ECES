@@ -25,16 +25,27 @@ export let norte = [
     aparic: 12,
     obra: "Gradus Primus",
   },
-
   {
     autor: "BERGE, Damião et alii",
     aparic: 11,
     obra: "Ars Latina",
   },
+
+  {
+    autor: "COMBA, J",
+    aparic: 11,
+    obra: "Programa de Latim",
+  },
   {
     autor: "FURLAN, Oswaldo Antônio",
     aparic: 10,
     obra: "Gramática básica do latim",
+  },
+
+  {
+    autor: "CART, A. et al",
+    aparic: 9,
+    obra: "Gramática latina",
   },
 
   {
@@ -54,15 +65,109 @@ export let norte = [
     obra: "Latina essentia",
   },
   {
+    autor: "JONES, Peter V",
+    aparic: 8,
+    obra: "Aprendendo Latim: textos, gramática, vocabulário, exercícios",
+  },
+  {
+    autor: "FARIA, E.",
+    aparic: 7,
+    obra: "Gramática superior da língua latina",
+  },
+
+  {
+    autor: "AMARANTE, José",
+    aparic: 5,
+    obra:
+      "Latinitas: leitura de textos em língua latina. Elegias, poesia épica, odes",
+  },
+  {
+    autor: "BRUNO, Haroldo",
+    aparic: 5,
+    obra: "Latim e formação linguística",
+  },
+  {
+    autor: "GRIMAL, P",
+    aparic: 5,
+    obra: "Dicionário de mitologia grega e romana",
+  },
+
+  {
     autor: "LIMA, Alceu Dias",
     aparic: 5,
     obra: "Uma estranha língua?",
   },
+
+  {
+    autor: "SAUSSURE, F",
+    aparic: 5,
+    obra: "Curso de linguística geral",
+  },
+  {
+    autor: "ALFÖLDY, G",
+    aparic: 4,
+    obra: "Historia Social de Roma",
+  },
+  {
+    autor: "AMARANTE, José",
+    aparic: 4,
+    obra:
+      "Latinitas: leitura de textos em língua latina. Fábulas, epigramas, epístolas",
+  },
+
+  {
+    autor: "CALVINO, I",
+    aparic: 4,
+    obra: "Por que ler os clássicos",
+  },
+  {
+    autor: "FUNARI, P. P. A. ",
+    aparic: 4,
+    obra: "Roma: vida pública e privada",
+  },
+
+  {
+    autor: "GRIMAL, P",
+    aparic: 4,
+    obra: "A história de Roma",
+  },
+  {
+    autor: "GRIMAL, P",
+    aparic: 4,
+    obra: "A vida quotidiana na Roma antiga",
+  },
+  {
+    autor: "GRIMAL, P",
+    aparic: 4,
+    obra: "A vida em Roma na antiguidade",
+  },
+  {
+    autor: "MARTINET, A.",
+    aparic: 4,
+    obra: "Elementos de linguística geral",
+  },
+  {
+    autor: "PRADO, J. B. T.",
+    aparic: 4,
+    obra: "Língua Latina: anotações de aula",
+  },
+
   {
     autor: "RONAI, Paulo",
     aparic: 4,
     obra: "Gradus Secundus",
   },
+  {
+    autor: "SARAIVA, F. R. S.",
+    aparic: 4,
+    obra: "Dicionário Latino-Português",
+  },
+  {
+    autor: "TITO LÍVIO.",
+    aparic: 4,
+    obra: "História de Roma: ab urbe condita",
+  },
+
   {
     autor: "NEVES, Roberto de Souza",
     aparic: 3,
@@ -80,6 +185,11 @@ export let norte = [
     obra: "Didática Geral Dinâmica",
   },
   {
+    autor: "BOYS, Francisco Xavier",
+    aparic: 1,
+    obra: "Língua Latina I e II",
+  },
+  {
     autor: "BORDENOVE, Juan D",
     aparic: 1,
     obra: "Estratégias de Ensino Aprendizagem",
@@ -89,6 +199,12 @@ export let norte = [
     aparic: 1,
     obra: "A Mistificação Pedagógica",
   },
+  {
+    autor: "FONTANA, Dino F",
+    aparic: 1,
+    obra: "Curso de latim",
+  },
+
   {
     autor: "FREIRE, Paulo",
     aparic: 1,
@@ -114,7 +230,11 @@ export let norte = [
     aparic: 1,
     obra: "DIDÁTICA",
   },
-
+  {
+    autor: "MONTAGNER,  Airto Ceolin",
+    aparic: 1,
+    obra: "ARS LATINA : Curso prático de Língua latina",
+  },
   {
     autor: "NIDELCOFF, Maria Tereza",
     aparic: 1,
@@ -131,10 +251,15 @@ export let norte = [
     aparic: 1,
     obra: "Escola e Democracia",
   },
-
   {
     autor: "RONAI, Paulo.",
     aparic: 1,
     obra: "Não perca o seu latim",
+  },
+
+  {
+    autor: "WILLIANS, Edwin",
+    aparic: 1,
+    obra: "Do latim ao português",
   },
 ];
