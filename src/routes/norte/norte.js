@@ -37,11 +37,15 @@ export let norte = [
     obra: "Programa de Latim",
   },
   {
+    autor: "ALMEIDA. Zélia. C. de.",
+    aparic: 10,
+    obra: "A literatura latina",
+  },
+  {
     autor: "FURLAN, Oswaldo Antônio",
     aparic: 10,
     obra: "Gramática básica do latim",
   },
-
   {
     autor: "CART, A. et al",
     aparic: 9,
@@ -73,6 +77,11 @@ export let norte = [
     autor: "FARIA, E.",
     aparic: 7,
     obra: "Gramática superior da língua latina",
+  },
+  {
+    autor: "SARAIVA, F. R. S.",
+    aparic: 7,
+    obra: "Novíssimo dicionário latino-português",
   },
 
   {
@@ -142,6 +151,12 @@ export let norte = [
     obra: "A vida em Roma na antiguidade",
   },
   {
+    autor: "HORÁCIO",
+    aparic: 4,
+    obra: "Odes e epodos",
+  },
+
+  {
     autor: "MARTINET, A.",
     aparic: 4,
     obra: "Elementos de linguística geral",
@@ -163,9 +178,25 @@ export let norte = [
     obra: "Dicionário Latino-Português",
   },
   {
+    autor: "SPALDING, T. O.",
+    aparic: 4,
+    obra: "Guia prático de tradução latina",
+  },
+  {
+    autor: "SPALDING, T. O.",
+    aparic: 4,
+    obra: "Pequeno Dicionário de Literatura",
+  },
+
+  {
     autor: "TITO LÍVIO.",
     aparic: 4,
     obra: "História de Roma: ab urbe condita",
+  },
+  {
+    autor: "VIRGÍLIO",
+    aparic: 4,
+    obra: "Eneida",
   },
 
   {
@@ -174,15 +205,80 @@ export let norte = [
     obra: "Dicionário de expressões latinas usuais",
   },
   {
+    autor: "BARBOSA, H. G.",
+    aparic: 2,
+    obra: "Procedimentos técnicos da tradução: uma nova proposta",
+  },
+
+  {
+    autor: "BENJAMIN, W.",
+    aparic: 2,
+    obra: "A tarefa -renúncia do tradutor",
+  },
+  {
+    autor: "CAMPOS, H. ",
+    aparic: 2,
+    obra: "Da tradução como criação e como crítica",
+  },
+  {
+    autor: "CARVALHO, R. N. B. ",
+    aparic: 2,
+    obra: "Bucólicas: uma poética da tradução",
+  },
+  {
+    autor: "CARVALHO, R. N. B.",
+    aparic: 2,
+    obra: "Bucólicas de Virgílio",
+  },
+
+  {
     autor: "IVO, Oscarino da Silva",
     aparic: 2,
     obra: "Estudo progressivo da morfo-sintaxe latina",
+  },
+  {
+    autor: "JAKOBSON, R. Linguagem e comunicação",
+    aparic: 2,
+    obra: "Linguagem e comunicação",
+  },
+  {
+    autor: "MARTINS, I.",
+    aparic: 2,
+    obra: "Do português ao latim - do latim ao português",
   },
 
   {
     autor: "NERICI, Emidio Giuseppe",
     aparic: 2,
     obra: "Didática Geral Dinâmica",
+  },
+  {
+    autor: "PAES, J. P.",
+    aparic: 2,
+    obra:
+      "Tradução, a ponte necessária: aspectos e problemas da arte de traduzir",
+  },
+
+  {
+    autor: "RÓNAI, P.",
+    aparic: 2,
+    obra: " A tradução vivida",
+  },
+  {
+    autor: "SCHNAIDERMAN, B.",
+    aparic: 2,
+    obra: "Tradução: “fidelidad e filológica” e “fidelidade estilística”",
+  },
+  {
+    autor: "TORRINHA, F.",
+    aparic: 2,
+    obra: "Dicionário latino-português",
+  },
+
+  {
+    autor: "VIRGÍLIO",
+    aparic: 2,
+    obra: "Bucólicas",
   },
   {
     autor: "BOYS, Francisco Xavier",

@@ -45,7 +45,8 @@
 				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
 				por indicação das obras. Se uma obra tiver dois ou mais autores, só consta o nome do
 				primeiro autor. Se desejar acessar o site do curso ou seu ementário, basta clicar no
-				respectivo nome. Se quiser pesquisar na Amazon as obras do autor, basta clicar em seu nome.
+				respectivo nome. Se quiser pesquisar obras do autor na Amazon, basta clicar em seu nome,
+				assim como na obra especificamente.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,
@@ -70,7 +71,12 @@
 						>
 					</td>
 					<td class="border p-1">
-						<em>{obra}</em>
+						<a
+							href="https://www.amazon.com.br/s?k={obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+							target="_blank"
+						>
+							<em>{obra}</em>
+						</a>
 					</td>
 					<td class="border">{aparic}</td>
 				</tr>
