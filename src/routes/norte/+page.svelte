@@ -3,6 +3,22 @@
 	import { uni } from './uni.js';
 	import Eagle from '$lib/img/Eagle.jpg';
 
+	// search bar
+	import {
+		Table,
+		TableBody,
+		TableBodyCell,
+		TableBodyRow,
+		TableHead,
+		TableHeadCell,
+		TableSearch
+	} from 'flowbite-svelte';
+
+	let searchTerm = '';
+	$: filteredItems = norte.filter(
+		(item) => item.autor.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+	);
+
 	// seo
 	import Seo from '../../lib/seo.svelte';
 
@@ -54,34 +70,52 @@
 			</p>
 		</section>
 		<h3 class="mb-2 text-xl">Autores e obras</h3>
-		<table class="aos-hidden-bottom border text-sm md:text-lg m-auto" class:aos-show={y >= 400}>
-			<tr class="border p-1 md:p-3">
-				<th class="border p-1 md:p-3">Posição</th>
-				<th class="border p-1 md:p-3">Autor</th>
-				<th class="border p-1 md:p-3">Obra</th>
-				<th class="border p-1 md:p-3">Indicações</th>
-			</tr>
-			{#each norte as { autor, aparic, obra }}
-				<tr>
-					<td class="border">{increment(getCount)}</td>
-					<td class="border p-2 md:p-3">
-						<a
-							href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
-							target="_blank">{autor}</a
-						>
-					</td>
-					<td class="border p-1">
-						<a
-							href="https://www.amazon.com.br/s?k={obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
-							target="_blank"
-						>
-							<em>{obra}</em>
-						</a>
-					</td>
-					<td class="border">{aparic}</td>
-				</tr>
-			{/each}
-		</table>
+		<TableSearch placeholder="procure por autor..." hoverable={true} bind:inputValue={searchTerm}>
+			<TableHead>
+				<TableHeadCell>Posição</TableHeadCell>
+				<TableHeadCell>Autor</TableHeadCell>
+				<TableHeadCell>obra</TableHeadCell>
+				<TableHeadCell>Indicações</TableHeadCell>
+			</TableHead>
+			<TableBody class="divide-y">
+				{#each filteredItems as item}
+					<TableBodyRow>
+						<TableBodyCell>{increment(getCount)}</TableBodyCell>
+						<TableHeadCell>{item.autor}</TableHeadCell>
+						<TableHeadCell>{item.obra}</TableHeadCell>
+						<TableHeadCell>{item.aparic}</TableHeadCell>
+					</TableBodyRow>
+				{/each}
+			</TableBody>
+		</TableSearch>
+		<!-- <table class="aos-hidden-bottom border text-sm md:text-lg m-auto" class:aos-show={y >= 400}> -->
+		<!-- 	<tr class="border p-1 md:p-3"> -->
+		<!-- 		<th class="border p-1 md:p-3">Posição</th> -->
+		<!-- 		<th class="border p-1 md:p-3">Autor</th> -->
+		<!-- 		<th class="border p-1 md:p-3">Obra</th> -->
+		<!-- 		<th class="border p-1 md:p-3">Indicações</th> -->
+		<!-- 	</tr> -->
+		<!-- 	{#each norte as { autor, aparic, obra }} -->
+		<!-- 		<tr> -->
+		<!-- 			<td class="border">{increment(getCount)}</td> -->
+		<!-- 			<td class="border p-2 md:p-3"> -->
+		<!-- 				<a -->
+		<!-- 					href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
+		<!-- 					target="_blank">{autor}</a -->
+		<!-- 				> -->
+		<!-- 			</td> -->
+		<!-- 			<td class="border p-1"> -->
+		<!-- 				<a -->
+		<!-- 					href="https://www.amazon.com.br/s?k={obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
+		<!-- 					target="_blank" -->
+		<!-- 				> -->
+		<!-- 					<em>{obra}</em> -->
+		<!-- 				</a> -->
+		<!-- 			</td> -->
+		<!-- 			<td class="border">{aparic}</td> -->
+		<!-- 		</tr> -->
+		<!-- 	{/each} -->
+		<!-- </table> -->
 		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
 		<h3 class="my-4 text-xl">Universidades, cursos e ementários</h3>
@@ -92,7 +126,7 @@
 			<tr class="border p-1 md:p-3">
 				<th class="border p-1 md:p-3">Universidade</th>
 				<th class="border p-1 md:p-3">Curso</th>
-				<th class="border p-1 md:p-3">Ementário</th>
+				<th class="border p-1 md:p-3">Fonte</th>
 			</tr>
 			{#each uni as { uni_nome, uni_link, cursos }}
 				<tr class="border">
