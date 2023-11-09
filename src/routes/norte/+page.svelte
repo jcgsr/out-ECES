@@ -96,7 +96,7 @@
 		{/if}
 		<br />
 		<button
-			class="outline mt-4 my-2 p-2 rounded text-papyrusultradark hover:bg-papyrusultradark hover:text-white duration-500"
+			class="outline mt-4 my-2 p-2 rounded text-papyrusultradark dark:text-papyrusdark hover:bg-papyrusultradark hover:text-white duration-500"
 			on:click={checkIsChecked}
 			on:click={checkIsAutor}
 		>
@@ -106,9 +106,9 @@
 				pesquisar por autor
 			{/if}</button
 		>
-		<Table striped={true} hoverable={true}>
+		<Table striped={true} shadow hoverable={true} class="text-sm">
 			<TableHead>
-				<TableHeadCell>Posição</TableHeadCell>
+				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
 				<TableHeadCell>obra</TableHeadCell>
 				<TableHeadCell>Indicações</TableHeadCell>
@@ -118,6 +118,7 @@
 					{#each filteredAuthors as item}
 						<TableBodyRow>
 							<TableBodyCell>{increment(getCount)}</TableBodyCell>
+							<!-- <TableBodyCell>{item.id}</TableBodyCell> -->
 							<TableHeadCell>
 								<a
 									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
@@ -135,6 +136,7 @@
 					{/each}
 				{:else}
 					{#each filteredBooks as item}<TableBodyRow>
+							<!-- <TableBodyCell>{item.id}</TableBodyCell> -->
 							<TableBodyCell>{increment(getCount)}</TableBodyCell>
 							<TableHeadCell>
 								<a
