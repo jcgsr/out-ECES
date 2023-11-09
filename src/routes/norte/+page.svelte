@@ -10,15 +10,25 @@
 		TableBodyCell,
 		TableBodyRow,
 		TableHead,
-		TableHeadCell,
-		TableSearch
+		TableHeadCell
 	} from 'flowbite-svelte';
 
 	let searchTerm = '';
-	$: filteredItems = norte.filter(
+	$: filteredAuthors = norte.filter(
 		(item) => item.autor.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
 	);
+	$: filteredBooks = norte.filter(
+		(item) => item.obra.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+	);
 
+	let isChecked = false;
+	function checkIsChecked() {
+		isChecked = !isChecked;
+	}
+	let isAutor = false;
+	function checkIsAutor() {
+		isAutor = !isAutor;
+	}
 	// seo
 	import Seo from '../../lib/seo.svelte';
 
@@ -70,7 +80,33 @@
 			</p>
 		</section>
 		<h3 class="mb-2 text-xl">Autores e obras</h3>
-		<TableSearch placeholder="procure por autor..." hoverable={true} bind:inputValue={searchTerm}>
+		{#if isChecked}
+			<input
+				type="search"
+				placeholder="autor..."
+				bind:value={searchTerm}
+				class="rounded-lg hs-search-field__input"
+			/>
+		{:else}<input
+				type="search"
+				placeholder="obra..."
+				bind:value={searchTerm}
+				class="rounded-lg hs-search-field__input"
+			/>
+		{/if}
+		<br />
+		<button
+			class="outline mt-4 my-2 p-2 rounded text-papyrusultradark hover:bg-papyrusultradark hover:text-white duration-500"
+			on:click={checkIsChecked}
+			on:click={checkIsAutor}
+		>
+			{#if isAutor}
+				pesquisar por obra
+			{:else}
+				pesquisar por autor
+			{/if}</button
+		>
+		<Table striped={true} hoverable={true}>
 			<TableHead>
 				<TableHeadCell>Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
@@ -78,16 +114,46 @@
 				<TableHeadCell>Indicações</TableHeadCell>
 			</TableHead>
 			<TableBody class="divide-y">
-				{#each filteredItems as item}
-					<TableBodyRow>
-						<TableBodyCell>{increment(getCount)}</TableBodyCell>
-						<TableHeadCell>{item.autor}</TableHeadCell>
-						<TableHeadCell>{item.obra}</TableHeadCell>
-						<TableHeadCell>{item.aparic}</TableHeadCell>
-					</TableBodyRow>
-				{/each}
+				{#if isAutor}
+					{#each filteredAuthors as item}
+						<TableBodyRow>
+							<TableBodyCell>{increment(getCount)}</TableBodyCell>
+							<TableHeadCell>
+								<a
+									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.autor}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell
+								><a
+									href="https://www.amazon.com.br/s?k={item.obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.obra}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell>{item.aparic}</TableHeadCell>
+						</TableBodyRow>
+					{/each}
+				{:else}
+					{#each filteredBooks as item}<TableBodyRow>
+							<TableBodyCell>{increment(getCount)}</TableBodyCell>
+							<TableHeadCell>
+								<a
+									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.autor}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell
+								><a
+									href="https://www.amazon.com.br/s?k={item.obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.obra}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell>{item.aparic}</TableHeadCell>
+						</TableBodyRow>
+					{/each}
+				{/if}
 			</TableBody>
-		</TableSearch>
+		</Table>
 		<!-- <table class="aos-hidden-bottom border text-sm md:text-lg m-auto" class:aos-show={y >= 400}> -->
 		<!-- 	<tr class="border p-1 md:p-3"> -->
 		<!-- 		<th class="border p-1 md:p-3">Posição</th> -->
@@ -231,6 +297,12 @@
 		opacity: 1;
 		filter: blur(0);
 		transform: translateX(0);
+	}
+	input.hs-search-field__input {
+		background-image: url('../../lib/img/icons8-search-20.png');
+		background-repeat: no-repeat;
+		background-position: 0.4ch;
+		padding: 1rem 1.5rem;
 	}
 	/* .norte { */
 	/* 	display: flex; */
