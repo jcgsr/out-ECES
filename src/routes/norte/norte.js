@@ -82,17 +82,18 @@ export let norte = [
     obra: "Latina essentia",
   },
   {
-    id: 14,
-    autor: "JONES, Peter V",
-    aparic: 8,
-    obra: "Aprendendo Latim: textos, gramática, vocabulário, exercícios",
-  },
-  {
     id: 15,
     autor: "FARIA, E.",
     aparic: 7,
     obra: "Gramática superior da língua latina",
   },
+  {
+    id: 14,
+    autor: "JONES, Peter V.",
+    aparic: 7,
+    obra: "Aprendendo Latim: textos, gramática, vocabulário, exercícios",
+  },
+
   {
     id: 15,
     autor: "PARATORE, E.",
@@ -105,6 +106,18 @@ export let norte = [
     autor: "SARAIVA, F. R. S.",
     aparic: 7,
     obra: "Novíssimo dicionário latino-português",
+  },
+  {
+    id: 56,
+    autor: "FONTANA, Dino Fausto.",
+    aparic: 6,
+    obra: "Curso de latim",
+  },
+  {
+    id: 56,
+    autor: "SILVA NETO, Serafim da",
+    aparic: 6,
+    obra: "História do latim vulgar",
   },
 
   {
@@ -121,8 +134,15 @@ export let norte = [
     obra: "Latim e formação linguística",
   },
   {
+    id: 18,
+    autor: "FURLAN, O.A.",
+    aparic: 5,
+    obra: "Latim para o português: gramática, língua e literatura",
+  },
+
+  {
     id: 19,
-    autor: "GRIMAL, P",
+    autor: "GRIMAL, P.",
     aparic: 5,
     obra: "Dicionário de mitologia grega e romana",
   },
@@ -174,6 +194,26 @@ export let norte = [
     obra: "Por que ler os clássicos",
   },
   {
+    id: 56,
+    autor: "FONTANA, Dino Fausto.",
+    aparic: 4,
+    obra: "Lições de latim",
+  },
+
+  {
+    id: 27,
+    autor: "FUNARI, P. P.",
+    aparic: 4,
+    obra: "A vida quotidiana na Roma antiga",
+  },
+  {
+    id: 28,
+    autor: "FUNARI, P. P.",
+    aparic: 4,
+    obra: "A vida em Roma na antiguidade",
+  },
+
+  {
     id: 25,
     autor: "FUNARI, P. P. A. ",
     aparic: 4,
@@ -182,21 +222,9 @@ export let norte = [
 
   {
     id: 26,
-    autor: "GRIMAL, P",
+    autor: "GRIMAL, P.",
     aparic: 4,
     obra: "A história de Roma",
-  },
-  {
-    id: 27,
-    autor: "GRIMAL, P",
-    aparic: 4,
-    obra: "A vida quotidiana na Roma antiga",
-  },
-  {
-    id: 28,
-    autor: "GRIMAL, P",
-    aparic: 4,
-    obra: "A vida em Roma na antiguidade",
   },
   {
     id: 29,
@@ -319,8 +347,15 @@ export let norte = [
     id: 40,
     autor: "BENJAMIN, W.",
     aparic: 2,
-    obra: "A tarefa -renúncia do tradutor",
+    obra: "A tarefa-renúncia do tradutor",
   },
+  {
+    id: 40,
+    autor: "BRITO, G. S.",
+    aparic: 2,
+    obra: "Literatura latina: síntese histórica",
+  },
+
   {
     id: 41,
     autor: "CARDOSO, Z. A.",
@@ -369,6 +404,18 @@ export let norte = [
     aparic: 2,
     obra: "O teatro romano e as comédias de Plauto",
   },
+  {
+    id: 48,
+    autor: "EDITORA PORTO",
+    aparic: 2,
+    obra: "DICIONÁRIO ACADÊMICO: latim-português português-latim",
+  },
+  {
+    id: 48,
+    autor: "GONCALVES, Maximiano Augusto",
+    aparic: 2,
+    obra: "Eneida de Virgílio",
+  },
 
   {
     id: 44,
@@ -378,10 +425,17 @@ export let norte = [
   },
   {
     id: 45,
-    autor: "JAKOBSON, R. Linguagem e comunicação",
+    autor: "JAKOBSON, R.",
     aparic: 2,
     obra: "Linguagem e comunicação",
   },
+  {
+    id: 53,
+    autor: "LESKY, A.",
+    aparic: 2,
+    obra: "A tragédia grega",
+  },
+
   {
     id: 46,
     autor: "MARTINS, I.",
@@ -419,6 +473,12 @@ export let norte = [
     autor: "PLAUTO; TERÊNCIO",
     aparic: 2,
     obra: "A comédia latina",
+  },
+  {
+    id: 48,
+    autor: "RIGOLON, G. R.",
+    aparic: 2,
+    obra: "A pronúncia do latim científico",
   },
 
   {
@@ -486,6 +546,20 @@ export let norte = [
   },
   {
     id: 53,
+    autor: "ACHCAR, F.",
+    aparic: 1,
+    obra:
+      "Lírica e lugar comum: alguns temas de Horácio e sua presença em português",
+  },
+  {
+    id: 53,
+    autor: "ALFAGEME, I. R.",
+    aparic: 1,
+    obra: "Nueva gramática griega",
+  },
+
+  {
+    id: 53,
     autor: "BOYS, Francisco Xavier",
     aparic: 1,
     obra: "Língua Latina I e II",
@@ -495,6 +569,12 @@ export let norte = [
     autor: "BORDENOVE, Juan D",
     aparic: 1,
     obra: "Estratégias de Ensino Aprendizagem",
+  },
+  {
+    id: 40,
+    autor: "BRITO, G. S.",
+    aparic: 1,
+    obra: "Lições de Latim",
   },
   {
     id: 55,
@@ -507,12 +587,6 @@ export let norte = [
     autor: "FERREIRA, Antonio Gómes",
     aparic: 1,
     obra: "Dicionário de português-latim",
-  },
-  {
-    id: 56,
-    autor: "FONTANA, Dino F",
-    aparic: 1,
-    obra: "Curso de latim",
   },
 
   {
@@ -528,17 +602,39 @@ export let norte = [
     obra: "Educação e Poder",
   },
   {
+    id: 58,
+    autor: "GALVÃO, R.",
+    aparic: 1,
+    obra:
+      "Vocabulário etimológico, ortográfico e prosódico das palavras portuguesas derivadas do grego",
+  },
+
+  {
     id: 59,
     autor: "GARCIA, Janete Melasso",
     aparic: 1,
     obra: "Língua latina",
   },
   {
+    id: 14,
+    autor: "JONES, Peter V.",
+    aparic: 1,
+    obra: "Reading Latin",
+  },
+
+  {
     id: 60,
     autor: "LEMBO, J.M",
     aparic: 1,
     obra: "Porque Falham os Professores",
   },
+  {
+    id: 53,
+    autor: "LESKY, A.",
+    aparic: 1,
+    obra: "A história da literatura grega",
+  },
+
   {
     id: 61,
     autor: "LIBANEO, José Carlos",
@@ -558,10 +654,36 @@ export let norte = [
     obra: "ARS LATINA : Curso prático de Língua latina",
   },
   {
+    id: 62,
+    autor: "MURACHCO, H.",
+    aparic: 1,
+    obra: "Língua grega: prática",
+  },
+  {
+    id: 62,
+    autor: "MURACHCO, H.",
+    aparic: 1,
+    obra: "Língua grega: teoria",
+  },
+
+  {
     id: 63,
     autor: "NIDELCOFF, Maria Tereza",
     aparic: 1,
     obra: "Uma Escola Para o Povo",
+  },
+  {
+    id: 63,
+    autor: "NORELLI, E.",
+    aparic: 1,
+    obra: "Manual de literatura cristã grega e latina",
+  },
+
+  {
+    id: 64,
+    autor: "PIETRO, M. H. U.",
+    aparic: 1,
+    obra: "Dicionário de literatura grega",
   },
 
   {
@@ -581,6 +703,12 @@ export let norte = [
     autor: "RONAI, Paulo.",
     aparic: 1,
     obra: "Não perca o seu latim",
+  },
+  {
+    id: 67,
+    autor: "SAUTEREAU, F.",
+    aparic: 1,
+    obra: "Contos e lendas do nascimento de Roma",
   },
 
   {

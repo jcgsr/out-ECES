@@ -82,12 +82,14 @@
 		<h3 class="mb-2 text-xl">Autores e obras</h3>
 		{#if isChecked}
 			<input
+        on:focus={(e) => e.target.select()}
 				type="search"
 				placeholder="autor..."
 				bind:value={searchTerm}
 				class="rounded-lg text-black hs-search-field__input"
 			/>
 		{:else}<input
+        on:focus={(e) => e.target.select()}
 				type="search"
 				placeholder="obra..."
 				bind:value={searchTerm}
