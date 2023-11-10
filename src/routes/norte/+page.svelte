@@ -85,13 +85,13 @@
 				type="search"
 				placeholder="autor..."
 				bind:value={searchTerm}
-				class="rounded-lg hs-search-field__input"
+				class="rounded-lg text-black hs-search-field__input"
 			/>
 		{:else}<input
 				type="search"
 				placeholder="obra..."
 				bind:value={searchTerm}
-				class="rounded-lg hs-search-field__input"
+				class="rounded-lg text-black hs-search-field__input"
 			/>
 		{/if}
 		<br />

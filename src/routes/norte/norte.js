@@ -71,7 +71,7 @@ export let norte = [
   {
     id: 12,
     autor: "FERREIRA, Antônio Gomes",
-    aparic: 8,
+    aparic: 9,
     obra: "Dicionário de Latim-Português",
   },
 
@@ -133,12 +133,18 @@ export let norte = [
     aparic: 5,
     obra: "Uma estranha língua?",
   },
-
   {
     id: 21,
     autor: "SAUSSURE, F",
     aparic: 5,
     obra: "Curso de linguística geral",
+  },
+
+  {
+    id: 21,
+    autor: "STOCK, Leo",
+    aparic: 5,
+    obra: "Gramática de latim",
   },
   {
     id: 22,
@@ -266,7 +272,12 @@ export let norte = [
     aparic: 4,
     obra: "Pequeno Dicionário de Literatura",
   },
-
+  {
+    id: 36,
+    autor: "THOORENS, L.",
+    aparic: 4,
+    obra: "Panorama das Literaturas: Roma",
+  },
   {
     id: 36,
     autor: "TITO LÍVIO.",
@@ -298,12 +309,23 @@ export let norte = [
     aparic: 2,
     obra: "Procedimentos técnicos da tradução: uma nova proposta",
   },
-
+  {
+    id: 40,
+    autor: "BARTHES, R. ",
+    aparic: 2,
+    obra: "A retórica antiga",
+  },
   {
     id: 40,
     autor: "BENJAMIN, W.",
     aparic: 2,
     obra: "A tarefa -renúncia do tradutor",
+  },
+  {
+    id: 41,
+    autor: "CARDOSO, Z. A.",
+    aparic: 2,
+    obra: "Estudos sobre o Teatro Antigo",
   },
   {
     id: 41,
@@ -334,6 +356,18 @@ export let norte = [
     autor: "CATULO",
     aparic: 2,
     obra: "O livro de Catulo",
+  },
+  {
+    id: 43,
+    autor: "CÍCERO, M. T.",
+    aparic: 2,
+    obra: "Retórica a Herênio",
+  },
+  {
+    id: 43,
+    autor: "CIRIBELLI, M. C.",
+    aparic: 2,
+    obra: "O teatro romano e as comédias de Plauto",
   },
 
   {
@@ -374,6 +408,18 @@ export let norte = [
     obra:
       "Tradução, a ponte necessária: aspectos e problemas da arte de traduzir",
   },
+  {
+    id: 48,
+    autor: "PLAUTO",
+    aparic: 2,
+    obra: "Comédias.",
+  },
+  {
+    id: 48,
+    autor: "PLAUTO; TERÊNCIO",
+    aparic: 2,
+    obra: "A comédia latina",
+  },
 
   {
     id: 49,
@@ -388,6 +434,19 @@ export let norte = [
     obra: "Tradução: “fidelidad e filológica” e “fidelidade estilística”",
   },
   {
+    id: 50,
+    autor: "SÊNECA",
+    aparic: 2,
+    obra: "Édipo",
+  },
+  {
+    id: 50,
+    autor: "SÊNECA",
+    aparic: 2,
+    obra: "Medeia",
+  },
+
+  {
     id: 51,
     autor: "THAMOS, M",
     aparic: 2,
@@ -399,6 +458,12 @@ export let norte = [
     autor: "TORRINHA, F.",
     aparic: 2,
     obra: "Dicionário latino-português",
+  },
+  {
+    id: 51,
+    autor: "TRINGALI, D.",
+    aparic: 2,
+    obra: "Introdução à retórica",
   },
   {
     id: 51,
@@ -439,6 +504,12 @@ export let norte = [
   },
   {
     id: 56,
+    autor: "FERREIRA, Antonio Gómes",
+    aparic: 1,
+    obra: "Dicionário de português-latim",
+  },
+  {
+    id: 56,
     autor: "FONTANA, Dino F",
     aparic: 1,
     obra: "Curso de latim",
@@ -473,6 +544,12 @@ export let norte = [
     autor: "LIBANEO, José Carlos",
     aparic: 1,
     obra: "DIDÁTICA",
+  },
+  {
+    id: 61,
+    autor: "MARINHO, Luana dos Santos Castro",
+    aparic: 1,
+    obra: "Manual de Língua Latina – EAD",
   },
   {
     id: 62,
