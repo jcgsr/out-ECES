@@ -42,6 +42,12 @@
 
 	// aos
 	let y;
+
+	// send back click
+	let inputSearch;
+	function sendBack() {
+		inputSearch.focus();
+	}
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -82,14 +88,16 @@
 		<h3 class="mb-2 text-xl">Autores e obras</h3>
 		{#if isChecked}
 			<input
-        on:focus={(e) => e.target.select()}
+				bind:this={inputSearch}
+				on:focus={(e) => e.target.select()}
 				type="search"
 				placeholder="autor..."
 				bind:value={searchTerm}
 				class="rounded-lg text-black hs-search-field__input"
 			/>
 		{:else}<input
-        on:focus={(e) => e.target.select()}
+				bind:this={inputSearch}
+				on:focus={(e) => e.target.select()}
 				type="search"
 				placeholder="obra..."
 				bind:value={searchTerm}
@@ -101,6 +109,7 @@
 			class="outline mt-4 my-2 p-2 rounded text-papyrusultradark dark:text-papyrusdark hover:bg-papyrusultradark hover:text-white duration-500"
 			on:click={checkIsChecked}
 			on:click={checkIsAutor}
+			on:click={sendBack}
 		>
 			{#if isAutor}
 				pesquisar por obra
