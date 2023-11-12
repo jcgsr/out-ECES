@@ -108,7 +108,7 @@ export let norte = [
 		obra: 'Novíssimo dicionário latino-português'
 	},
 	{
-		id: 56,
+		id: 17,
 		autor: 'FONTANA, Dino Fausto.',
 		aparic: 6,
 		obra: 'Curso de latim'
