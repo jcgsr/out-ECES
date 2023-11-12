@@ -146,6 +146,12 @@ export let norte = [
 	},
 	{
 		id: 18,
+		autor: 'DESBORDES, Françoise',
+		aparic: 5,
+		obra: 'Concepções sobre a escrita na Roma Antiga'
+	},
+	{
+		id: 18,
 		autor: 'FURLAN, O.A.',
 		aparic: 5,
 		obra: 'Latim para o português: gramática, língua e literatura'
@@ -202,6 +208,12 @@ export let norte = [
 		autor: 'CALVINO, I',
 		aparic: 4,
 		obra: 'Por que ler os clássicos'
+	},
+	{
+		id: 1,
+		autor: 'FARIA, Ernesto',
+		aparic: 4,
+		obra: 'Gramática da Língua Latina'
 	},
 	{
 		id: 56,
@@ -274,6 +286,12 @@ export let norte = [
 	},
 	{ id: 30, autor: 'MARTIN, René', aparic: 4, obra: 'Les genres littéraires à Rome' },
 	{ id: 30, autor: 'MARTINET, A.', aparic: 4, obra: 'Elementos de linguística geral' },
+	{
+		id: 30,
+		autor: 'CÂMARA Jr. Joaquim Mattoso',
+		aparic: 4,
+		obra: 'Problemas de Lingüística Descritiva'
+	},
 	{ id: 30, autor: 'MORISSET, R.', aparic: 4, obra: 'Les Lettres Latines' },
 	{
 		id: 30,
@@ -356,6 +374,18 @@ export let norte = [
 	},
 	{
 		id: 38,
+		autor: 'FREIRE, António',
+		aparic: 3,
+		obra: 'Humanismo Clássico'
+	},
+	{
+		id: 38,
+		autor: 'FREIRE, António',
+		aparic: 3,
+		obra: 'Gramática Latina'
+	},
+	{
+		id: 38,
 		autor: 'GOULART, Audemaro Taranto',
 		aparic: 3,
 		obra: 'Estudo dirigido de gramática histórica e teoria da literatura'
@@ -435,6 +465,12 @@ export let norte = [
 	},
 	{
 		id: 41,
+		autor: 'BUENO, F. Silveira',
+		aparic: 2,
+		obra: 'Formação da Língua Portuguesa'
+	},
+	{
+		id: 41,
 		autor: 'CAMPOS, H. ',
 		aparic: 2,
 		obra: 'Da tradução como criação e como crítica'
@@ -497,6 +533,18 @@ export let norte = [
 	},
 	{
 		id: 48,
+		autor: 'CUNHA, Celso',
+		aparic: 2,
+		obra: 'Estilística e gramática histórica: português através de textos'
+	},
+	{
+		id: 48,
+		autor: 'CUNHA, Celso',
+		aparic: 2,
+		obra: 'Nova Gramática do Português Contemporâneo'
+	},
+	{
+		id: 48,
 		autor: 'EDITORA PORTO',
 		aparic: 2,
 		obra: 'DICIONÁRIO ACADÊMICO: latim-português português-latim'
@@ -547,6 +595,12 @@ export let norte = [
 	},
 	{
 		id: 53,
+		autor: 'LEHMANN, Winfred P',
+		aparic: 2,
+		obra: 'Historical Linguistics: An Introduction'
+	},
+	{
+		id: 53,
 		autor: 'LESKY, A.',
 		aparic: 2,
 		obra: 'A tragédia grega'
@@ -558,7 +612,18 @@ export let norte = [
 		aparic: 2,
 		obra: 'Do português ao latim - do latim ao português'
 	},
-
+	{
+		id: 46,
+		autor: 'MASSINI-CAGLIARI, Gladis',
+		aparic: 2,
+		obra: 'Acento e Ritmo'
+	},
+	{
+		id: 46,
+		autor: 'MATEUS, Maria Helena et alli',
+		aparic: 2,
+		obra: 'Gramática da Língua Portuguesa'
+	},
 	{
 		id: 47,
 		autor: 'NERICI, Emidio Giuseppe',
@@ -647,6 +712,18 @@ export let norte = [
 	},
 	{
 		id: 50,
+		autor: 'SILVA, Maria Cecília Pérez de Souza',
+		aparic: 2,
+		obra: 'O Português Arcaico'
+	},
+	{
+		id: 50,
+		autor: 'SILVA, Rosa Virgínia Mattose',
+		aparic: 2,
+		obra: 'O Português Arcaico: Morfologia e Sintaxe'
+	},
+	{
+		id: 50,
 		autor: 'SPINA, S. E.',
 		aparic: 2,
 		obra: 'Introdução à Retórica'
@@ -703,6 +780,12 @@ export let norte = [
 	},
 	{
 		id: 53,
+		autor: 'WALDE-HOFMANN, ',
+		aparic: 2,
+		obra: 'Lateinissches  Etymologisches Wörterbuch.'
+	},
+	{
+		id: 53,
 		autor: 'ACHCAR, F.',
 		aparic: 1,
 		obra: 'Lírica e lugar comum: alguns temas de Horácio e sua presença em português'
@@ -751,6 +834,24 @@ export let norte = [
 		obra: 'Lições de Latim'
 	},
 	{
+		id: 30,
+		autor: 'CÂMARA Jr. Joaquim Mattoso',
+		aparic: 1,
+		obra: 'História da Lingüística'
+	},
+	{
+		id: 55,
+		autor: 'COSTA, Aída',
+		aparic: 1,
+		obra: 'Temas Clássicos'
+	},
+	{
+		id: 55,
+		autor: 'CORPEAUX, Otto Maria',
+		aparic: 1,
+		obra: 'História da Literatura Ocidental'
+	},
+	{
 		id: 55,
 		autor: 'CHARLOT, Bernard',
 		aparic: 1,
@@ -762,7 +863,18 @@ export let norte = [
 		aparic: 1,
 		obra: 'Dicionário de português-latim'
 	},
-
+	{
+		id: 38,
+		autor: 'FREIRE, A',
+		aparic: 1,
+		obra: 'Exercícios Latinos'
+	},
+	{
+		id: 38,
+		autor: 'FREIRE, Antônio Gomes',
+		aparic: 1,
+		obra: 'Conversação latina'
+	},
 	{
 		id: 57,
 		autor: 'FREIRE, Paulo',
@@ -789,12 +901,23 @@ export let norte = [
 		obra: 'Língua latina'
 	},
 	{
+		id: 19,
+		autor: 'GRIMAL, P.',
+		aparic: 1,
+		obra: 'Dicionário Oxford de Literatura Clássica'
+	},
+	{
 		id: 14,
 		autor: 'JONES, Peter V.',
 		aparic: 1,
 		obra: 'Reading Latin'
 	},
-
+	{
+		id: 53,
+		autor: 'LEHMANN, Winfred P',
+		aparic: 1,
+		obra: 'Latin online: series introduction'
+	},
 	{
 		id: 60,
 		autor: 'LEMBO, J.M',
@@ -814,7 +937,18 @@ export let norte = [
 		aparic: 1,
 		obra: 'DIDÁTICA'
 	},
-
+	{
+		id: 61,
+		autor: 'LIMA, Agenor Ferreira',
+		aparic: 1,
+		obra: 'Exercícios de latim'
+	},
+	{
+		id: 61,
+		autor: 'LIMA, Agenor Ferreira',
+		aparic: 1,
+		obra: 'Noções de latim'
+	},
 	{
 		id: 61,
 		autor: 'MARINHO, Luana dos Santos Castro',
@@ -848,6 +982,12 @@ export let norte = [
 	},
 	{
 		id: 63,
+		autor: 'NÓBREGA, Wondick Londres da',
+		aparic: 1,
+		obra: 'O latim do ginásio'
+	},
+	{
+		id: 63,
 		autor: 'NORELLI, E.',
 		aparic: 1,
 		obra: 'Manual de literatura cristã grega e latina'
@@ -874,6 +1014,12 @@ export let norte = [
 	},
 	{
 		id: 65,
+		autor: 'ROSTOVTZEFF, M.',
+		aparic: 1,
+		obra: 'História de Roma'
+	},
+	{
+		id: 65,
 		autor: 'SAVIANI, Demerval',
 		aparic: 1,
 		obra: 'Escola e Democracia'
@@ -891,12 +1037,29 @@ export let norte = [
 		obra: 'Contos e lendas do nascimento de Roma'
 	},
 	{
+		id: 67,
+		autor: 'SILVA, Dirlene Joceli Colla da',
+		aparic: 1,
+		obra: 'Metaplasmos por subtração na fala dos paraguaios residentes em Mato Grosso do Sul'
+	},
+	{
 		id: 47,
 		autor: 'SOARES, J. S.',
 		aparic: 1,
 		obra: 'Latim I: Iniciação ao Latim e à civilização romana'
 	},
-
+	{
+		id: 47,
+		autor: 'TÁCITO',
+		aparic: 1,
+		obra: 'Anais'
+	},
+	{
+		id: 47,
+		autor: 'TEMPINI, Otávio.',
+		aparic: 1,
+		obra: 'Exercícios latinos'
+	},
 	{
 		id: 67,
 		autor: 'WILLIANS, Edwin',
