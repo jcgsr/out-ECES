@@ -82,7 +82,7 @@ export let norte = [
 		obra: 'Latina essentia'
 	},
 	{
-		id: 15,
+		id: 14,
 		autor: 'FARIA, E.',
 		aparic: 7,
 		obra: 'Gramática superior da língua latina'
