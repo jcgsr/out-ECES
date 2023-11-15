@@ -2,7 +2,7 @@
 	import { norte } from './norte.js';
 	import { uni } from './uni.js';
 	import Eagle from '$lib/img/Eagle.jpg';
-
+	import corpus from './corpus_Norte.txt';
 	// search bar
 	import {
 		Table,
@@ -69,9 +69,30 @@
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
 				A região Norte possui 10 universidades federais oferecendo um total de 33 cursos de Letras
 				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas 04 não têm nenhuma
-				disciplina referente aos Estudos Clássicos.
+				disciplina referente aos Estudos Clássicos, quais sejam: Letras Inglês e Letras Japonês da
+				UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
 			</p>
-			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
+			<p class="aos-hidden-right my-4" class:aos-show={280}>
+				Como se pode verificar abaixo, dentre as 206 obras extraídas do <a
+					href={corpus}
+					download="corpus_norte"
+					target="_blank">corpus</a
+				>, a obra mais indicada (29) é um dicionário, <em>Dicionário escolar latino-português</em>,
+				do autor <em>Ernesto Faria</em>, seguida (14) por uma gramática,
+				<em>Gramática Latina</em>, de <em>Napoleão Mendes de Almeida</em>, e por um "manual" (13),
+				<em>Iniciação ao latim</em>, de <em>Zélia Almeida Cardoso</em>. E essa é a tônica
+				apresentada na pesquisa em relação aos livros mais indicados: gramática, dicionário,
+				manual/curso. A primeira obra que foge a essa regra é <em>A literatura latina</em> também de
+				<em> Zélia Almeida Cardoso</em> na oitava posição com 10 indicações.
+			</p>
+			<p>
+				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
+				<em>Ernesto Faria</em> com 9 indicações. Sobre literatura (história, dicionário, manual) são
+				14 livros, dos quais apenas três tratam da literatura grega. E de literatura, apenas 15
+				indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª posição com
+				apenas 4 sugestões.
+			</p>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 380}>
 				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
 				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
 				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
@@ -80,7 +101,7 @@
 				respectivo nome. Se quiser pesquisar obras do autor na Amazon, basta clicar em seu nome,
 				assim como na obra especificamente.
 			</p>
-			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
+			<p class="aos-hidden-left my-4" class:aos-show={y >= 480}>
 				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,
 				tendo sido obtidos por meio de e-mail pelo autor.
 			</p>
