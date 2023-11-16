@@ -3,6 +3,8 @@
 	import { uni } from './uni.js';
 	import Eagle from '$lib/img/Eagle.jpg';
 	import corpus from './corpus_Norte.txt';
+	import ArrowUp from 'svelte-material-icons/ArrowUpBoldBoxOutline.svelte';
+	export let size = '3rem';
 	// search bar
 	import {
 		Table,
@@ -33,12 +35,12 @@
 	import Seo from '../../lib/seo.svelte';
 
 	// auto counter
-	let counter = 0;
+	/* let counter = 0;
 	let increment = () => {
 		counter++;
 		return counter;
 	};
-	const getCount = counter;
+	const getCount = counter; */
 
 	// aos
 	let y;
@@ -92,6 +94,11 @@
 				indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª posição com
 				apenas 4 sugestões.
 			</p>
+			<p>
+				Obras estrangeiras sem tradução são 6: 3 em francês (literatura), 1 em alemão (dicionário),
+				1 em espanhol (gramática grega) e 1 em inglês (manual). Materiais disponíveis on-line são 4:
+				1 curso de latim (inglês) e 3 três artigos, sendo 2 em português e um em inglês.
+			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 380}>
 				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
 				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
@@ -115,6 +122,7 @@
 				placeholder="autor..."
 				bind:value={searchTerm}
 				class="rounded-lg text-black hs-search-field__input"
+				id="top"
 			/>
 		{:else}<input
 				bind:this={inputSearch}
@@ -123,6 +131,7 @@
 				placeholder="obra..."
 				bind:value={searchTerm}
 				class="rounded-lg text-black hs-search-field__input"
+				id="top"
 			/>
 		{/if}
 		<br />
@@ -138,6 +147,7 @@
 				pesquisar por autor
 			{/if}</button
 		>
+		<button on:click={sendBack} class="arrow-up"><a href="#top"><ArrowUp {size} /></a></button>
 		<Table striped={true} shadow hoverable={true} class="text-sm">
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
@@ -338,6 +348,12 @@
 		background-repeat: no-repeat;
 		background-position: 0.4ch;
 		padding: 1rem 1.5rem;
+	}
+	.arrow-up {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		opacity: 0.8;
 	}
 	/* .norte { */
 	/* 	display: flex; */
