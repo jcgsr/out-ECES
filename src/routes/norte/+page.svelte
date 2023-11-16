@@ -74,7 +74,7 @@
 				disciplina referente aos Estudos Clássicos, quais sejam: Letras Inglês e Letras Japonês da
 				UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
 			</p>
-			<p class="aos-hidden-right my-4" class:aos-show={280}>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
 				Como se pode verificar abaixo, dentre as 206 obras extraídas do <a
 					href={corpus}
 					download="corpus_norte"
@@ -87,19 +87,19 @@
 				manual/curso. A primeira obra que foge a essa regra é <em>A literatura latina</em> também de
 				<em> Zélia Almeida Cardoso</em> na oitava posição com 10 indicações.
 			</p>
-			<p>
+			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
 				<em>Ernesto Faria</em> com 9 indicações. Sobre literatura (história, dicionário, manual) são
 				14 livros, dos quais apenas três tratam da literatura grega. E de literatura, apenas 15
 				indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª posição com
 				apenas 4 sugestões.
 			</p>
-			<p>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
 				Obras estrangeiras sem tradução são 6: 3 em francês (literatura), 1 em alemão (dicionário),
 				1 em espanhol (gramática grega) e 1 em inglês (manual). Materiais disponíveis on-line são 4:
 				1 curso de latim (inglês) e 3 três artigos, sendo 2 em português e um em inglês.
 			</p>
-			<p class="aos-hidden-right my-4" class:aos-show={y >= 380}>
+			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
 				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
 				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
 				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
