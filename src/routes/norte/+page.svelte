@@ -79,9 +79,10 @@
 					href={corpus}
 					download="corpus_norte"
 					target="_blank">corpus</a
-				>, a obra mais indicada (29) é um dicionário, <em>Dicionário escolar latino-português</em>,
-				do autor <em>Ernesto Faria</em>, seguida (14) por uma gramática,
-				<em>Gramática Latina</em>, de <em>Napoleão Mendes de Almeida</em>, e por um "manual" (13),
+				>, a mais indicada (29) foi um dicionário, <em>Dicionário escolar latino-português</em>; dos
+				169 autores, o mais indicado foi <em>Ernesto Faria</em>. A eles se seguiram (14) uma
+				gramática,
+				<em>Gramática Latina</em>, de <em>Napoleão Mendes de Almeida</em>, e um "manual" (13),
 				<em>Iniciação ao latim</em>, de <em>Zélia Almeida Cardoso</em>. E essa é a tônica
 				apresentada na pesquisa em relação aos livros mais indicados: gramática, dicionário,
 				manual/curso. A primeira obra que foge a essa regra é <em>A literatura latina</em> também de
