@@ -76,18 +76,18 @@
 				UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre as 194 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 155 autores e as 194 obras e extraídas do <a
 					href={corpus}
 					download="corpus_norte"
 					target="_blank">corpus</a
-				>, a mais indicada (29) foi um dicionário, <em>Dicionário escolar latino-português</em>; dos
-				mais de 100 autores, o mais indicado foi <em>Ernesto Faria</em>. A eles se seguiram uma
-				gramática (14),
-				<em>Gramática Latina</em>, de <em>Napoleão Mendes de Almeida</em>, e um "manual" (13),
-				<em>Iniciação ao latim</em>, de <em>Zélia Almeida Cardoso</em>. E essa é a tônica
-				apresentada na pesquisa em relação aos livros mais indicados: gramática, dicionário,
-				manual/curso. A primeira obra que foge a essa regra é <em>A literatura latina</em> também de
-				<em> Zélia Almeida Cardoso</em> na oitava posição com 10 indicações.
+				>, a mais indicada, 29 vezes, foi um dicionário,
+				<em>Dicionário escolar latino-português</em>. A ele se seguiram a gramática de Napoleão
+				Mendes de Almeida com 14 indicações,
+				<em>Gramática Latina</em>, e um "manual" de Zélia Almeida Cardoso,
+				<em>Iniciação ao latim</em>, com 13 indicações. E essa é a tônica apresentada na pesquisa em
+				relação aos livros mais indicados: gramática, dicionário, manual/curso. A primeira obra que
+				foge a essa regra é <em>A literatura latina</em>, também de Zélia Almeida Cardoso na oitava
+				posição com 10 indicações.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
