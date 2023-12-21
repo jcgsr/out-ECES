@@ -65,34 +65,37 @@
 				A região Centro-Oeste possui oito universidades federais oferencendo um total de 53 cursos
 				de Letras, sendo a UnB e a UFMS as que mais oferecem com 15 cursos cada, seguida pela UFG
 				com sete, e a UFJ com seis. Dos 53 cursos, 11 não têm disciplina que contemple o ensino de
-				latim ou grego: a UFG com três e a UFMS com oito.
+				latim ou de grego: a UFG com três e a UFMS com oito.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre as 148 obras extraídas do
-				<a href={corpus} download="corpus_centro_oeste" target="_blank">corpus</a>, a mais indicada
-				(22) foi uma gramática, <em>Gramática Latina</em>; dos 116 autores, o mais indicado foi
-				<em>Napoleão Mendes de Almeida</em>. A eles se seguiram um "curso" (15),
-				<em>Programa de Latim</em>, de Comba e um dicionário (15) de Antônio Gomes Ferreira,
-				<em>Dicionário de Latim-Português</em>. Esse padrão, gramática-curso-dicionário, segue pelas
-				próximas 22 indicações até chegarmos a <em>Não perca o seu latim</em> (6), que é uma coletânea
-				de expressões, provérbios, máximas e sentenças latinas elaborada por Paulo Ronai.
+				Como se pode verificar abaixo, dentre os 116 autores e as 148 obras extraídas do
+				<a href={corpus} download="corpus_centro_oeste" target="_blank">corpus</a>, a mais sugerida
+				foi a gramática de Napoleão Mendes de Almeida, <em>Gramática Latina</em>, com 22 indicações.
+				Seguiram-se a ela um "curso",
+				<em>Programa de Latim</em>, de Júlio Comba com 15 e um dicionário de Antônio Gomes Ferreira,
+				<em>Dicionário de Latim-Português</em>, também com 15 indicações. Esse padrão,
+				gramática-curso-dicionário, segue pelas próximas 22 indicações até chegarmos a
+				<em>Não perca o seu latim</em>, que é uma coletânea de expressões, provérbios, máximas e
+				sentenças latinas elaborada por Paulo Ronai sugerida 6 vezes.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				A primeira obra literária só aparece na 24ª posição com seis indicações e em uma tradução
+				A primeira obra literária só aparece na 24ª posição com seis indicações, sendo uma tradução
 				para inglês da Eneida de Vergílio. A partir daí, começam a aparecer regularmente obras
 				literárias, incluindo até a Bíblia.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
 				Obras referentes ao grego perfazem 49 indicações dentre dicionários, cursos e literatura. A
-				mais indicada é um dicionário (7) em francês na 12ª posição, <em
+				mais indicada, sete vezes, é um dicionário em francês na 12ª posição, <em
 					>Dictionnaire Grec-Français</em
-				>, de Anatoly Bailly, seguida por outro dicionário (3),
-				<em>DICIONARIO GREGO-PORTUGUES E PORTUGUES-GREGO</em>, de Isidro Pereira na 45ª posição e
-				por uma de sintaxe,
-				<em>SYNTAXE GRECQUE</em>, na 50ª posição de Marcel Bizos. A primeira gramática grega (2),
-				<em>GRAMMAIRE QUECQUE D'APRES LA METHODE COMPARATIVE ET HISTORIQUE</em>
-				também em francês, só aparece na 55ª posição e sobre literatura (2), somente na 74ª de Thomas
-				Alan Sinclair, <em>A HISTORY OF CLASSICAL GREEK LITERATURE</em>.
+				>, de Anatoly Bailly. Seguem-se a ela outro dicionário,
+				<em>DICIONARIO GREGO-PORTUGUES E PORTUGUES-GREGO</em>, de Isidro Pereira na 45ª posição com
+				três indicações e uma obra de sintaxe,
+				<em>SYNTAXE GRECQUE</em>, na 50ª posição de Marcel Bizos indicada duas vezes. A primeira
+				gramática grega, duas indicações,
+				<em>GRAMMAIRE QUECQUE D'APRES LA METHODE COMPARATIVE ET HISTORIQUE</em>, também em francês
+				de Alexis Chassang, só aparece na 55ª posição. Sobre literatura, somente na 74ª com 2
+				indicações de Thomas Alan Sinclair,
+				<em>A HISTORY OF CLASSICAL GREEK LITERATURE</em>.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
 				Chama a atenção a quantidade de obras estrangeiras em relação ao ensino da lígua grega: dez
