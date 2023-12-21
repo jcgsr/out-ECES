@@ -4,6 +4,7 @@
 	import Eagle from '$lib/img/Eagle.jpg';
 	import corpus from './corpus_Norte.txt';
 	import ArrowUp from 'svelte-material-icons/ArrowUpBoldBoxOutline.svelte';
+	import Info from '../../components/info.svelte';
 	export let size = '3rem';
 	// search bar
 	import {
@@ -75,13 +76,13 @@
 				UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre as 206 obras extraídas do <a
+				Como se pode verificar abaixo, dentre as 194 obras extraídas do <a
 					href={corpus}
 					download="corpus_norte"
 					target="_blank">corpus</a
 				>, a mais indicada (29) foi um dicionário, <em>Dicionário escolar latino-português</em>; dos
-				169 autores, o mais indicado foi <em>Ernesto Faria</em>. A eles se seguiram (14) uma
-				gramática,
+				mais de 100 autores, o mais indicado foi <em>Ernesto Faria</em>. A eles se seguiram uma
+				gramática (14),
 				<em>Gramática Latina</em>, de <em>Napoleão Mendes de Almeida</em>, e um "manual" (13),
 				<em>Iniciação ao latim</em>, de <em>Zélia Almeida Cardoso</em>. E essa é a tônica
 				apresentada na pesquisa em relação aos livros mais indicados: gramática, dicionário,
@@ -90,10 +91,10 @@
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
-				<em>Ernesto Faria</em> com 9 indicações. Sobre literatura (história, dicionário, manual) são
-				14 livros, dos quais apenas três tratam da literatura grega. E de literatura, apenas 15
-				indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª posição com
-				apenas 4 sugestões.
+				<em>Ernesto Faria</em> com 9 indicações. Obras histórico-literárias (história, dicionário,
+				manual) são 14 livros, dos quais apenas três tratam da literatura grega. E obras literárias,
+				apenas 15 indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª
+				posição com apenas 4 sugestões.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
 				Obras estrangeiras sem tradução são 6: 3 em francês (literatura), 1 em alemão (dicionário),
@@ -101,17 +102,7 @@
 				1 curso de latim (inglês) e 3 três artigos, sendo 2 em português e um em inglês.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
-				Abaixo, estão todos os autores e todas as obras que fazem parte das biliografias básicas
-				e/ou complementares das disciplinas referentes aos Estudos Clássicos. Esses dados foram
-				extraídos dos ementários oficiais mais atuais de cada curso. A ordem de classificação se dá
-				por indicação das obras. Se uma obra tiver dois ou mais autores, só consta o nome do
-				primeiro autor. Se desejar acessar o site do curso ou seu ementário, basta clicar no
-				respectivo nome. Se quiser pesquisar obras do autor na Amazon, basta clicar em seu nome,
-				assim como na obra especificamente.
-			</p>
-			<p class="aos-hidden-left my-4" class:aos-show={y >= 480}>
-				Obs.: Os ementários e/ou PPCs cujos links forem <strong>pdf</strong> não estão disponíveis on-line,
-				tendo sido obtidos por meio de e-mail pelo autor.
+				<Info />
 			</p>
 		</section>
 		<h3 class="mb-2 text-xl">Autores e obras</h3>

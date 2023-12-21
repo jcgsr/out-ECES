@@ -1,16 +1,52 @@
 <script>
-	import Clock from '../../lib/img/clock.jpg';
+	import { centro_oeste } from './centro_oeste.js';
 	import { uni } from './uni.js';
+	import corpus from './corpus_Centro_Oeste.txt';
+	import ArrowUp from 'svelte-material-icons/ArrowUpBoldBoxOutline.svelte';
+	import Info from '../../components/info.svelte';
+	export let size = '3rem';
+	// search bar
+	import {
+		Table,
+		TableBody,
+		TableBodyCell,
+		TableBodyRow,
+		TableHead,
+		TableHeadCell
+	} from 'flowbite-svelte';
+
+	let searchTerm = '';
+	$: filteredAuthors = centro_oeste.filter(
+		(item) => item.autor.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+	);
+	$: filteredBooks = centro_oeste.filter(
+		(item) => item.obra.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+	);
+
+	let isChecked = false;
+	function checkIsChecked() {
+		isChecked = !isChecked;
+	}
+	let isAutor = false;
+	function checkIsAutor() {
+		isAutor = !isAutor;
+	}
+
+	import Clock from '../../lib/img/clock.jpg';
 	// seo
 	import Seo from '../../lib/seo.svelte';
 
 	// aos
 	let y;
+	let inputSearch;
+	function sendBack() {
+		inputSearch.focus();
+	}
 </script>
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="norte text-black dark:text-papyrus">
+	<div class="centro_oeste text-black dark:text-papyrus">
 		<h2 class="my-3 text-2xl mt-24">Região Centro-Oeste</h2>
 		<img
 			src={Clock}
@@ -26,16 +62,134 @@
 		>
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum qui fugit, tempore
-				excepturi optio eligendi aspernatur dolorem nostrum eius debitis explicabo hic quidem
-				aperiam error numquam, quasi assumenda omnis modi.
+				A região Centro-Oeste possui oito universidades federais oferencendo um total de 53 cursos
+				de Letras, sendo a UnB e a UFMS as que mais oferecem com 15 cursos cada, seguida pela UFG
+				com sete, e a UFJ com seis. Dos 53 cursos, 11 não têm disciplina que contemple o ensino de
+				latim ou grego: a UFG com três e a UFMS com oito.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere alias mollitia libero
-				ratione architecto consequuntur repellat doloribus odit, magnam suscipit numquam voluptate
-				molestias praesentium reprehenderit voluptatem animi culpa doloremque reiciendis.
+				Como se pode verificar abaixo, dentre as 148 obras extraídas do
+				<a href={corpus} download="corpus_centro_oeste" target="_blank">corpus</a>, a mais indicada
+				(22) foi uma gramática, <em>Gramática Latina</em>; dos 116 autores, o mais indicado foi
+				<em>Napoleão Mendes de Almeida</em>. A eles se seguiram um "curso" (15),
+				<em>Programa de Latim</em>, de Comba e um dicionário (15) de Antônio Gomes Ferreira,
+				<em>Dicionário de Latim-Português</em>. Esse padrão, gramática-curso-dicionário, segue pelas
+				próximas 22 indicações até chegarmos a <em>Não perca o seu latim</em> (6), que é uma coletânea
+				de expressões, provérbios, máximas e sentenças latinas elaborada por Paulo Ronai.
+			</p>
+			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
+				A primeira obra literária só aparece na 24ª posição com seis indicações e em uma tradução
+				para inglês da Eneida de Vergílio. A partir daí, começam a aparecer regularmente obras
+				literárias, incluindo até a Bíblia.
+			</p>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
+				Obras referentes ao grego perfazem 49 indicações dentre dicionários, cursos e literatura. A
+				mais indicada é um dicionário (7) em francês na 12ª posição, <em
+					>Dictionnaire Grec-Français</em
+				>, de Anatoly Bailly, seguida por outro dicionário (3),
+				<em>DICIONARIO GREGO-PORTUGUES E PORTUGUES-GREGO</em>, de Isidro Pereira na 45ª posição e
+				por uma de sintaxe,
+				<em>SYNTAXE GRECQUE</em>, na 50ª posição de Marcel Bizos. A primeira gramática grega (2),
+				<em>GRAMMAIRE QUECQUE D'APRES LA METHODE COMPARATIVE ET HISTORIQUE</em>
+				também em francês, só aparece na 55ª posição e sobre literatura (2), somente na 74ª de Thomas
+				Alan Sinclair, <em>A HISTORY OF CLASSICAL GREEK LITERATURE</em>.
+			</p>
+			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
+				Chama a atenção a quantidade de obras estrangeiras em relação ao ensino da lígua grega: dez
+				em inglês, oito em francês, dois em espanhol e uma em italiano.
+			</p>
+
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
+				<Info />
 			</p>
 		</section>
+		<h3 class="mb-2 text-xl">Autores e obras</h3>
+		{#if isChecked}
+			<input
+				bind:this={inputSearch}
+				on:focus={(e) => e.target.select()}
+				type="search"
+				placeholder="autor..."
+				bind:value={searchTerm}
+				class="rounded-lg text-black hs-search-field__input"
+				id="top"
+			/>
+		{:else}<input
+				bind:this={inputSearch}
+				on:focus={(e) => e.target.select()}
+				type="search"
+				placeholder="obra..."
+				bind:value={searchTerm}
+				class="rounded-lg text-black hs-search-field__input"
+				id="top"
+			/>
+		{/if}
+		<br />
+		<button
+			class="outline mt-4 my-2 p-2 rounded text-papyrusultradark dark:text-papyrusdark hover:bg-papyrusultradark hover:text-white duration-500"
+			on:click={checkIsChecked}
+			on:click={checkIsAutor}
+			on:click={sendBack}
+		>
+			{#if isAutor}
+				pesquisar por obra
+			{:else}
+				pesquisar por autor
+			{/if}</button
+		>
+		<button on:click={sendBack} class="arrow-up"><a href="#top"><ArrowUp {size} /></a></button>
+		<Table striped={true} shadow hoverable={true} class="text-sm">
+			<TableHead>
+				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
+				<TableHeadCell>Autor</TableHeadCell>
+				<TableHeadCell>obra</TableHeadCell>
+				<TableHeadCell>Indicações</TableHeadCell>
+			</TableHead>
+			<TableBody class="divide-y">
+				{#if isAutor}
+					{#each filteredAuthors as item}
+						<TableBodyRow>
+							<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>-->
+							<TableBodyCell>{item.id}</TableBodyCell>
+							<TableHeadCell>
+								<a
+									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.autor}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell
+								><a
+									href="https://www.amazon.com.br/s?k={item.obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.obra}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell>{item.aparic}</TableHeadCell>
+						</TableBodyRow>
+					{/each}
+				{:else}
+					{#each filteredBooks as item}<TableBodyRow>
+							<TableBodyCell>{item.id}</TableBodyCell>
+							<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>
+              -->
+							<TableHeadCell>
+								<a
+									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.autor}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell
+								><a
+									href="https://www.amazon.com.br/s?k={item.obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
+									target="_blank">{item.obra}</a
+								>
+							</TableHeadCell>
+							<TableHeadCell>{item.aparic}</TableHeadCell>
+						</TableBodyRow>
+					{/each}
+				{/if}
+			</TableBody>
+		</Table>
+
 		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
 		<h3 class="my-4 text-xl">Universidades, cursos e ementários</h3>
@@ -164,7 +318,7 @@
 		right: 0;
 		opacity: 0.8;
 	}
-	/* .norte { */
+	/* .centro_oeste { */
 	/* 	display: flex; */
 	/* 	flex-direction: column; */
 	/* 	text-align: center; */

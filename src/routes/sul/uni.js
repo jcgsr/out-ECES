@@ -243,40 +243,5 @@ export let uni = [
 			e7: '',
 			el7: ''
 		}
-	},
-	{
-		id: 8,
-		uni_nome: 'UFMS',
-		uni_link: 'https://graduacao.ufms.br/',
-		cursos: {
-			c1: 'Letras',
-			cl1: 'https://graduacao.ufms.br/cursos/0432',
-			e1: 'pdf',
-			el1: '',
-			c2: 'Português/Espanhol',
-			cl2: 'https://graduacao.ufms.br/cursos/2908',
-			e2: 'pdf',
-			el2: '',
-			c3: 'Português/Inglês',
-			cl3: 'https://graduacao.ufms.br/cursos/2909',
-			e3: 'pdf',
-			el3: '',
-			c4: 'Português e Espanhol',
-			cl4: 'https://graduacao.ufms.br/cursos/2912',
-			e4: 'pdf',
-			el4: '',
-			c5: 'Português e Inglês',
-			cl5: 'https://graduacao.ufms.br/cursos/2913',
-			e5: 'pdf',
-			el5: '',
-			c6: '',
-			cl6: '',
-			e6: '',
-			el6: '',
-			c7: '',
-			cl7: '',
-			e7: '',
-			el7: ''
-		}
 	}
 ];

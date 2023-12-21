@@ -1,3 +1,6 @@
+CORPUS DE AUTORES E OBRAS DOS ESTUDOS CLÁSSICOS DO CENTRO-OESTE
+18.12.2023
+
 **UNB** 
 
 • 15 cursos de graduação: 
@@ -80,8 +83,10 @@ ESTAGIO:1 PRATICA DE TRADUCAO EM LATIM - 75h
 ERNOUT, A. E MEILLET, A. PARIS 4a. ED. DICTIONAIRE ETYMOLOGIQUE DE LA LANGUE LATINE KLINCKSIECK 1985	
 FARIA, ERNESTO, R.J 6a. ED. DICIONARIO LATINO-PORTUGUES FENAME 1985	
 TORRINHA, FRANCISCO PORTO 3a. ED. DICIONARIO LATINO-PORTUGUES MARANUS 1945	
-PORTO 2a. ED. DICIONARIO PORTUGUES-LATINO DOMINGOS BARREIRA FERREIRA, ANTONIO GOMES PORTO DICIONARIO DE LATIM-PORTUGUES PORTO 1983	
-PORTO DICIONARIO DE PORTUGUES-LATIM PORTO ERNOUT, A. ET. THOMAS, F. PARIS 2a. ED. SINTAXE LATINE KLINCKAIWCK 1953	
+PORTO 2a. ED. DICIONARIO PORTUGUES-LATINO DOMINGOS BARREIRA 
+FERREIRA, ANTONIO GOMES PORTO DICIONARIO DE LATIM-PORTUGUES PORTO 1983	
+PORTO DICIONARIO DE PORTUGUES-LATIM PORTO 
+ERNOUT, A. ET. THOMAS, F. PARIS 2a. ED. SINTAXE LATINE KLINCKAIWCK 1953	
 FARIA, E. R.J GRAMATICA SUPERIOR DA LINGUA LATINA LIV.ACADEMICA 1958	
 MAROUZEAU, J. PARIS 2a. ED. INTRODUCTION AU LATIN "LES BELLES LETTERS" 1954	
 RUBIO, LISARDO BARCELONA INTRODUCCION A LA SINTASIS ESTRUTURAL DEL LATIM ARIEL 1966	
@@ -93,7 +98,8 @@ ESTAGIO:2 PRATICA DE VERSÃO EM LATIM - 75h
 ERNOUT, A. E MEILLET, PARIS 4a. ED. DICTIONAIRE ETYMOLOGIQUE DE LA LANGUE LATINE. KLINCKSIECK 1985	
 FARIA, ERNESTO R.J 6a. ED. DICIONARIO LATINO-PORTUGUES FENAME 1985	
 TORRINHA, FRANCISCO PORTO 3a. ED. DICIONARIO LATINO-PORTUGUES MARANUS 1945	
-PORTO 2a. ED. DICIONARIO PORTUGUES-LATINO DOMINGOS BARREIRA FERREIRA, ANTONIO GOMES PORTO DICIONARIO DE LATIM-PORTUGUES PORTO 1983	
+PORTO 2a. ED. DICIONARIO PORTUGUES-LATINO DOMINGOS BARREIRA 
+FERREIRA, ANTONIO GOMES PORTO DICIONARIO DE LATIM-PORTUGUES PORTO 1983	
 PORTO DICIONARIO DE PORTUGUES-LATIM PORTO ERNOUT, A. ET. THOMAS, F. PARIS 2a. ED. SINTAXE LATINE KLINCKSIECK 1953	
 FARIA, E. R.J GRAMATICA SUPERIOR DA LINGUA LATINA LIV.ACADEMICA 1958	
 MAROUZEAU, J. PARIS 2a. ED. INTRODUCTION AU LATIN "LES BELLES LETTRES" 1954	
@@ -114,31 +120,6 @@ CROUZET, P. E BERH, G. PARIS 1a. EDICAO METHODE LATINE ET EXERCICIOS ILLUSTRES. 
 FARIA, ERNESTO. RIO DE JANEIRO INTRODUCAO A DIDATICA DO LATIM. ED. LIVR. ACA- 1959	
 DEMICA MAQUET, ROGER ET BESLAIS, A. PARIS METHODE DE LANQUE LATINE, ED. HACHETTE 1940	
 OLIVEIRA, J. O. ET. ALII SAO PAULO 3a. EDICAO METODO DE LATIM (APLICACAO DIDATICA) ED. NACIONAL 1955
-
-FILOLOGIA ROMANICA 1 - 60h 
-
-ILARI, Rodolfo. Lingüística românica. 3.ed. São Paulo: Ática, 1999.	
-ALI, M. Said. Gramática Secundária e Gramática Histórica da Língua Portuguesa. 3. ed. rev. atual. Brasília: Editora Universidade de Brasília, 1964.	
-COUTINHO, Ismael de Lima. Gramática histórica. 7. ed. Rio de Janeiro: Ao Livro Técnico, 2005.	
-BASSETTO, Bruno Fregni. Elementos de filologia românica. 2. ed. São Paulo: EdUSP, 2005.	
-FARACO, Carlos Alberto. Linguística histórica: Uma introdução ao estudo da história das línguas. São Paulo, SP: Ática, 1991.	
-LAUSBERG, Heinrich. Linguística romântica. 2. ed. Lisboa: Fundação Calouste Gulbenkian, 1981.	
-POGGIO, Rosauta Maria Galvão Fagundes. Processos de gramaticalização de preposições do latim ao português: uma abordagem funcionalista. Salvador: EDUFBA, 2002.	
-TAGLIAVINI, Carlo. Orígenes de las lenguas neolatinas: introducción a la filología romance. México, DF: Fondo de Cultura Económica, 1993.
-
-FILOLOGIA ROMANICA 2 - 60h 
-
-BENTIVOGLIO, P. E BRAGA,M. L. 2a. ED. ESPANHOL, PORTUGUES E ORDEM DAS PALAVRAS DELTA 1988	
-BOURCIEZ, E. PARIS 5a. ED. ELEMENTS DE LINGUISTIQUE ROMANE KLINCKSIECK 1967	
-GRANGEANT, C. H. MADRID INTRODUCTION AL LATIM VULGAR REV.FIL.ESPAN. 1952	
-LAUSBERG, R. MADRID LINGUISTICA ROMANTICA: MORFOLOGIA GREDOS 1966	
-MAURER, JR. R.J O PROBLEMA DO LATIM VULGAR ACADEMICA 1962	
-VIDOS, B. E. MADRID MANUAL DE LINGUISTICA ROMANICA AGUILAR 1968	
-ANTILLA, RAIMO NEW YORK INTRODUCTION TO HISTORIAL AND COMPARATIVE. LINGUISTICS. MACMILLAN COMP. 1972	
-BLOOMFIELD, L. NEW YORK LANGUAGE HAOLT, R AND W 1933	
-GREENBERG, JOSEPH H. LONDON 6a. ED. UNIVERSALS OF LANGUAGE MIT PRESS 1978	
-EFFERS, R. J. MORPHOLOGICAL REANALISIS AND ANALYSYS: TWO CASE HISTORES FROM LATIM AND GREEK LINGUA. 1977	
-JEFFERS, R.J. AND LEHISTE, ILSE CAMBRIDGE 2a. ED. PRINCIPLES AND METHODS FOR HISTORICAL LIN- GUISTICS. MIT PRESS. 1982
 
 PRÁTICA DE TRADUÇÃO EM LATIM 1 - 60h 
 
@@ -539,24 +520,6 @@ OVÍDIO. Metamorfoses de Ovídio. Trad. de Bocage. São Paulo: Hedra, 2000
 VIRGÍLIO. Eneida: tradução direta do latim, nota, argumento analítico e excurso bibliográfico
 por Tassilo Orpheu Spalding. São Paulo: Cultrix, 2007
 
-TÓPICOS DE ESTUDOS CLÁSSICOS 72h
-Básica:
-CURTIUS, E.R. Literatura europeia e Idade Média Latina. 2ª ed. Brasília: INL, 1979
-PEREIRA, M. H. da . Estudos de História da Cultura Clássica. Lisboa: Fundação Calouste
-Gulbekian, 1970. – Vol. I Cultura Grega.
-PEREIRA, M. H. da R. Estudos de História da Cultura Clássica. Lisboa: Fundação Calouste
-Gulbekian, 2002. – Vol. II Cultura Romana.
-Complementar:
-BENVENISTE, E. O vocabulário das instituições indo-européias. Economia, parentesco,
-sociedade. v. 1. Campinas: Ed. Unicamp, 1995.
-BENVENISTE, E. O vocabulário das instituições indo-européias. Poder, direito, religião. v. 2.
-Campinas: Ed. Unicamp, 1995.
-LEONI, G.D. A literatura de Roma: esboço de cultura latina (com uma antologia de trechos
-traduzidos). 12ª ed. São Paulo: Nobel, 1976
-PARATORE, E. História da literatura latina (trad. Manuel Losa). Lisboa: Fundação Kalouste
-Gubenkian, 1983.
-PARATORE, E. História da literatura latina (trad. Manuel Losa). Lisboa: Fundação Kalouste
-Gubenkian, 1983.
 
 **UFMT**
 
@@ -666,3 +629,29 @@ Lep, 1960. 471 p.
 RONAI, Paulo; FERREIRA, Aurélio Buarque de Holanda.Não perca o seu latim. 3.ed. -. Rio
 de Janeiro: Nova Fronteira, 1984. 265 p.
 RONAI, P. Curso básico de latim gradus secundus. São Paulo: Cultrix, 1993.
+
+**UFMS**
+
+• LETRAS/PORTUGUÊS-ESP/PORTUGUES-ING/
+
+LÍNGUA LATINA I:  
+Bibliografia Básica: 
+Almeida, Napoleão Mendes De. Gramatica Latina: Curso Unico e Completo. 22. Ed. São Paulo, Sp: Saraiva, 1989. 540 P. Isbn 85-02-00307-0. 
+Cardoso, Zélia de Almeida. Iniciacao ao Latim. São Paulo, Sp: Atica, 1989. 109 P. (Princípios 172). Isbn 85-08-03258-7. 
+Rezende, Antônio Martinez De. Latina Essentia: Preparação ao Latim. 3. Ed. Rev. e Ampl. Belo Horizonte, Mg: Ed. Ufmg, 2003-2005. 170 P. (Aprender). Isbn 85-7041-213-4. 
+Bibliografia Complementar: 
+Bussarello, Raulino. Dicionario Basico Latino-portugues. Florianópolis, Sc: Ufsc, 1991. 247 P. 
+Cunha, Celso; Cintra, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 5. Ed. Rio de Janeiro, Rj: Lexikon, 2012. 762 P. Isbn 9788586368486. 
+Comba, Julio. Programa de Latim, 2. Volume: Introdução aos Clássicos Latinos. 4. Ed. São Paulo, Sp: Salesiana Dom Bosco, 1985. 308 P. 
+
+LÍNGUA LATINA II:  
+Bibliografia Básica: 
+Almeida, Napoleão Mendes De. Gramatica Latina: Curso Unico e Completo. 22. Ed. São Paulo, Sp: Saraiva, 1989. 540 P. Isbn 85-02-00307-0. 
+Cardoso, Zélia de Almeida. Iniciacao ao Latim. São Paulo, Sp: Atica, 1989. 109 P. (Princípios 172). Isbn 85-08-03258-7. 
+Rezende, Antônio Martinez De. Latina Essentia: Preparação ao Latim. 3. Ed. Rev. e Ampl. Belo Horizonte, Mg: Ed. Ufmg, 2003-2005. 170 P. (Aprender). Isbn 85-7041-213-4. 
+Bibliografia Complementar: 
+Bussarello, Raulino. Dicionario Basico Latino-portugues. Florianópolis, Sc: Ufsc, 1991. 247 P. 
+Cunha, Celso. Nova Gramática do Português Contemporâneo. 2. Ed. Rio de Janeiro, Rj: Nova Fronteira, 1985. 714 P. Isbn 8520904211.
+Comba, Julio. Programa de Latim. 8. Ed. São Paulo, Sp: Salesiana Dom Bosco, 1986.
+
+

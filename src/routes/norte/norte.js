@@ -275,983 +275,905 @@ export let norte = [
 	{
 		id: 44,
 		autor: 'ILARI, Rodolfo',
-		aparic: 4,
+		aparic: 1,
 		obra: 'Linguística românica'
 	},
 	{
 		id: 45,
-		autor: 'IORDAN, Iorgu.',
-		aparic: 4,
-		obra: 'Introdução à linguística românica'
-	},
-	{
-		id: 46,
 		autor: 'LUCRÉCIO',
 		aparic: 4,
 		obra: 'Antologia de textos/Tito Lucrécio Caro. Da Natureza'
 	},
-	{ id: 47, autor: 'MARTIN, René', aparic: 4, obra: 'Les genres littéraires à Rome' },
-	{ id: 48, autor: 'MARTINET, A.', aparic: 4, obra: 'Elementos de linguística geral' },
+	{ id: 46, autor: 'MARTIN, René', aparic: 4, obra: 'Les genres littéraires à Rome' },
+	{ id: 47, autor: 'MARTINET, A.', aparic: 4, obra: 'Elementos de linguística geral' },
 	{
-		id: 49,
+		id: 48,
 		autor: 'CÂMARA Jr. Joaquim Mattoso',
 		aparic: 4,
 		obra: 'Problemas de Lingüística Descritiva'
 	},
-	{ id: 50, autor: 'MORISSET, R.', aparic: 4, obra: 'Les Lettres Latines' },
+	{ id: 49, autor: 'MORISSET, R.', aparic: 4, obra: 'Les Lettres Latines' },
 	{
-		id: 51,
+		id: 50,
 		autor: 'NOVAK, M. G.; NERI, M. L. (Orgs.).',
 		aparic: 4,
 		obra: 'Poesia lírica latina'
 	},
 	{
-		id: 52,
+		id: 51,
 		autor: 'PETRÔNIO',
 		aparic: 4,
 		obra: 'O Satiricon'
 	},
 	{
-		id: 53,
+		id: 52,
 		autor: 'PRADO, J. B. T.',
 		aparic: 4,
 		obra: 'Língua Latina: anotações de aula'
 	},
 
 	{
-		id: 54,
+		id: 53,
 		autor: 'RONAI, Paulo',
 		aparic: 4,
 		obra: 'Gradus Secundus'
 	},
 	{
-		id: 55,
+		id: 54,
 		autor: 'SARAIVA, F. R. S.',
 		aparic: 4,
 		obra: 'Dicionário Latino-Português'
 	},
 	{
-		id: 56,
+		id: 55,
 		autor: 'SPALDING, T. O.',
 		aparic: 4,
 		obra: 'Guia prático de tradução latina'
 	},
 	{
-		id: 57,
+		id: 56,
 		autor: 'SPALDING, T. O.',
 		aparic: 4,
 		obra: 'Pequeno Dicionário de Literatura'
 	},
 	{
-		id: 58,
+		id: 57,
 		autor: 'THOORENS, L.',
 		aparic: 4,
 		obra: 'Panorama das Literaturas: Roma'
 	},
 	{
-		id: 59,
+		id: 58,
 		autor: 'TITO LÍVIO.',
 		aparic: 4,
 		obra: 'História de Roma: ab urbe condita'
 	},
 	{
-		id: 60,
+		id: 59,
 		autor: 'VIRGÍLIO',
 		aparic: 4,
 		obra: 'Eneida'
 	},
 	{
-		id: 61,
+		id: 60,
 		autor: 'VON ALBRECHT, M.',
 		aparic: 4,
 		obra: 'Historia de la literatura romana: desde Andrónico hasta Boecio'
 	},
 	{
-		id: 62,
+		id: 61,
 		autor: 'XAVIER, Ronaldo Caldeira',
 		aparic: 4,
 		obra: 'Latim no Direito'
 	},
 	{
-		id: 63,
-		autor: 'ELIA, Sílvio.',
-		aparic: 3,
-		obra: 'Preparação à linguística românica'
-	},
-	{
-		id: 64,
+		id: 62,
 		autor: 'FREIRE, António',
 		aparic: 3,
 		obra: 'Humanismo Clássico'
 	},
 	{
-		id: 65,
+		id: 63,
 		autor: 'FREIRE, António',
 		aparic: 3,
 		obra: 'Gramática Latina'
 	},
 	{
-		id: 66,
+		id: 64,
 		autor: 'GOULART, Audemaro Taranto',
-		aparic: 3,
+		aparic: 2,
 		obra: 'Estudo dirigido de gramática histórica e teoria da literatura'
 	},
 	{
-		id: 67,
+		id: 65,
 		autor: 'MELO, Gladstone Chaves de',
-		aparic: 3,
-		obra: ' Iniciação à filologia e à linguística portuguesa'
+		aparic: 2,
+		obra: 'Iniciação à filologia e à linguística portuguesa'
 	},
 	{
-		id: 68,
+		id: 66,
 		autor: 'NEVES, Roberto de Souza',
 		aparic: 3,
 		obra: 'Dicionário de expressões latinas usuais'
 	},
 	{
-		id: 69,
+		id: 67,
 		autor: 'PEREIRA, Maria Helena da Rocha',
 		aparic: 3,
 		obra: 'Estudos de história da cultura clássica'
 	},
 	{
-		id: 70,
+		id: 68,
 		autor: 'VERDIER, Roger. Marcus et Tuilie.',
 		aparic: 3,
 		obra: 'Manual de Língua Latina'
 	},
 	{
-		id: 71,
+		id: 69,
 		autor: 'APULÉIO, Lúcio',
 		aparic: 3,
 		obra: 'O asno de Ouro'
 	},
 	{
-		id: 72,
+		id: 70,
 		autor: 'AZEREDO, José Carlos De',
 		aparic: 2,
 		obra: 'Gramática Houaiss da Língua Portuguesa'
 	},
 	{
-		id: 73,
+		id: 71,
 		autor: 'BARBOSA, H. G.',
 		aparic: 2,
 		obra: 'Procedimentos técnicos da tradução: uma nova proposta'
 	},
 	{
-		id: 74,
+		id: 72,
 		autor: 'BARTHES, R. ',
 		aparic: 2,
 		obra: 'A retórica antiga'
 	},
 	{
-		id: 75,
+		id: 73,
 		autor: 'BECHARA, Evanildo',
 		aparic: 2,
 		obra: 'Moderna gramática portuguesa'
 	},
 	{
-		id: 76,
+		id: 74,
 		autor: 'BENJAMIN, W.',
 		aparic: 2,
 		obra: 'A tarefa-renúncia do tradutor'
 	},
 	{
-		id: 77,
+		id: 75,
 		autor: 'BRANDÃO, Junito de Souza',
 		aparic: 2,
 		obra: 'Teatro grego: tragédia e comédia'
 	},
 
 	{
-		id: 78,
+		id: 76,
 		autor: 'BRITO, G. S.',
 		aparic: 2,
 		obra: 'Literatura latina: síntese histórica'
 	},
 	{
-		id: 79,
+		id: 77,
 		autor: 'BUENO, F. Silveira',
 		aparic: 2,
 		obra: 'Formação da Língua Portuguesa'
 	},
 	{
-		id: 80,
+		id: 78,
 		autor: 'CAMPOS, H. ',
 		aparic: 2,
 		obra: 'Da tradução como criação e como crítica'
 	},
 
 	{
-		id: 81,
+		id: 79,
 		autor: 'CARDOSO, Z. A.',
 		aparic: 2,
 		obra: 'Estudos sobre o Teatro Antigo'
 	},
 	{
-		id: 82,
+		id: 80,
 		autor: 'CARDOSO, Wilton',
 		aparic: 2,
 		obra: 'Estilística e gramática histórica: português através de textos'
 	},
 
 	{
-		id: 83,
+		id: 81,
 		autor: 'CARVALHO, R. N. B. ',
 		aparic: 2,
 		obra: 'Bucólicas: uma poética da tradução'
 	},
 	{
-		id: 84,
+		id: 82,
 		autor: 'CARVALHO, R. N. B.',
 		aparic: 2,
 		obra: 'Bucólicas de Virgílio'
 	},
 	{
-		id: 85,
+		id: 83,
 		autor: 'CATULO',
 		aparic: 2,
 		obra: 'O cancioneiro de Lésbia'
 	},
 	{
-		id: 86,
+		id: 84,
 		autor: 'CATULO',
 		aparic: 2,
 		obra: 'O livro de Catulo'
 	},
 	{
-		id: 87,
+		id: 85,
 		autor: 'CÍCERO, M. T.',
 		aparic: 2,
 		obra: 'Retórica a Herênio'
 	},
 	{
-		id: 88,
+		id: 86,
 		autor: 'CIRIBELLI, M. C.',
 		aparic: 2,
 		obra: 'O teatro romano e as comédias de Plauto'
 	},
 	{
-		id: 89,
+		id: 87,
 		autor: 'COMMELIN, P.',
 		aparic: 2,
 		obra: 'Mitologia Grega e Romana'
 	},
 	{
-		id: 90,
+		id: 88,
 		autor: 'CONCESSO, José Francisco da Silva',
 		aparic: 2,
 		obra: 'Latim: primeiros passos'
 	},
 	{
-		id: 48,
+		id: 89,
 		autor: 'CUNHA, Celso',
 		aparic: 2,
 		obra: 'Estilística e gramática histórica: português através de textos'
 	},
 	{
-		id: 91,
+		id: 90,
 		autor: 'CUNHA, Celso',
 		aparic: 2,
 		obra: 'Nova Gramática do Português Contemporâneo'
 	},
 	{
-		id: 92,
+		id: 91,
 		autor: 'EDITORA PORTO',
 		aparic: 2,
 		obra: 'DICIONÁRIO ACADÊMICO: latim-português português-latim'
 	},
 	{
-		id: 93,
+		id: 92,
 		autor: 'FRANCHINI, A.S.',
 		aparic: 2,
 		obra: 'As melhores histórias da mitologia: deuses, heróis, monstros e guerras da tradição grego-romana'
 	},
 	{
-		id: 94,
+		id: 93,
 		autor: 'FURLAN, Oswaldo Antônio',
 		aparic: 2,
 		obra: 'Das Letras Latinas às Luso-brasileiras'
 	},
 	{
-		id: 95,
+		id: 94,
 		autor: 'GONCALVES, Maximiano Augusto',
 		aparic: 2,
 		obra: 'Eneida de Virgílio'
 	},
 	{
-		id: 96,
+		id: 95,
 		autor: 'HAMILTON, Edith',
 		aparic: 2,
 		obra: 'Mitologia'
 	},
 	{
-		id: 97,
+		id: 96,
 		autor: 'HOLANDA, Nestor de. ',
 		aparic: 2,
 		obra: 'A guerra de Tróia'
 	},
 	{
-		id: 98,
+		id: 97,
 		autor: 'HOMERO.',
 		aparic: 2,
 		obra: 'A odisséia: em forma narrativa'
 	},
 
 	{
-		id: 99,
+		id: 98,
 		autor: 'IVO, Oscarino da Silva',
 		aparic: 2,
 		obra: 'Estudo progressivo da morfo-sintaxe latina'
 	},
 	{
-		id: 100,
+		id: 99,
 		autor: 'JAKOBSON, R.',
 		aparic: 2,
 		obra: 'Linguagem e comunicação'
 	},
 	{
-		id: 101,
+		id: 100,
 		autor: 'LEHMANN, Winfred P',
 		aparic: 2,
 		obra: 'Historical Linguistics: An Introduction'
 	},
 	{
-		id: 102,
+		id: 101,
 		autor: 'LESKY, A.',
 		aparic: 2,
 		obra: 'A tragédia grega'
 	},
 
 	{
-		id: 103,
+		id: 102,
 		autor: 'MARTINS, I.',
 		aparic: 2,
 		obra: 'Do português ao latim - do latim ao português'
 	},
 	{
-		id: 104,
+		id: 103,
 		autor: 'MASSINI-CAGLIARI, Gladis',
 		aparic: 2,
 		obra: 'Acento e Ritmo'
 	},
 	{
-		id: 105,
+		id: 104,
 		autor: 'MATEUS, Maria Helena et alli',
 		aparic: 2,
 		obra: 'Gramática da Língua Portuguesa'
 	},
 	{
-		id: 106,
+		id: 105,
 		autor: 'NERICI, Emidio Giuseppe',
 		aparic: 2,
 		obra: 'Didática Geral Dinâmica'
 	},
 	{
-		id: 107,
+		id: 106,
 		autor: 'OVIDIO',
 		aparic: 2,
 		obra: 'Poetas e prosadores latinos: ideias da antiguidade'
 	},
 	{
-		id: 108,
+		id: 107,
 		autor: 'PAES, J. P.',
 		aparic: 2,
 		obra: 'Tradução, a ponte necessária: aspectos e problemas da arte de traduzir'
 	},
 	{
-		id: 109,
+		id: 108,
 		autor: 'PERELMAN, Chaim',
 		aparic: 2,
 		obra: 'Retóricas'
 	},
 	{
-		id: 110,
+		id: 109,
 		autor: 'PLAUTO',
 		aparic: 2,
 		obra: 'Comédias.'
 	},
 	{
-		id: 111,
+		id: 110,
 		autor: 'PLAUTO; TERÊNCIO',
 		aparic: 2,
 		obra: 'A comédia latina'
 	},
 	{
-		id: 112,
+		id: 111,
 		autor: 'RAVIZZA, Pe. João',
 		aparic: 2,
 		obra: 'A morfologia latina'
 	},
 	{
-		id: 113,
+		id: 112,
 		autor: 'RAVIZZA, Pe. João',
 		aparic: 2,
 		obra: 'Gramática Latina'
 	},
 	{
-		id: 114,
+		id: 113,
 		autor: 'REBOUL. Olivier',
 		aparic: 2,
 		obra: 'Introdução à Retórica'
 	},
 	{
-		id: 115,
+		id: 114,
 		autor: 'RIGOLON, G. R.',
 		aparic: 2,
 		obra: 'A pronúncia do latim científico'
 	},
 
 	{
-		id: 116,
+		id: 115,
 		autor: 'RÓNAI, P.',
 		aparic: 2,
 		obra: ' A tradução vivida'
 	},
 	{
-		id: 117,
+		id: 116,
 		autor: 'SCHNAIDERMAN, B.',
 		aparic: 2,
 		obra: 'Tradução: “fidelidad e filológica” e “fidelidade estilística”'
 	},
 	{
-		id: 118,
+		id: 117,
 		autor: 'Schultz, D. P.',
 		aparic: 2,
 		obra: 'Teorias da personalidade'
 	},
 	{
-		id: 119,
+		id: 118,
 		autor: 'SCHWAB, Gustav',
 		aparic: 2,
 		obra: 'As mais belas histórias da antiguidade clássica: os mitos da Grécia e de Roma'
 	},
 	{
-		id: 120,
+		id: 119,
 		autor: 'SÊNECA',
 		aparic: 2,
 		obra: 'Édipo'
 	},
 	{
-		id: 121,
+		id: 120,
 		autor: 'SÊNECA',
 		aparic: 2,
 		obra: 'Medeia'
 	},
 
 	{
-		id: 122,
+		id: 121,
 		autor: 'SIENKIEWICZ, Henryk',
 		aparic: 2,
 		obra: 'Quo Vadis'
 	},
 	{
-		id: 123,
+		id: 122,
 		autor: 'SILVA, Maria Cecília Pérez de Souza',
 		aparic: 2,
 		obra: 'O Português Arcaico'
 	},
 	{
-		id: 124,
+		id: 123,
 		autor: 'SILVA, Rosa Virgínia Mattose',
 		aparic: 2,
 		obra: 'O Português Arcaico: Morfologia e Sintaxe'
 	},
 	{
-		id: 125,
+		id: 124,
 		autor: 'SPINA, S. E.',
 		aparic: 2,
 		obra: 'Introdução à Retórica'
 	},
 	{
-		id: 126,
+		id: 125,
 		autor: 'TEYSSIER, Paul.',
 		aparic: 2,
 		obra: 'História da Língua Portuguesa'
 	},
 	{
-		id: 127,
+		id: 126,
 		autor: 'THAMOS, M',
 		aparic: 2,
 		obra: 'As armas e o varão: leitura e tradução do canto I da Eneida'
 	},
 
 	{
-		id: 128,
+		id: 127,
 		autor: 'TORRINHA, F.',
 		aparic: 2,
 		obra: 'Dicionário latino-português'
 	},
 	{
-		id: 129,
+		id: 128,
 		autor: 'TOSI, Renzo',
 		aparic: 2,
 		obra: 'Dicionário de Sentenças Latinas e Gregas'
 	},
 	{
-		id: 130,
+		id: 129,
 		autor: 'TRINGALI, D.',
 		aparic: 2,
 		obra: 'Introdução à retórica'
 	},
 	{
-		id: 131,
+		id: 130,
 		autor: 'VERNANT, J. P.',
 		aparic: 2,
 		obra: 'As origens do pensamento grego'
 	},
 	{
-		id: 132,
+		id: 131,
 		autor: 'VIRGILE',
 		aparic: 2,
 		obra: 'Énéide: Livre VII-XII'
 	},
 
 	{
-		id: 133,
+		id: 132,
 		autor: 'VIRGÍLIO',
 		aparic: 2,
 		obra: 'Bucólicas'
 	},
 	{
-		id: 134,
+		id: 133,
 		autor: 'WALDE-HOFMANN, ',
 		aparic: 2,
 		obra: 'Lateinissches  Etymologisches Wörterbuch.'
 	},
 	{
-		id: 135,
+		id: 134,
 		autor: 'ACHCAR, F.',
 		aparic: 1,
 		obra: 'Lírica e lugar comum: alguns temas de Horácio e sua presença em português'
 	},
 	{
-		id: 136,
+		id: 135,
 		autor: 'ALFAGEME, I. R.',
 		aparic: 1,
 		obra: 'Nueva gramática griega'
 	},
 	{
-		id: 137,
-		autor: 'AUERBACH, Erich',
-		aparic: 1,
-		obra: 'Introdução aos Estudos Literários'
-	},
-	{
-		id: 138,
-		autor: 'BOLEO, Manuel De Paiva',
-		aparic: 1,
-		obra: 'Estudos de Linguística Portuguesa e Românica'
-	},
-	{
-		id: 139,
-		autor: 'BOLÉO, Manuel De Paiva',
-		aparic: 1,
-		obra: 'Estudos de linguística portuguesa e românica v. 1, tomo 1:dialectologia e história da língua'
-	},
-	{
-		id: 140,
-		autor: 'BOLÉO, Manuel De Paiva',
-		aparic: 1,
-		obra: 'Estudos de linguística portuguesa e românica v. 1, tomo 2: dialectologia e história da língua'
-	},
-	{
-		id: 141,
-		autor: 'BOURCIEZ, E.',
-		aparic: 1,
-		obra: 'Elementos Deolingüístique Romane'
-	},
-	{
-		id: 142,
+		id: 136,
 		autor: 'BOYS, Francisco Xavier',
 		aparic: 1,
 		obra: 'Língua Latina I e II'
 	},
 	{
-		id: 143,
+		id: 137,
 		autor: 'BORDENOVE, Juan D',
 		aparic: 1,
 		obra: 'Estratégias de Ensino Aprendizagem'
 	},
 	{
-		id: 144,
+		id: 138,
 		autor: 'BRITO, G. S.',
 		aparic: 1,
 		obra: 'Lições de Latim'
 	},
 	{
-		id: 145,
+		id: 139,
 		autor: 'BUSSARELO, Raulino.',
 		aparic: 1,
 		obra: 'Dicionário Básico Latino-Português'
 	},
 	{
-		id: 146,
+		id: 140,
 		autor: 'CÂMARA Jr. Joaquim Mattoso',
 		aparic: 1,
 		obra: 'História da Lingüística'
 	},
 	{
-		id: 147,
+		id: 141,
 		autor: 'COSTA, Aída',
 		aparic: 1,
 		obra: 'Temas Clássicos'
 	},
 	{
-		id: 148,
+		id: 142,
 		autor: 'CORPEAUX, Otto Maria',
 		aparic: 1,
 		obra: 'História da Literatura Ocidental'
 	},
 	{
-		id: 149,
+		id: 143,
 		autor: 'CHARLOT, Bernard',
 		aparic: 1,
 		obra: 'A Mistificação Pedagógica'
 	},
 	{
-		id: 150,
+		id: 144,
 		autor: 'CONNORS, MOLLY',
 		aparic: 1,
 		obra: 'Pro Lingua Latina (In defense of the Latin Language)'
 	},
 
 	{
-		id: 151,
+		id: 145,
 		autor: 'FERREIRA, Antonio Gómes',
 		aparic: 1,
 		obra: 'Dicionário de português-latim'
 	},
 	{
-		id: 152,
+		id: 146,
 		autor: 'FREIRE, A',
 		aparic: 1,
 		obra: 'Exercícios Latinos'
 	},
 	{
-		id: 153,
+		id: 147,
 		autor: 'FREIRE, Antônio Gomes',
 		aparic: 1,
 		obra: 'Conversação latina'
 	},
 	{
-		id: 154,
+		id: 148,
 		autor: 'FREIRE, Paulo',
 		aparic: 1,
 		obra: 'Educação e Mudança'
 	},
 	{
-		id: 155,
+		id: 149,
 		autor: 'GADOTTI, Moacir',
 		aparic: 1,
 		obra: 'Educação e Poder'
 	},
 	{
-		id: 156,
+		id: 150,
 		autor: 'GALVÃO, R.',
 		aparic: 1,
 		obra: 'Vocabulário etimológico, ortográfico e prosódico das palavras portuguesas derivadas do grego'
 	},
 	{
-		id: 157,
+		id: 151,
 		autor: 'GARCIA, Janete Melasso',
 		aparic: 1,
 		obra: 'Dicionário Gramatical de Latim: Nível básico'
 	},
 	{
-		id: 158,
+		id: 152,
 		autor: 'GARCIA, Janete Melasso',
 		aparic: 1,
 		obra: 'Língua latina'
 	},
 	{
-		id: 159,
+		id: 153,
 		autor: 'GARNIER, C.',
 		aparic: 1,
 		obra: 'Após Vygotsky e Piaget: perspectiva social e construtivista, Escolas russa e ocidental'
 	},
 	{
-		id: 160,
+		id: 154,
 		autor: 'GRIMAL, P.',
 		aparic: 1,
 		obra: 'Dicionário Oxford de Literatura Clássica'
 	},
 	{
-		id: 161,
+		id: 155,
 		autor: 'GOULART, Iris B. ',
 		aparic: 1,
 		obra: 'Psicologia da Educação.'
 	},
 	{
-		id: 162,
-		autor: 'IORDAN, Iorgu.',
-		aparic: 1,
-		obra: 'Linguística românica'
-	},
-	{
-		id: 163,
+		id: 156,
 		autor: 'JONES, Peter V.',
 		aparic: 1,
 		obra: 'Reading Latin'
 	},
 	{
-		id: 164,
+		id: 157,
 		autor: 'KAHHALE, E. M. P. (Org.).',
 		aparic: 1,
 		obra: 'A diversidade da psicologia: uma construção teórica'
 	},
 	{
-		id: 165,
-		autor: 'LAUSBERG, H.',
-		aparic: 1,
-		obra: 'Lingüística Românica: Introdução e Vocalismo'
-	},
-	{
-		id: 166,
+		id: 158,
 		autor: 'LEHMANN, Winfred P',
 		aparic: 1,
 		obra: 'Latin online: series introduction'
 	},
 	{
-		id: 167,
+		id: 159,
 		autor: 'LEITE, L. B.',
 		aparic: 1,
 		obra: 'Piaget e a Escola de Genebra – As Contribuições da Psicologia'
 	},
 	{
-		id: 168,
+		id: 160,
 		autor: 'LEITÃO, H.',
 		aparic: 1,
 		obra: 'L. Piaget e Freud: um encontro possível? O pensamento e a afetividade da criança em discussão'
 	},
 	{
-		id: 169,
+		id: 161,
 		autor: 'LEMBO, J.M',
 		aparic: 1,
 		obra: 'Porque Falham os Professores'
 	},
 	{
-		id: 170,
+		id: 162,
 		autor: 'LESKY, A.',
 		aparic: 1,
 		obra: 'A história da literatura grega'
 	},
 	{
-		id: 171,
+		id: 163,
 		autor: 'LEVISKY, D. L. (Org.)',
 		aparic: 1,
 		obra: 'Adolescência e violência: conseqüências da realidade brasileira'
 	},
 
 	{
-		id: 172,
+		id: 164,
 		autor: 'MIZUKAMI, Ma. Da G.',
 		aparic: 1,
 		obra: 'Ensino: as abordagens do processo'
 	},
 
 	{
-		id: 173,
+		id: 165,
 		autor: 'LIBANEO, José Carlos',
 		aparic: 1,
 		obra: 'DIDÁTICA'
 	},
 	{
-		id: 174,
+		id: 166,
 		autor: 'LIMA, Agenor Ferreira',
 		aparic: 1,
 		obra: 'Exercícios de latim'
 	},
 	{
-		id: 175,
+		id: 167,
 		autor: 'LIMA, Agenor Ferreira',
 		aparic: 1,
 		obra: 'Noções de latim'
 	},
 	{
-		id: 176,
+		id: 168,
 		autor: 'MACIEL, I. M. (Org.)',
 		aparic: 1,
 		obra: 'Psicologia e Educação: novos caminhos para a formação'
 	},
 
 	{
-		id: 177,
+		id: 169,
 		autor: 'MARINHO, Luana dos Santos Castro',
 		aparic: 1,
 		obra: 'Manual de Língua Latina – EAD'
 	},
 	{
-		id: 178,
+		id: 170,
 		autor: 'MARTINS, Maria Cristina',
 		aparic: 1,
 		obra: 'A língua latina: sua origem, variedades, desdobramentos'
 	},
 	{
-		id: 179,
-		autor: 'MIAZZI, Maria Luíza E.',
-		aparic: 1,
-		obra: 'Introdução à Lingüística Românica: História e Métodos'
-	},
-	{
-		id: 180,
+		id: 171,
 		autor: 'MILHOULLAN, Frank (1978)',
 		aparic: 1,
 		obra: 'Skinner X Rogers: Maneiras contrastantes de encarar a educação'
 	},
 	{
-		id: 181,
+		id: 172,
 		autor: 'MONTAGNER,  Airto Ceolin',
 		aparic: 1,
 		obra: 'ARS LATINA : Curso prático de Língua latina'
 	},
 	{
-		id: 182,
+		id: 173,
 		autor: 'MURACHCO, H.',
 		aparic: 1,
 		obra: 'Língua grega: prática'
 	},
 	{
-		id: 183,
+		id: 174,
 		autor: 'MURACHCO, H.',
 		aparic: 1,
 		obra: 'Língua grega: teoria'
 	},
 	{
-		id: 184,
-		autor: 'NASCENTES, Antenor',
-		aparic: 1,
-		obra: 'Elementos de Filologia Românica'
-	},
-	{
-		id: 185,
+		id: 175,
 		autor: 'NIDELCOFF, Maria Tereza',
 		aparic: 1,
 		obra: 'Uma Escola Para o Povo'
 	},
 	{
-		id: 186,
+		id: 176,
 		autor: 'NÓBREGA, Wondick Londres da',
 		aparic: 1,
 		obra: 'O latim do ginásio'
 	},
 	{
-		id: 187,
+		id: 177,
 		autor: 'NORELLI, E.',
 		aparic: 1,
 		obra: 'Manual de literatura cristã grega e latina'
 	},
 	{
-		id: 188,
+		id: 178,
 		autor: 'NOVAES, M. H.',
 		aparic: 1,
 		obra: 'Psicologia da terceira idade: conquistas possíveis e rupturas necessárias'
 	},
 	{
-		id: 189,
+		id: 179,
 		autor: 'NUNES, Ana Maria da Silva',
 		aparic: 1,
 		obra: 'A LÍNGUA LATINA: um rio que flui por baixo de uma camada de gelo'
 	},
 	{
-		id: 190,
+		id: 180,
 		autor: 'OVIDIO, Públio Naso',
 		aparic: 1,
 		obra: 'Metamorfoses'
 	},
 	{
-		id: 191,
+		id: 181,
 		autor: 'PAPALIA, D. E.',
 		aparic: 1,
 		obra: 'Desenvolvimento Humano'
 	},
 	{
-		id: 192,
+		id: 182,
 		autor: 'PIETRO, M. H. U.',
 		aparic: 1,
 		obra: 'Dicionário de literatura grega'
 	},
 
 	{
-		id: 193,
+		id: 183,
 		autor: 'PINTO, Álvaro Vieira',
 		aparic: 1,
 		obra: 'Sete Lições Sobre Educação de Adultos'
 	},
 	{
-		id: 194,
+		id: 184,
 		autor: 'RAPPAPORT,  C.R.',
 		aparic: 1,
 		obra: 'Teorias  do  desenvolvimento  :  conceitos Fundamentais'
 	},
 	{
-		id: 195,
+		id: 185,
 		autor: 'RÊGO,  Teresa  Cristina',
 		aparic: 1,
 		obra: 'Vygotsky:  uma  perspectiva  histórico-cultural  da  educação.'
 	},
 	{
-		id: 196,
+		id: 186,
 		autor: 'ROSA, M.',
 		aparic: 1,
 		obra: 'Psicologia Evolutiva. Vols. 1,2,3 e 4'
 	},
 	{
-		id: 197,
-		autor: 'ROSSETTI-FERREIRA,  Maria  C.',
-		aparic: 1,
-		obra: 'Rede de significações e o estudo do desenvolvimento humano'
-	},
-	{
-		id: 198,
+		id: 187,
 		autor: 'ROSTOVTZEFF, M.',
 		aparic: 1,
 		obra: 'História de Roma'
 	},
 	{
-		id: 199,
+		id: 188,
 		autor: 'SAVIANI, Demerval',
 		aparic: 1,
 		obra: 'Escola e Democracia'
 	},
 	{
-		id: 200,
+		id: 189,
 		autor: 'SAUTEREAU, F.',
 		aparic: 1,
 		obra: 'Contos e lendas do nascimento de Roma'
 	},
 	{
-		id: 201,
-		autor: 'SILVA, Dirlene Joceli Colla da',
-		aparic: 1,
-		obra: 'Metaplasmos por subtração na fala dos paraguaios residentes em Mato Grosso do Sul'
-	},
-	{
-		id: 202,
+		id: 190,
 		autor: 'SOARES, J. S.',
 		aparic: 1,
 		obra: 'Latim I: Iniciação ao Latim e à civilização romana'
 	},
 	{
-		id: 203,
+		id: 191,
 		autor: 'TÁCITO',
 		aparic: 1,
 		obra: 'Anais'
 	},
 	{
-		id: 204,
+		id: 192,
 		autor: 'TEMPINI, Otávio.',
 		aparic: 1,
 		obra: 'Exercícios latinos'
 	},
 	{
-		id: 205,
+		id: 193,
 		autor: 'WILLIANS, Edwin',
 		aparic: 1,
 		obra: 'Do latim ao português'
 	},
 	{
-		id: 206,
+		id: 194,
 		autor: 'WOOLFOK, A. E.',
 		aparic: 1,
 		obra: 'Psicologia da Educação'

@@ -1,3 +1,6 @@
+CORPUS DE AUTORES E OBRAS DOS ESTUDOS CLÁSSICOS DO NORTE
+22.11.2023
+
 **UNIR** 
 
 • INGLÊS
@@ -191,6 +194,7 @@ v. 1.
   
 Prática de Tradução de Textos Latinos - 60h 
  Eletiva (X ) 
+
 BIBLIOGRAFIA RECOMENDADA  
 1. BÁSICA   
 ALMEIDA. Z. C. de. A literatura latina . 3. ed. São Paulo: Martins Fontes, 2011.  
@@ -367,7 +371,6 @@ PRADO, J. B. T. Língua Latina: anotações de aula. Araraquara: [s.n.], 2004. N
 SARAIVA, F. R. S. Dicionário Latino-Português. Paris; Rio de Janeiro: Garnier, 1881 (1a. Edição).
 TITO LÍVIO. História de Roma: ab urbe condita. Tradução de P. M. Peixoto. São Paulo: Paumape, 1989.
 V. 1.
-***************************************
  
 LATIM III: LÍNGUA E CULTURA - 60h
 Eletiva (X ) 
@@ -416,6 +419,7 @@ Paumape, 1989. v. 1.
 
 Prática de Tradução de Textos Latinos - 60h 
 Eletiva (X ) 
+
 BIBLIOGRAFIA RECOMENDADA  
 1. BÁSICA   
 ALMEIDA. Z. C. de. A literatura latina . 3. ed. São Paulo: Martins Fontes, 2011.  
@@ -591,8 +595,6 @@ PIETRO, M.H.U. Dicionário de literatura grega. São Paulo: Verbo, 2001.
 NORELLI, E., MORESCHINI, C. Manual de literatura cristã grega e latina.
 Santuário/Vale livros.
 
-
-
 • LETRAS-PORTUGUÊS/ESP/FRA/ING 
 LATIM I - 45h 
 
@@ -696,9 +698,6 @@ Coimbra: Revista Almedina, 1999.
 JONES, P. V.; SIDWELL, K. C. Aprendendo Latim: textos, vocabulário, gramática e exercícios. São
 Paulo: Odysseus Editora, 2012.
 
-
-
-
 **UNIFAP**
 • PORTUGUÊS E FRANCÊS
 
@@ -722,6 +721,7 @@ MELO, Gladstone Chaves de. Iniciação à filologia e à linguística portuguesa
 de Melo. - 6. Ed. - Rio de Janeiro: Livro Técnico, 1981.
 
 LÍNGUA LATINA II - 45H
+
 BIBLIOGRAFIA BÁSICA:
 AlMEIDA, Napoleão Mendes de. Gramática latina. 29a ed. São Paulo: Saraiva, 2000.
 AZEREDO, José Carlos De. Gramático Houaiss da Língua Portuguesa. 3.ed. São Paulo:
@@ -737,26 +737,6 @@ GOULART, Audemaro Taranto. Estudo dirigido de gramática histórica e teoria da 
 Paulo: Brasil, s.d..
 MELO, Gladstone Chaves de. Iniciação à filologia e à linguística portuguesa / Gladstone Chaves
 de Melo. - 6. Ed. - Rio de Janeiro: Livro Técnico, 1981.
-
-LINGUÍSTICA ROMÂNICA - 45H
-
-BIBLIOGRAFIA BÁSICA:
-ELIA, Sílvio. Preparação à linguística românica. 2. Ed. Rio de Janeiro: Ao Livro Técnico, 1979.
-ILARI, Rodolfo. Linguística românica. 3. Ed. São Paulo: Ática, 2000.
-IORDAN, Iorgu. Introdução à linguística românica. 2. Ed. Lisboa: Fundação Calouste Gulbenkian,
-1962.
-BIBLIOGRAFIA COMPLEMENTAR:
-BOLÉO, Manuel De Paiva. Estudos de linguística portuguesa e românica, v. 1, tomo 1:
-dialectologia e história da língua. S.l.: Por Ordem da Universidade, 1975.
-BOLÉO, Manuel De Paiva. Estudos de linguística portuguesa e românica, v. 1, tomo 2:
-dialectologia e história da língua. S.l.: Por Ordem da Universidade, 1975.
-COUTINHO, Ismael De Lima; UCHÔA, Carlos Eduardo Falcão. Pontos de gramática histórica. 7.
-Ed. Rio de Janeiro: Ao Livro Técnico, 1976.
-GOULART, Audemaro Taranto. Estudo dirigido de gramática histórica e teoria da literatura. São
-Paulo: Brasil, s.d.
-MELO, Gladstone Chaves de. Iniciação à filologia e à linguística portuguesa / Gladstone Chaves
-de Melo. - 6. Ed. - Rio de Janeiro: Livro Técnico, 1981.
-
 
 • PORTUGUÊS E FRANCÊS(PARFOR) 
 
@@ -785,21 +765,6 @@ FONTANA, Dino Fausto. Curso de Latim. São Paulo: Saraiva, 1987
 SILVA NETO, Serafim da. História do Latim Vulgar. Rio de Janeiro: Ao Livro Técnico, 1997.
 XAVIER, Ronaldo Caldeira. Latim no Direito. Rio de Janeiro: Editora Forense, 1997.
 VIRGÍLIO. Eneida. São Paulo. Cultrix, 2001.
-
-LINGUÍSTICA ROMÂNICA - 60H
-III – BIBLIOGRAFIA BÁSICA
-ILARI, Rodolfo. Linguística Românica. São Paulo: Ática, 2002.
-IORDAN, Iorgu. Introdução à Linguística Românica. Lisboa. Fundação Caloueste Gulbenkian,
-1983.
-TEYSSIER, Paul. História da Língua Portuguesa. São Paulo: Martins Fontes, 2001.
-IV- BIBLIOGRAFIA COMPLEMENTAR
-BOLEO, Manuel Paiva. Estudos de Linguística Portuguesa e Românica1974.
-COUTINHO, Ismael de Lima. Pontos de Gramática Histórica. Rio de Janeiro: Ao Livro Técnico,
-1976.
-ELIA, Silvio. Preparação à Linguística Românica. Rio de Janeiro. Ao Livro Técnico, 1979.
-FARIA, Ernesto. Dicionário Escolar Latino-Português. Rio de Janeiro: FAE, 1988.
-IORDAN, Iorgu. Introdução à Linguística Românica. Lisboa. Fundação Caloueste Gulbenkian,
-1983.
 
 • LÍNGUA PORTUGUESA E INGLESA
 
@@ -876,17 +841,6 @@ WILLIAMS, Ediwin Bucher. Do Latim ao Português. Rio de janeiro: Tempo Universit
 Leituras Orientadas:
 SIENKIEWINCZ, Henryk. Quo Vadis. São Paulo: Ediouro (romance polaco).
 VIRGÍLIO. Eneida.
-
-LINGUÍSTICA ROMÂNICA - 60H
-III – BIBLIOGRAFIA BÁSICA
- WILLIAMS, E. Bucher. Do Latim ao Português. Rio de Janeiro: Tempo Universitário, 1994.
-COUTINHO, Ismael de Lima. Gramática Histórica. Rio de Janeiro: Ao Livro Técnico, 1976.
-ILARI, Rodolfo. Lingüística Românica. São Paulo: Ática, 2002.
-TEYSSIER, Paul. História da Língua Portuguesa. São Paulo: Martins Fontes, 2001.
-IV- BIBLIOGRAFIA COMPLEMENTAR
-SILVA, Dirlene Joceli Colla da. Metaplasmos por subtração na fala dos paraguaios residentes em Mato Grosso do Sul. Dourados: UEMS, 2005. (Monografia de especialização em Letras, na área de Variação Lingüística e Confrontos).
-FARIA, Ernesto. Dicionário Escolar Latino-Português. Rio de Janeiro: FAE, 1988. 
-FERREIRA, António Gomes. Dicionário de Latim-Português. Porto: Editora do Porto, 1990.
 
 **UFAM**
 
@@ -1124,17 +1078,6 @@ RÓNAI, Paulo. Curso básico de Latim - Gradus Primus. São Paulo: Cultrix.
 ____________. Curso básico de Latim - Gradus Secundus. São Paulo: Cultrix.
 ____________. Não perca o seu Latim. Rio de Janeiro: Nova Fronteira.
 
-FILOLOGIA ROMÂNICA
-BIBLIOGRAFIA
-AUERBACH, Erich. Introdução aos Estudos Literários. São Paulo: Cultrix, 1972
-BOURCIEZ, E. Elementos Deolingüístique Romane. 4a ed. Paris: Kliscksicck, 1958
-ELIA, Sílvio. Preparação à Lingüística Românica. Rio de Janeiro: Acadêmica, 1974
-IORDAN, Iorgu. Introdução à Lingüística Românica. Lisbôa: Culbenkian, 1973
-__________. Lingüística Românica. Lisbôa, Culbenkian, 1973
-CÂMARA JR., Joaquim Mattoso. História da Lingüística. 2a. ed. Petrópolis: Vozes, 1975
-LAUSBERG, H. Lingüística Românica: Introdução e Vocalismo. Lisbôa Gulbekian, 1973
-MIAZZI, Maria Luíza E. Introdução à Lingüística Românica: História e Métodos. São Paulo: Cultrix, 1972
-NASCENTES, Antenor. Elementos de Filologia Românica. Rio de Janeiro: Simões, 1954
 
 **UFRA**
 • LETRAS PORTUGUÊS 
@@ -1169,7 +1112,6 @@ SILVA NETO, Serafim da. História do latim vulgar. RJ: Livraria Acadêmica, 1957
 WILLIAMS, Edwin B. Do latim ao português. RJ : Tempo brasileiro, 1994.
 RAPPAPORT,  C.R.,  FIORI,  W.R.   &     Davis,   C.  Teorias  do  desenvolvimento  :  conceitos
 Fundamentais. Vol.  1 e 4. São Paulo:  EPU, 1981.
-        
 RÊGO,  Teresa  Cristina.  Vygotsky:  uma  perspectiva  histórico-cultural  da  educação.  Petrópolis:
 Editora Vozes, 1999.
 ROSSETTI-FERREIRA,  Maria  C.  ;  AMORIM,  Kátia  de  Souza,  SILVA,  Ana  Paula  Soares,
