@@ -181,7 +181,7 @@ export let uni = [
 		cursos: {
 			c1: 'Português',
 			cl1: 'http://www.ufopa.edu.br/iced/graduacao-1/cursos/letras/',
-			e1: 'pdf',
+			e1: 'e-mail',
 			el1: '',
 			c2: '',
 			cl2: '',
@@ -216,7 +216,7 @@ export let uni = [
 		cursos: {
 			c1: 'Português-Inglês',
 			cl1: 'https://ww2.uft.edu.br/index.php/letras-araguaina/matriz-curricular',
-			e1: 'pdf',
+			e1: 'e-mail',
 			el1: '',
 			c2: '',
 			cl2: '',
@@ -251,7 +251,7 @@ export let uni = [
 		cursos: {
 			c1: 'Letras (Por/Ing/Esp/Fra/Ale)',
 			cl1: 'https://ascom.ufpa.br/index.php/cursos-da-ufpa?start=50',
-			e1: 'pdf',
+			e1: 'e-mail',
 			el1: '',
 			c2: '',
 			cl2: '',

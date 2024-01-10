@@ -70,20 +70,20 @@
 
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região Norte possui 10 universidades federais oferecendo um total de 33 cursos de Letras
-				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas 04 não têm nenhuma
-				disciplina referente aos Estudos Clássicos, quais sejam: Letras Inglês e Letras Japonês da
-				UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
+				A região Norte possui dez universidades federais oferecendo um total de 33 cursos de Letras
+				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas quatro não têm
+				nenhuma disciplina referente aos Estudos Clássicos, quais sejam: Letras Inglês e Letras
+				Japonês da UFAM, Letras Inglês da UFOPA e Letras Inglês da UNIFESSPA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 155 autores e as 194 obras e extraídas do <a
+				Como se pode verificar abaixo, dentre os 155 autores e as 194 obras extraídas do <a
 					href={corpus}
 					download="corpus_norte"
 					target="_blank">corpus</a
 				>, a mais indicada, 29 vezes, foi um dicionário,
 				<em>Dicionário escolar latino-português</em>. A ele se seguiram a gramática de Napoleão
 				Mendes de Almeida com 14 indicações,
-				<em>Gramática Latina</em>, e um "manual" de Zélia Almeida Cardoso,
+				<em>Gramática Latina</em>, e um livro de Zélia Almeida Cardoso,
 				<em>Iniciação ao latim</em>, com 13 indicações. E essa é a tônica apresentada na pesquisa em
 				relação aos livros mais indicados: gramática, dicionário, manual/curso. A primeira obra que
 				foge a essa regra é <em>A literatura latina</em>, também de Zélia Almeida Cardoso na oitava
@@ -144,7 +144,7 @@
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
-				<TableHeadCell>obra</TableHeadCell>
+				<TableHeadCell>Obra</TableHeadCell>
 				<TableHeadCell>Indicações</TableHeadCell>
 			</TableHead>
 			<TableBody class="divide-y">
