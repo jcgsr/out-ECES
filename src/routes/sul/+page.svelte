@@ -105,10 +105,10 @@
 				<em>Os Trabalhos e os Dias</em>, de Hesíodo.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
-				Obras estrangeiras sem tradução abundam. São, aproximadamente (dizemos "aproximadamente""
-				porque algumas obras não pudemos identificar o idioma)
+				Obras estrangeiras sem tradução abundam. São, aproximadamente, dizemos "aproximadamente"
+				porque algumas obras não pudemos identificar o idioma:
 			</p>
-			<ol>
+			<ol class="aos-hidden-left my-4" class:aos-show={y >= 780}>
 				<li>220 em inglês</li>
 				<li>25 em francês</li>
 				<li>15 em espanhol</li>
@@ -118,7 +118,7 @@
 				<li>03 em grego</li>
 			</ol>
 
-			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 880}>
 				<Info />
 			</p>
 		</section>
