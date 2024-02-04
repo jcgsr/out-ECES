@@ -55,7 +55,8 @@
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="norte text-black dark:text-papyrus">
+	<div class="flex flex-col text-black m-auto text-center px-10">
+		<!--<div class="norte text-black dark:text-papyrus">-->
 		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
 		<img
 			src={Eagle}
@@ -84,22 +85,23 @@
 				<em>Dicionário escolar latino-português</em>. A ele se seguiram a gramática de Napoleão
 				Mendes de Almeida com 14 indicações,
 				<em>Gramática Latina</em>, e um livro de Zélia Almeida Cardoso,
-				<em>Iniciação ao latim</em>, com 13 indicações. E essa é a tônica apresentada na pesquisa em
-				relação aos livros mais indicados: gramática, dicionário, manual/curso. A primeira obra que
-				foge a essa regra é <em>A literatura latina</em>, também de Zélia Almeida Cardoso na oitava
-				posição com 10 indicações.
+				<em>Iniciação ao latim</em>, com 13 indicações. E essa foi a tônica apresentada na pesquisa
+				em relação aos livros mais indicados: gramática, dicionário, manual/curso. A primeira obra
+				que fugiu a essa regra foi <em>A literatura latina</em>, também de Zélia Almeida Cardoso na
+				oitava posição com dez indicações.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
-				<em>Ernesto Faria</em> com 9 indicações. Obras histórico-literárias (história, dicionário,
-				manual) são 14 livros, dos quais apenas três tratam da literatura grega. E obras literárias,
-				apenas 15 indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª
-				posição com apenas 4 sugestões.
+				Sobre fonética, só houve uma obra, <em>Fonética Histórica do Latim</em>, de
+				<em>Ernesto Faria</em> com nove indicações. Obras histórico-literárias (história,
+				dicionário, manual) foram 14 livros, dos quais apenas três tratam da literatura grega. E
+				obras literárias, apenas 15 indicações, destacando-se <em>Horácio</em> com a obra
+				<em>Odes e epodos</em> na 43ª posição com apenas quatro sugestões.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				Obras estrangeiras sem tradução são 6: 3 em francês (literatura), 1 em alemão (dicionário),
-				1 em espanhol (gramática grega) e 1 em inglês (manual). Materiais disponíveis on-line são 4:
-				1 curso de latim (inglês) e 3 três artigos, sendo 2 em português e um em inglês.
+				Obras estrangeiras sem tradução são seis: três em francês (literatura), uma em alemão
+				(dicionário), uma em espanhol (gramática grega) e uma em inglês (manual). Materiais
+				disponíveis on-line são quatro: um curso de latim (inglês) e três artigos, sendo dois em
+				português e um em inglês.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
 				<Info />

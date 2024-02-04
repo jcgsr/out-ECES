@@ -46,7 +46,8 @@
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="centro_oeste text-black dark:text-papyrus">
+	<div class="flex flex-col text-black m-auto text-center px-10">
+		<!--<div class="centro_oeste text-black dark:text-papyrus">-->
 		<h2 class="my-3 text-2xl mt-24">Região Centro-Oeste</h2>
 		<img
 			src={Clock}
@@ -74,31 +75,31 @@
 				Seguiram-se a ela um "curso",
 				<em>Programa de Latim</em>, de Júlio Comba com 15 e um dicionário de Antônio Gomes Ferreira,
 				<em>Dicionário de Latim-Português</em>, também com 15 indicações. Esse padrão,
-				gramática-curso-dicionário, segue pelas próximas 22 indicações até chegarmos a
+				gramática-curso-dicionário, seguiu pelas próximas 22 indicações até chegarmos a
 				<em>Não perca o seu latim</em>, que é uma coletânea de expressões, provérbios, máximas e
-				sentenças latinas elaborada por Paulo Ronai sugerida 6 vezes.
+				sentenças latinas elaborada por Paulo Ronai sugerida seis vezes.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				A primeira obra literária só aparece na 24ª posição com seis indicações, sendo uma tradução
-				para inglês da Eneida de Vergílio. A partir daí, começam a aparecer regularmente obras
-				literárias, incluindo até a Bíblia.
+				A primeira obra literária só apareceu na 24ª posição com seis indicações, sendo uma tradução
+				para inglês da Eneida de Vergílio. A partir daí, começaram a aparecer regularmente obras
+				literárias, inclusive a Bíblia.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				Obras referentes ao grego perfazem 49 indicações dentre dicionários, cursos e literatura. A
-				mais indicada, sete vezes, é um dicionário em francês na 12ª posição, <em
+				Obras referentes ao grego perfizeram 49 indicações dentre dicionários, cursos e literatura.
+				A mais indicada, sete vezes, foi um dicionário em francês na 12ª posição, <em
 					>Dictionnaire Grec-Français</em
-				>, de Anatoly Bailly. Seguem-se a ela outro dicionário,
+				>, de Anatoly Bailly. Seguiram-se a ela outro dicionário,
 				<em>DICIONARIO GREGO-PORTUGUES E PORTUGUES-GREGO</em>, de Isidro Pereira na 45ª posição com
 				três indicações e uma obra de sintaxe,
 				<em>SYNTAXE GRECQUE</em>, na 50ª posição de Marcel Bizos indicada duas vezes. A primeira
 				gramática grega, duas indicações,
 				<em>GRAMMAIRE QUECQUE D'APRES LA METHODE COMPARATIVE ET HISTORIQUE</em>, também em francês
-				de Alexis Chassang, só aparece na 55ª posição. Sobre literatura, somente na 74ª com 2
+				de Alexis Chassang, só apareceu na 55ª posição. Sobre literatura, somente na 74ª com 2
 				indicações de Thomas Alan Sinclair,
 				<em>A HISTORY OF CLASSICAL GREEK LITERATURE</em>.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
-				Chama a atenção a quantidade de obras estrangeiras em relação ao ensino da lígua grega: dez
+				Chamou a atenção a quantidade de obras estrangeiras em relação ao ensino da lígua grega: dez
 				em inglês, oito em francês, dois em espanhol e uma em italiano.
 			</p>
 

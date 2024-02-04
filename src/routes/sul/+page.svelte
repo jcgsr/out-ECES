@@ -54,7 +54,8 @@
 
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
-	<div class="sul text-black dark:text-papyrus">
+	<div class="flex flex-col text-black m-auto text-center px-10">
+		<!--<div class="sul text-black dark:text-papyrus">-->
 		<h2 class="my-3 text-2xl mt-24">Região Sul</h2>
 		<img
 			src={Zeus}
@@ -90,23 +91,24 @@
 				nome,
 				<em>Gramática Latina</em>, a primeira de Pierre Grimal e a segunda de Roger Noiville. O
 				dicionário latino mais indicado foi de Raulino Bussarelo na 12ª posição com seis indicações,
-				<em>Dicionário básico latino-português</em>. A primeira obra literária aparece apenas na 49ª
-				posição com três indicações, <em>Satyricon</em>, de Petrônio, empatada em número de
+				<em>Dicionário básico latino-português</em>. A primeira obra literária apareceu apenas na
+				49ª posição com três indicações, <em>Satyricon</em>, de Petrônio, empatada em número de
 				indicações com <em>Bucólicas</em> de Virgílio.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
-				A primeira obra referente ao grego é a gramática de Antônio Freire, <em>Gramática grega</em
-				>, com nove indicações na quinta posição. Depois, vem a obra de sintaxe,
+				A primeira obra referente ao grego foi a gramática de Antônio Freire, <em
+					>Gramática grega</em
+				>, com nove indicações na quinta posição. Depois, veio a obra de sintaxe,
 				<em>Syntaxe grecque</em>, de Jean Humbert na 16ª com 6 indicações. Em terceiro lugar, no que
-				se refere apenas ao grego, aparece o curso, <em>Aprendendo Grego</em>, com cinco indicações.
-				O primeiro dicionário grego só aparece na 32ª colocação com 4 indicações,
+				se refere apenas ao grego, apareceu o curso, <em>Aprendendo Grego</em>, com cinco
+				indicações. O primeiro dicionário grego só apareceu na 32ª colocação com 4 indicações,
 				<em>Dicionário grego-português</em>, de Daisi Malhadas. Já a primeira obra literária só
-				aparece na 45ª posição com três indicações,
+				apareceu na 45ª posição com três indicações,
 				<em>Os Trabalhos e os Dias</em>, de Hesíodo.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
-				Obras estrangeiras sem tradução abundam. São, aproximadamente, dizemos "aproximadamente"
-				porque algumas obras não pudemos identificar o idioma:
+				Obras estrangeiras sem tradução abundaram. Foram, aproximadamente, "aproximadamente" porque
+				algumas obras não pudemos identificar o idioma:
 			</p>
 			<ol class="aos-hidden-left my-4" class:aos-show={y >= 780}>
 				<li>220 em inglês</li>
