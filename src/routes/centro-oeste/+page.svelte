@@ -146,7 +146,7 @@
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
-				<TableHeadCell>obra</TableHeadCell>
+				<TableHeadCell>Obra</TableHeadCell>
 				<TableHeadCell>Indicações</TableHeadCell>
 			</TableHead>
 			<TableBody class="divide-y">

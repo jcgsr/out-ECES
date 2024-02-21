@@ -70,42 +70,53 @@
 			></span
 		>
 
-		<h1 class="mt-10"><strong>AEDIFICANDO</strong></h1>
-		<!-- 
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região Sudeste possui dez universidades federais oferecendo +60 cursos de Letras (não
-				estão inclusos os cursos de Libras nessa pesquisa). 13 desses cursos não possuem disciplina
-				referente ao latim ou ao grego. Por outro lado, a UFPB oferece o curso de Letras Clássicas
-				(Latim e Grego). A UFC possui departamento de Letras Clássicas assim como a UFBA.
+				A região Sudeste possui 15 universidades federais oferecendo 59 cursos de Letras (não estão
+				inclusos os cursos de Libras nessa pesquisa). Cinco dessas universidades possuem cursos que
+				não oferecem qualquer disciplina referente ao latim ou ao grego. Por outro lado, a UFRJ tem
+				cursos de Letras Clássicas (Latim e Grego) assim como a UFF.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 155 autores e as 194 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 341 autores e as 506 obras extraídas do <a
 					href={corpus}
 					download="corpus_sudeste"
 					target="_blank">corpus</a
-				>, a mais indicada, 29 vezes, foi um dicionário,
-				<em>Dicionário escolar latino-português</em>. A ele se seguiram a gramática de Napoleão
-				Mendes de Almeida com 14 indicações,
-				<em>Gramática Latina</em>, e um livro de Zélia Almeida Cardoso,
-				<em>Iniciação ao latim</em>, com 13 indicações. E essa é a tônica apresentada na pesquisa em
-				relação aos livros mais indicados: gramática, dicionário, manual/curso. A primeira obra que
-				foge a essa regra é <em>A literatura latina</em>, também de Zélia Almeida Cardoso na oitava
-				posição com 10 indicações.
+				>, a mais indicada, 26 vezes, foi um dicionário,
+				<em>Dicionário latino-português</em> de <em>Francisco Torrinha</em>. A ele se seguiram duas
+				obras de Ernesto Faria: uma gramática, <em>Gramática superior da língua latina</em>, com 22
+				indicações e o seu dicionário, <em>Dicionário escolar latino-português</em>, com 19, que se
+				encontra em
+				<a
+					target="_blank"
+					href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=24675"
+					>domínio público</a
+				>, podendo ser baixado portanto, além de um site em fase de testes,
+				<a target="_blank" href="https://www.dicionariolatino.com/?"
+					>o Dicionário Latino-Português</a
+				>, no qual se pode pesquisar as entradas em latim.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				Sobre fonética, só há uma obra, <em>Fonética Histórica do Latim</em>, de
-				<em>Ernesto Faria</em> com 9 indicações. Obras histórico-literárias (história, dicionário,
-				manual) são 14 livros, dos quais apenas três tratam da literatura grega. E obras literárias,
-				apenas 15 indicações, destacando-se <em>Horácio</em> com a obra <em>Odes e epodos</em> na 43ª
-				posição com apenas 4 sugestões.
+				Interessante destacar que a quarta obra mais indicada, 18 vezes, foi um dicionário de língua
+				estrangeira de Anatole Bailly, <em>Dictionnaire Grec-français</em>, sendo ela tanto a obra
+				relativa ao grego quanto estrangeira melhor colocada considerando-se todas as cinco regiões
+				geográficas brasileiras.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				Obras estrangeiras sem tradução são 6: 3 em francês (literatura), 1 em alemão (dicionário),
-				1 em espanhol (gramática grega) e 1 em inglês (manual). Materiais disponíveis on-line são 4:
-				1 curso de latim (inglês) e 3 três artigos, sendo 2 em português e um em inglês.
+				A primeira obra literária apareceu na 25ª posição com dez indicações, <em>Odisseia</em>, de
+				Homero. Obras histórico-literárias foram 19 ao todo, sendo <em>A Literatura Latina</em> de Zélia
+				de Almeida Cardoso a mais indicada, 13 vezes.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
+				Obras (gramáticas, manuais, dicionários, mitologia etc.) relativas ao idioma grego foram 77:
+				37 em português, 25 em inglês, oito em francês, seis em espanhol e uma italiano. Obras no
+				idioma latino foram 11, dentre elas <em
+					>ANTIPHONTIS ORATIONES ET FRAGMENTA: adivnctis Gorgiae, Antisthenis, Alcidamantis,
+					declamationibvs</em
+				>, <em>Catullus, Tibullus, Pervigilium veneris</em>, <em>Epistulae ad familiares</em> e
+				<em>Homeri Odyssea</em>.
+			</p>
+			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
 				<Info />
 			</p>
 		</section>
@@ -154,10 +165,7 @@
 			<TableBody class="divide-y">
 				{#if isAutor}
 					{#each filteredAuthors as item}
-                      <TableBodyRow>
-   -->
-		<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>-->
-		<!-- 
+						<TableBodyRow>
 							<TableBodyCell>{item.id}</TableBodyCell>
 							<TableHeadCell>
 								<a
@@ -176,10 +184,10 @@
 					{/each}
 				{:else}
 					{#each filteredBooks as item}<TableBodyRow>
-                      <TableBodyCell>{item.id}</TableBodyCell> -->
-		<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>
+							<TableBodyCell>{item.id}</TableBodyCell>
+							<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>
                             -->
-		<!-- 
+
 							<TableHeadCell>
 								<a
 									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
@@ -267,7 +275,7 @@
 					</td>
 				</tr>
 			{/each}
-        </table>-->
+		</table>
 	</div>
 </section>
 

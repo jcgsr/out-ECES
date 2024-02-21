@@ -2,6 +2,7 @@
 	import Seo from '../lib/seo.svelte';
 	import Coliseu from '$lib/img/coliseu.jpg';
 
+	import corpus from '../lib/doc/corpusEC.txt';
 	// aos
 	let y;
 </script>
@@ -23,37 +24,111 @@
 	>
 	<section class="w-3/4 m-auto py-3 text-left text-black dark:text-papyrus">
 		<p class="aos-hidden-left" class:aos-show={y >= 40}>
-			1 Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam
-			qui ipsorum lingua Celtae, nostra Galli appellantur. 2 Hi omnes lingua, institutis, legibus
-			inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. 3
-			Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae
-			longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos
-			animos pertinent important, 4 proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum
-			continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt,
-			quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut
-			ipsi in eorum finibus bellum gerunt. 5 Eorum una pars, quam Gallos obtinere dictum est,
-			initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum,
-			attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. 6 Belgae ab
-			extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in
-			septentrionem et orientem solem. 7 Aquitania a Garumna flumine ad Pyrenaeos montes et eam
-			partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus saepe itaque, doloremque
-			alias neque consequuntur est velit impedit culpa dolor quam eius expedita eveniet consectetur
-			nobis molestiae dolorem iste nisi.
+			O presente site foi fruto da pesquisa de mestrado no Programa de Pós-Graduação em Letras <a
+				target="_blank"
+				href="https://www.sigaa.ufs.br/sigaa/public/programa/portal.jsf?id=241">(PPGL)</a
+			>
+			da <a target="_blank" href="https://www.ufs.br/">Universidade Federal de Sergipe</a> na área
+			de concentração <strong>Estudos Linguísticos</strong>, linha de pesquisa
+			<strong>Linguagem, Usos e Tecnologias</strong>, sob a orientação do Professor Doutor
+			<a
+				target="_blank"
+				href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=C6B88122E3CDD568AC6FA7673D43F38C.buscatextual_0"
+				>Cezar Alexandre Neri Santos</a
+			>.
 		</p>
 		<p class="aos-hidden-right my-4" class:aos-show={y >= 80}>
-			1 Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix. Is M. Messala, [et P.] M.
-			Pisone consulibus regni cupiditate inductus coniurationem nobilitatis fecit et civitati
-			persuasit ut de finibus suis cum omnibus copiis exirent: 2 perfacile esse, cum virtute omnibus
-			praestarent, totius Galliae imperio potiri. 3 Id hoc facilius iis persuasit, quod undique loci
-			natura Helvetii continentur: una ex parte flumine Rheno latissimo atque altissimo, qui agrum
-			Helvetium a Germanis dividit; altera ex parte monte Iura altissimo, qui est inter Sequanos et
-			Helvetios; tertia lacu Lemanno et flumine Rhodano, qui provinciam nostram ab Helvetiis
-			dividit. 4 His rebus fiebat ut et minus late vagarentur et minus facile finitimis bellum
-			inferre possent; 5 qua ex parte homines bellandi cupidi magno dolore adficiebantur. 6 Pro
-			multitudine autem hominum et pro gloria belli atque fortitudinis angustos se fines habere
-			arbitrabantur, qui in longitudinem milia passuum CCXL, in latitudinem CLXXX patebant.
+			O objetivo geral dessa pesquisa foi retratar o quadro teórico e referencial do
+			ensino-aprendizagem de língua e literatura latina e grega nos estabelecimentos federais de
+			ensino superior no Brasil contemporâneo. Já os objetivos específicos foram compilar e
+			disponibilizar um <a href={corpus} download="corpusECBrasil" target="_blank">corpus</a>
+			mediante esse site para divulgação científica a partir das ementas, PPCs e ementários das universidades
+			federais assim como identificar quais obras e autores são utilizados para atestar tradições pedagógicas
+			e bibliográficas.
 		</p>
+		<p class="aos-hidden-left my-4" class:aos-show={y >= 120}>
+			Esperamos que, com esse site, seja criada uma rede de aprendizagem acerca dos Estudos
+			Clássicos (Latim e Grego) para que qualquer interessado nessas duas línguas possa ter acesso
+			ao que é estudado nas universidades públicas federais pelo Brasil.
+		</p>
+		<p class="aos-hidden-right my-4" class:aos-show={y >= 160}>
+			Nas abas (nordeste, norte etc.), há detalhadamente todas as obras e autores indicados em cada
+			região brasileira. Pode-se fazer o download do corpus específico daquela região também. Quem
+			tiver interesse, pode acessar (em breve) a dissertação com todas as análises referentes a essa
+			pesquisa na <a target="_blank" href="https://ri.ufs.br/handle/riufs/2145"
+				>Biblioteca Digital de Teses e Dissertações</a
+			> da UFS.
+		</p>
+		<p class="aos-hidden-left my-4" class:aos-show={y >= 200}>
+			Abaixo, está uma tabela com as dez obras mais utilizadas no Brasil.
+		</p>
+		<table>
+			<tr>
+				<th>Posição</th>
+				<th>Autor</th>
+				<th>Obra</th>
+				<th>Indicações</th>
+			</tr>
+			<tr>
+				<td>1ª</td>
+				<td>Zélia de Almeida Cardoso</td>
+				<td>Iniciação ao latim</td>
+				<td>84</td>
+			</tr>
+			<tr>
+				<td>2ª</td> <td>Ernesto Faria</td>
+				<td>Dicionário escolar latino-português</td>
+				<td>62</td>
+			</tr>
+			<tr>
+				<td>3ª</td>
+				<td>Zélia de Almeida Cardoso</td>
+				<td>A Literatura Latina</td>
+				<td>49</td>
+			</tr>
+			<tr>
+				<td>4ª</td> <td>Ernesto Faria</td>
+				<td>Gramática Superior da Língua latina</td>
+				<td>46</td>
+			</tr>
+			<tr>
+				<td>5ª</td>
+				<td>Paulo Rónai</td>
+				<td>Gradus Primus</td>
+				<td>40</td>
+			</tr>
+
+			<tr>
+				<td>6ª</td> <td>Napoleão Mendes de Almeida</td>
+				<td>Gramática latina: curso único e completo</td>
+				<td>39</td>
+			</tr>
+			<tr>
+				<td>7ª</td>
+				<td>Damião Berge</td>
+				<td>Ars Latina</td>
+				<td>37</td>
+			</tr>
+			<tr>
+				<td>8ª</td>
+				<td>F. R. dos Santos Saraiva</td>
+				<td>Novíssimo dicionário latino-português</td>
+				<td>37</td>
+			</tr>
+
+			<tr>
+				<td>9ª</td>
+				<td>Janete Melasso Garcia</td>
+				<td>Introdução à teoria e prática do latim</td>
+				<td>35</td>
+			</tr>
+			<tr>
+				<td>10ª</td>
+				<td>Maria Helena da Rocha Pereira</td>
+				<td> Estudos de história da cultura clássica</td>
+				<td>34</td>
+			</tr>
+		</table>
 	</section>
 </div>
 <Seo
@@ -67,6 +142,16 @@
 	h1 {
 		text-align: center;
 		font-size: 1.5rem;
+	}
+	a {
+		text-decoration: underline;
+	}
+	table,
+	th,
+	td {
+		border: 1px solid;
+		padding: 0.5rem;
+		text-align: center;
 	}
 	.aos-hidden-left {
 		opacity: 0;
