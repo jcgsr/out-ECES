@@ -62,7 +62,7 @@
 		<p class="aos-hidden-left my-4" class:aos-show={y >= 200}>
 			Abaixo, está uma tabela com as dez obras mais utilizadas no Brasil.
 		</p>
-		<table>
+		<table class="m-auto">
 			<tr>
 				<th>Posição</th>
 				<th>Autor</th>
