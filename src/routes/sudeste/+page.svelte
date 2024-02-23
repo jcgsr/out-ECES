@@ -56,13 +56,13 @@
 <svelte:window bind:scrollY={y} />
 <section class="flex flex-col m-auto text-center">
 	<div class="flex flex-col text-black m-auto text-center px-10">
-		<h2 class="my-3 text-2xl mt-24">Região Sudeste</h2>
+		<h2 class="my-3 text-2xl mt-24 dark:text-papyrus">Região Sudeste</h2>
 		<img
 			src={Templum}
 			alt="Imagem de uma Águia Romana"
 			class="w-4/5 md:max-w-screen-md lg:max-w-lg justify-center m-auto opacity-75 rounded-lg"
 		/>
-		<span class="text-xs mt-2 text-papyrusultradark"
+		<span class="text-xs mt-2 text-papyrusultradark dark:text-papyrus"
 			>Foto de <a
 				class="underline"
 				href="https://www.pexels.com/pt-br/foto/heranca-patrimonio-sucessao-envelhecido-4558414/
@@ -70,7 +70,7 @@
 			></span
 		>
 
-		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
+		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left dark:text-papyrus">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
 				A região Sudeste possui 15 universidades federais oferecendo 59 cursos de Letras (não estão
 				inclusos os cursos de Libras nessa pesquisa). Cinco dessas universidades possuem cursos que
@@ -120,7 +120,7 @@
 				<Info />
 			</p>
 		</section>
-		<h3 class="mb-2 text-xl">Autores e obras</h3>
+		<h3 class="mb-2 text-xl dark:text-papyrus">Autores e obras</h3>
 		{#if isChecked}
 			<input
 				bind:this={inputSearch}
@@ -155,7 +155,7 @@
 			{/if}</button
 		>
 		<button on:click={sendBack} class="arrow-up"><a href="#top"><ArrowUp {size} /></a></button>
-		<Table striped={true} shadow hoverable={true} class="text-sm">
+		<Table striped={true} shadow hoverable={true} class="text-sm dark:text-papyrus">
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
@@ -208,9 +208,9 @@
 		</Table>
 		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
-		<h3 class="my-4 text-xl">Universidades, cursos e ementários</h3>
+		<h3 class="my-4 text-xl dark:text-papyrus">Universidades, cursos e ementários</h3>
 		<table
-			class="aos-hidden-bottom border text-sm md:text-lg m-auto mb-8"
+			class="aos-hidden-bottom border text-sm md:text-lg m-auto mb-8 dark:text-papyrus"
 			class:aos-show={y >= 500}
 		>
 			<tr class="border p-1 md:p-3">
@@ -302,19 +302,19 @@
 	.aos-hidden-left {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(-100%);
+		/*transform: translateX(-100%);*/
 		transition: all 1s;
 	}
 	.aos-hidden-right {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(100%);
+		/*transform: translateX(100%);*/
 		transition: all 1s;
 	}
 	.aos-hidden-bottom {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateY(100%);
+		/*transform: translateY(100%);*/
 		transition: all 1s;
 	}
 

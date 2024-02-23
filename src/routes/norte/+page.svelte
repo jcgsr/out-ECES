@@ -54,10 +54,10 @@
 </script>
 
 <svelte:window bind:scrollY={y} />
-<section class="flex flex-col m-auto text-center">
+<section class="flex flex-col m-auto text-center dark:text-papyrus">
 	<div class="flex flex-col text-black m-auto text-center px-10">
 		<!--<div class="norte text-black dark:text-papyrus">-->
-		<h2 class="my-3 text-2xl mt-24">Região Norte</h2>
+		<h2 class="my-3 text-2xl mt-24 dark:text-papyrus">Região Norte</h2>
 		<img
 			src={Eagle}
 			alt="Imagem de uma Águia Romana"
@@ -69,7 +69,7 @@
 			></span
 		>
 
-		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left">
+		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left dark:text-papyrus">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
 				A região Norte possui dez universidades federais oferecendo um total de 33 cursos de Letras
 				(não estão inclusos os cursos de Libras nessa pesquisa), dos quais apenas quatro não têm
@@ -107,7 +107,7 @@
 				<Info />
 			</p>
 		</section>
-		<h3 class="mb-2 text-xl">Autores e obras</h3>
+		<h3 class="mb-2 text-xl dark:text-papyrus">Autores e obras</h3>
 		{#if isChecked}
 			<input
 				bind:this={inputSearch}
@@ -142,7 +142,7 @@
 			{/if}</button
 		>
 		<button on:click={sendBack} class="arrow-up"><a href="#top"><ArrowUp {size} /></a></button>
-		<Table striped={true} shadow hoverable={true} class="text-sm">
+		<Table striped={true} shadow hoverable={true} class="text-sm dark:text-papyrus">
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
 				<TableHeadCell>Autor</TableHeadCell>
@@ -223,9 +223,9 @@
 		<!-- </table> -->
 		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
-		<h3 class="my-4 text-xl">Universidades, cursos e ementários</h3>
+		<h3 class="my-4 text-xl dark:text-papyrus">Universidades, cursos e ementários</h3>
 		<table
-			class="aos-hidden-bottom border text-sm md:text-lg m-auto mb-8"
+			class="aos-hidden-bottom border text-sm md:text-lg m-auto mb-8 dark:text-papyrus"
 			class:aos-show={y >= 500}
 		>
 			<tr class="border p-1 md:p-3">
@@ -316,20 +316,20 @@
 	.aos-hidden-left {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(-100%);
-		transition: all 1s;
+		/*transform: translateX(-100%);*/
+		transition: all 1.3s;
 	}
 	.aos-hidden-right {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(100%);
-		transition: all 1s;
+		/*transform: translateX(100%);*/
+		transition: all 1.3s;
 	}
 	.aos-hidden-bottom {
 		opacity: 0;
 		filter: blur(3px);
 		transform: translateY(100%);
-		transition: all 1s;
+		transition: all 1.3s;
 	}
 
 	.aos-show {
