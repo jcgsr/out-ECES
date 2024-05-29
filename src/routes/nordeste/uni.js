@@ -473,5 +473,48 @@ export let uni = [
 			e9: '',
 			el9: ''
 		}
+	},
+	{
+		id: 12,
+		uni_nome: 'UFS',
+		uni_link: 'https://www.ufs.br/',
+		cursos: {
+			c1: 'Letras',
+			cl1: 'https://www.sigaa.ufs.br/sigaa/public/curso/curriculo.jsf?lc=en_US&id=11260461',
+			e1: 'ementa',
+			el1: 'https://www.sigaa.ufs.br/sigaa/link/public/curso/curriculo/1007142',
+			c2: '',
+			cl2: '',
+			e2: '',
+			el2: '',
+			c3: '',
+			cl3: '',
+			e3: '',
+			el3: '',
+			c4: '',
+			cl4: '',
+			e4: '',
+			el4: '',
+			c5: '',
+			cl5: '',
+			e5: '',
+			el5: '',
+			c6: '',
+			cl6: '',
+			e6: '',
+			el6: '',
+			c7: '',
+			cl7: '',
+			e7: '',
+			el7: '',
+			c8: '',
+			cl8: '',
+			e8: '',
+			el8: '',
+			c9: '',
+			cl9: '',
+			e9: '',
+			el9: ''
+		}
 	}
 ];

@@ -72,26 +72,26 @@
 		>
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left dark:text-papyrus">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região Nordeste possui 12 universidades federais oferecendo 60 cursos de Letras (não estão
+				A região Nordeste possui 12 universidades federais oferecendo 63 cursos de Letras (não estão
 				inclusos os cursos de Libras nessa pesquisa). 13 desses cursos não possuem disciplina
 				referente ao latim ou ao grego. Por outro lado, a UFPB oferece o curso de Letras Clássicas
 				(Latim e Grego). A UFC possui departamento de Letras Clássicas assim como a UFBA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 220 autores e as 277 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 222 autores e as 282 obras extraídas do <a
 					href={corpus}
 					download="corpus_nordeste"
 					target="_blank">corpus</a
-				>, a mais indicada, 33 vezes, foi um livro de Zélia de Almeida Cardoso,
+				>, a mais indicada, 34 vezes, foi um livro de Zélia de Almeida Cardoso,
 				<em>Iniciação ao latim</em>. A ela se seguiram a gramática de Napoleão Mendes de Almeida com
-				30 indicações,
+				31 indicações,
 				<em>Gramática Latina</em>, e um dicionário de literatura de Paul Harvey,
 				<em>Dicionário Oxford de literatura clássica grega e latina</em>, com 21 indicações.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
 				Ao todo, foram 21 dicionários indicados, sendo o promeiro o já mencionado de Paul Harvey. O
 				segundo lugar dos dicionários foi o <em>Dicionário escolar latino-português</em> de Ernesto
-				Faria com 19 indicações. Vale lembrar que esse famoso dicionário encontra-se em
+				Faria com 20 indicações. Vale lembrar que esse famoso dicionário encontra-se em
 				<a
 					target="_blank"
 					href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=24675"
