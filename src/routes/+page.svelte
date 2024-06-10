@@ -23,7 +23,7 @@
 		</a></span
 	>
 	<section class="w-3/4 m-auto py-3 text-left text-black dark:text-papyrus">
-		<p class="aos-hidden-left" class:aos-show={y >= 40}>
+		<p class="aos-hidden-left" class:aos-show={y >= 10}>
 			O presente site foi fruto da pesquisa de mestrado no Programa de Pós-Graduação em Letras <a
 				target="_blank"
 				href="https://www.sigaa.ufs.br/sigaa/public/programa/portal.jsf?id=241">(PPGL)</a
@@ -155,19 +155,19 @@
 	}
 	.aos-hidden-left {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		/*transform: translateX(-100%);*/
 		transition: all 1.3s;
 	}
 	.aos-hidden-right {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		/*transform: translateX(100%);*/
 		transition: all 1.3s;
 	}
 	.aos-hidden-bottom {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		transform: translateY(100%);
 		transition: all 1.3s;
 	}

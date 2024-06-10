@@ -315,19 +315,19 @@
 	}
 	.aos-hidden-left {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		/*transform: translateX(-100%);*/
 		transition: all 1.3s;
 	}
 	.aos-hidden-right {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		/*transform: translateX(100%);*/
 		transition: all 1.3s;
 	}
 	.aos-hidden-bottom {
 		opacity: 0;
-		filter: blur(3px);
+		filter: blur(1px);
 		transform: translateY(100%);
 		transition: all 1.3s;
 	}
