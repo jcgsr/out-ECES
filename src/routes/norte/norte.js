@@ -883,7 +883,7 @@ export let norte = [
     id: increment(getCount),
     autor: 'CONNORS, MOLLY',
     aparic: 1,
-    obra: 'Pro Lingua Latina (In defense of the Latin Language)'
+    obra: 'Pro Lingua Latina (In defense of the Latin Language)*'
   },
 
   {
@@ -975,7 +975,7 @@ export let norte = [
     id: increment(getCount),
     autor: 'LEHMANN, Winfred P',
     aparic: 1,
-    obra: 'Latin online: series introduction'
+    obra: 'Latin online: series introduction*'
   },
   {
     id: increment(getCount),
@@ -1050,7 +1050,7 @@ export let norte = [
     id: increment(getCount),
     autor: 'MARTINS, Maria Cristina',
     aparic: 1,
-    obra: 'A língua latina: sua origem, variedades, desdobramentos'
+    obra: 'A língua latina: sua origem, variedades, desdobramentos*'
   },
   {
     id: increment(getCount),
@@ -1104,7 +1104,7 @@ export let norte = [
     id: increment(getCount),
     autor: 'NUNES, Ana Maria da Silva',
     aparic: 1,
-    obra: 'A LÍNGUA LATINA: um rio que flui por baixo de uma camada de gelo'
+    obra: 'A LÍNGUA LATINA: um rio que flui por baixo de uma camada de gelo*'
   },
   {
     id: increment(getCount),
