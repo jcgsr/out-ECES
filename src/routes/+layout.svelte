@@ -64,13 +64,13 @@
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-xl text-black hover:text-white duration-500"
-					href="/sul">sul</a
+					href="/sudeste"
+					class="text-xl text-black hover:text-white duration-500">sudeste</a
 				>
 				<a
 					on:click={toggleNavbar}
-					href="/sudeste"
-					class="text-xl text-black hover:text-white duration-500">sudeste</a
+					class="text-xl text-black hover:text-white duration-500"
+					href="/sul">sul</a
 				>
 			</div>
 		</nav>
@@ -85,7 +85,7 @@
 		</div>
 	{/key}
 	<footer
-		class="flex flex-col mt-auto text-center bg-papyrusultradark dark:bg-gradient-to-r from-black via-papyrusdark to-papyrusultradark  text-papyrus opacity-90"
+		class="flex flex-col mt-auto text-center bg-papyrusultradark dark:bg-gradient-to-r from-black via-papyrusdark to-papyrusultradark text-papyrus opacity-90"
 	>
 		<hr />
 		<p class="my-2">
@@ -96,4 +96,3 @@
 		</p>
 	</footer>
 </div>
-
