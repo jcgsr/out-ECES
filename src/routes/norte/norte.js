@@ -392,18 +392,6 @@ export let norte = [
   },
   {
     id: increment(getCount),
-    autor: 'GOULART, Audemaro Taranto',
-    aparic: 2,
-    obra: 'Estudo dirigido de gramática histórica e teoria da literatura'
-  },
-  {
-    id: increment(getCount),
-    autor: 'MELO, Gladstone Chaves de',
-    aparic: 2,
-    obra: 'Iniciação à filologia e à linguística portuguesa'
-  },
-  {
-    id: increment(getCount),
     autor: 'NEVES, Roberto de Souza',
     aparic: 3,
     obra: 'Dicionário de expressões latinas usuais'
@@ -578,7 +566,13 @@ export let norte = [
     autor: 'GONCALVES, Maximiano Augusto',
     aparic: 2,
     obra: 'Eneida de Virgílio'
+  }, {
+    id: increment(getCount),
+    autor: 'GOULART, Audemaro Taranto',
+    aparic: 2,
+    obra: 'Estudo dirigido de gramática histórica e teoria da literatura'
   },
+
   {
     id: increment(getCount),
     autor: 'HAMILTON, Edith',
@@ -640,7 +634,13 @@ export let norte = [
     autor: 'MATEUS, Maria Helena et alli',
     aparic: 2,
     obra: 'Gramática da Língua Portuguesa'
+  }, {
+    id: increment(getCount),
+    autor: 'MELO, Gladstone Chaves de',
+    aparic: 2,
+    obra: 'Iniciação à filologia e à linguística portuguesa'
   },
+
   {
     id: increment(getCount),
     autor: 'NERICI, Emidio Giuseppe',
