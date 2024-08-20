@@ -517,12 +517,6 @@ export let sul = [
     id: increment(getCount),
     autor: 'GRIMAL, P.',
     aparic: 2,
-    obra: 'Dicionário da mitologia grega e romana'
-  },
-  {
-    id: increment(getCount),
-    autor: 'GRIMAL, P.',
-    aparic: 2,
     obra: "Guide de l'étudiant latiniste"
   },
   {
