@@ -1059,12 +1059,6 @@ export let nordeste = [
   },
   {
     id: increment(getCount),
-    autor: 'CÍCERO',
-    aparic: 1,
-    obra: 'Correspondance'
-  },
-  {
-    id: increment(getCount),
     autor: 'CITRONI, M.',
     aparic: 1,
     obra: 'Literatura de Roma Antiga'
