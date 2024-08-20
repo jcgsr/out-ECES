@@ -2923,18 +2923,6 @@ export let sul = [
   },
   {
     id: increment(getCount),
-    autor: 'SHACKLETON BAILEY, D. R.',
-    aparic: 1,
-    obra: 'Martial, Epigrams'
-  },
-  {
-    id: increment(getCount),
-    autor: 'SHACKLETON BAILEY, D. R.',
-    aparic: 1,
-    obra: 'Statius, Thebaid'
-  },
-  {
-    id: increment(getCount),
     autor: 'SIDWELL, K.',
     aparic: 1,
     obra: 'Reading Medieval Latin'
