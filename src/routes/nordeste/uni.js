@@ -135,7 +135,7 @@ export let uni = [
 		uni_link: 'https://www.ufpb.br/',
 		cursos: {
 			c1: 'Letras Clássicas',
-			cl1: 'https://www.cchla.ufpb.br/cchla',
+			cl1: 'http://www.cchla.ufpb.br/clc',
 			e1: 'ppc',
 			el1: 'http://www.cchla.ufpb.br/clc/contents/documentos/ppc-letras-classicas-2018.pdf',
 			c2: 'Língua Espanhola',
