@@ -2729,12 +2729,6 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'SENECA',
-    aparic: 1,
-    obra: 'Moral Essays'
-  },
-  {
-    id: increment(getCount),
     autor: 'SÊNECA',
     aparic: 1,
     obra: 'Agamêmnon'
