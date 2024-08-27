@@ -21,12 +21,6 @@ export let sul = [
   },
   {
     id: increment(getCount),
-    autor: 'NOIVILLE, J.L.R. ',
-    aparic: 13,
-    obra: 'Gramática latina'
-  },
-  {
-    id: increment(getCount),
     autor: 'AMARANTE, J. ',
     aparic: 12,
     obra: 'Latinitas: leitura de textos em língua latina. Fábulas mitológicas e esópicas, epigramas, epístolas'
