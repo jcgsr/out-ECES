@@ -4,7 +4,7 @@
 	import { sudeste } from './sudeste.js';
 	import { uni } from './uni.js';
 	import corpus from './corpus_Sudeste.txt';
-	import ArrowUp from 'svelte-material-icons/ArrowUpBoldBoxOutline.svelte';
+	import Magnify from 'svelte-material-icons/Magnify.svelte';
 	import Info from '../../components/info.svelte';
 	export let size = '3rem';
 
@@ -154,7 +154,7 @@
 				pesquisar por autor
 			{/if}</button
 		>
-		<button on:click={sendBack} class="arrow-up"><a href="#top"><ArrowUp {size} /></a></button>
+		<button on:click={sendBack} class="arrow-up"><a href="#top"><Magnify {size} /></a></button>
 		<Table striped={true} shadow hoverable={true} class="text-sm dark:text-papyrus">
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>
