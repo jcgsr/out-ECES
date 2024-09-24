@@ -78,7 +78,7 @@
 				(Latim e Grego). A UFC possui departamento de Letras Clássicas assim como a UFBA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 222 autores e as 282 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 222 autores e as 281 obras extraídas do <a
 					href={corpus}
 					download="corpus_nordeste"
 					target="_blank">corpus</a
@@ -89,7 +89,7 @@
 				<em>Dicionário Oxford de literatura clássica grega e latina</em>, com 21 indicações.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				Ao todo, foram 21 dicionários indicados, sendo o promeiro o já mencionado de Paul Harvey. O
+				Ao todo, foram 26 dicionários indicados, sendo o promeiro o já mencionado de Paul Harvey. O
 				segundo lugar dos dicionários foi o <em>Dicionário escolar latino-português</em> de Ernesto
 				Faria com 20 indicações. Vale lembrar que esse famoso dicionário encontra-se em
 				<a
@@ -98,17 +98,18 @@
 					>domínio público</a
 				>, podendo ser baixado portanto. E ele ainda conta com um site em fase de testes, o
 				<a target="_blank" href="https://www.dicionariolatino.com/?">Dicionário Latino-Português</a
-				>, no qual se pode pesquisar as entradas em latim. Dicionário de grego só apareceu na 32ª
-				posição com 9 indicalções, <em>Dicionário grego-português e português-grego</em> de Isidro Pereira.
+				>, no qual se pode pesquisar as entradas em latim. Dicionário de grego só apareceu na 27ª
+				posição com dez indicações, <em>Abridged from Liddell & Scott's Greek-English léxicon</em> de
+				Robert Scott.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				Gramáticas foram, no total, 22 indicações: 18 em português (12 latinas e seis gregas), duas
+				Gramáticas foram, no total, 28 indicações: 19 em português (13 latinas e seis gregas), duas
 				em francês (uma latina e outra comparada latim e grego), duas em inglês (uma grega e outra
-				comparada de grego e latim).
+				comparada de grego e latim) e uma em italiano.
 			</p>
 
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
-				Obras histórico-literárias foram 17 aparições, sendo a mais indicada a <em
+				Obras histórico-literárias foram 18 aparições, sendo a mais indicada a <em
 					>Literatura Latina</em
 				>
 				de Zélia de Almeida Cardoso com 18 indicações. E literárias, 57, tendo Homero como o mais indicado

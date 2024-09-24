@@ -82,26 +82,24 @@
 					href={corpus}
 					download="corpus_sul"
 					target="_blank">corpus</a
-				>, que apresenta 548 obras e 442 autores.
+				>, que apresenta 544 obras e 441 autores.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 380} />
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
 				A obra mais indicada, 17 vezes, foi <em>Iniciação ao latim</em> de Zélia de Almeida Cardoso.
-				Na segunda e na terceira posição, com 13 indicações cada, duas gramáticas latinas de mesmo
-				nome,
-				<em>Gramática Latina</em>, a primeira de Pierre Grimal e a segunda de Roger Noiville. O
-				dicionário latino mais indicado foi de Raulino Bussarelo na 12ª posição com seis indicações,
+				Na segunda posição, com 13 indicações, uma gramática latina,
+				<em>Gramática Latina</em>, de Pierre Grimal. O dicionário latino mais indicado foi de
+				Raulino Bussarelo na 11ª posição com seis indicações,
 				<em>Dicionário básico latino-português</em>. A primeira obra literária apareceu apenas na
-				49ª posição com três indicações, <em>Satyricon</em>, de Petrônio, empatada em número de
-				indicações com <em>Bucólicas</em> de Virgílio.
+				44ª posição com três indicações, <em>Os Trabalhos e os Dias</em>, de Hesíodo.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
 				A primeira obra referente ao grego foi a gramática de Antônio Freire, <em
 					>Gramática grega</em
-				>, com nove indicações na quinta posição. Depois, veio a obra de sintaxe,
+				>, com nove indicações na 4ª posição. Depois, veio a obra de sintaxe,
 				<em>Syntaxe grecque</em>, de Jean Humbert na 16ª com 6 indicações. Em terceiro lugar, no que
 				se refere apenas ao grego, apareceu o curso, <em>Aprendendo Grego</em>, com cinco
-				indicações. O primeiro dicionário grego só apareceu na 32ª colocação com 4 indicações,
+				indicações. O primeiro dicionário grego só apareceu na 31ª colocação com 4 indicações,
 				<em>Dicionário grego-português</em>, de Daisi Malhadas. Já a primeira obra literária só
 				apareceu na 45ª posição com três indicações,
 				<em>Os Trabalhos e os Dias</em>, de Hesíodo.

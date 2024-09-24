@@ -78,7 +78,7 @@
 				cursos de Letras Clássicas (Latim e Grego) assim como a UFF.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 341 autores e as 506 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 341 autores e as 504 obras extraídas do <a
 					href={corpus}
 					download="corpus_sudeste"
 					target="_blank">corpus</a
