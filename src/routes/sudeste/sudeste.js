@@ -17,6 +17,16 @@ export let sudeste = [
     autor: 'FARIA, E.',
     aparic: 22,
     obra: 'Gramática superior da língua latina'
+  }, {
+    id: increment(getCount),
+    autor: 'BAILLY, A.',
+    aparic: 20,
+    obra: 'Dictionnaire Grec-français'
+  }, {
+    id: increment(getCount),
+    autor: 'SANTOS SOBRINHO, José Amarante',
+    aparic: 20,
+    obra: 'Latinitas: leitura de textos em língua latina'
   },
   {
     id: increment(getCount),
@@ -24,29 +34,55 @@ export let sudeste = [
     aparic: 19,
     obra: 'Dicionário escolar latino-português'
   },
-  {
-    id: increment(getCount),
-    autor: 'BAILLY, A.',
-    aparic: 18,
-    obra: 'Dictionnaire Grec-français'
-  },
+
   {
     id: increment(getCount),
     autor: 'PEREIRA, Maria Helena da Rocha',
-    aparic: 18,
+    aparic: 19,
     obra: 'Estudos de história da cultura clássica'
+  }, {
+    id: increment(getCount),
+    autor: 'CARDOSO, Zélia de Almeida',
+    aparic: 18,
+    obra: 'Iniciação ao latim'
   },
   {
     id: increment(getCount),
     autor: 'ERNOUT, A',
-    aparic: 17,
+    aparic: 18,
     obra: 'Syntaxe Latine'
+  }, {
+    id: increment(getCount),
+    autor: 'SARAIVA, F. R. dos S.',
+    aparic: 18,
+    obra: 'Novíssimo dicionário latino-português'
+  }, {
+    id: increment(getCount),
+    autor: 'JONES, Peter V.',
+    aparic: 17,
+    obra: 'Aprendendo Latim. Gramática, Vocabulário, Exercícios e Textos'
   },
   {
     id: increment(getCount),
-    autor: 'SANTOS SOBRINHO, José Amarante',
+    autor: 'GRIMAL, P',
     aparic: 16,
-    obra: 'Latinitas: leitura de textos em língua latina'
+    obra: 'A civilização romana'
+  },
+  {
+    id: increment(getCount),
+    autor: 'CARDOSO, Zélia de Almeida',
+    aparic: 15,
+    obra: 'A Literatura Latina'
+  }, {
+    id: increment(getCount),
+    autor: 'FARIA, E.',
+    aparic: 15,
+    obra: 'Fonética histórica do latim'
+  }, {
+    id: increment(getCount),
+    autor: 'PARATORE, Ettore',
+    aparic: 15,
+    obra: 'História da literatura latina'
   },
   {
     id: increment(getCount),
@@ -54,35 +90,24 @@ export let sudeste = [
     aparic: 15,
     obra: 'Gramática Grega'
   },
+
+
   {
     id: increment(getCount),
-    autor: 'CARDOSO, Zélia de Almeida',
-    aparic: 14,
-    obra: 'Iniciação ao latim'
-  },
-  {
-    id: increment(getCount),
-    autor: 'JONES, Peter V.',
-    aparic: 14,
-    obra: 'Aprendendo Latim. Gramática, Vocabulário, Exercícios e Textos'
-  },
-  {
-    id: increment(getCount),
-    autor: 'SARAIVA, F. R. dos S.',
-    aparic: 14,
-    obra: 'Novíssimo dicionário latino-português'
-  },
-  {
-    id: increment(getCount),
-    autor: 'CARDOSO, Zélia de Almeida',
+    autor: 'HOMERO',
     aparic: 13,
-    obra: 'A Literatura Latina'
+    obra: 'Odisseia'
   },
   {
     id: increment(getCount),
     autor: 'STAIGER, Emil',
     aparic: 13,
     obra: 'Conceitos fundamentais da poética'
+  }, {
+    id: increment(getCount),
+    autor: 'CONTE, G. B.',
+    aparic: 12,
+    obra: 'Latin Literature - A History'
   },
   {
     id: increment(getCount),
@@ -90,12 +115,7 @@ export let sudeste = [
     aparic: 12,
     obra: 'Morphologie historique du latin'
   },
-  {
-    id: increment(getCount),
-    autor: 'GRIMAL, P',
-    aparic: 12,
-    obra: 'A civilização romana'
-  },
+
   {
     id: increment(getCount),
     autor: 'GRIMAL, P',
@@ -108,12 +128,7 @@ export let sudeste = [
     aparic: 12,
     obra: 'Dicionário Oxford de literatura clássica grega e latina'
   },
-  {
-    id: increment(getCount),
-    autor: 'PARATORE, Ettore',
-    aparic: 12,
-    obra: 'História da literatura latina'
-  },
+
   {
     id: increment(getCount),
     autor: 'COSTA, Aída',
@@ -134,27 +149,31 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'FARIA, E.',
-    aparic: 11,
-    obra: 'Fonética histórica do latim'
+    autor: 'ARISTÓTELES; HORÁCIO; LONGINO',
+    aparic: 10,
+    obra: 'A Poética clássica'
   },
   {
     id: increment(getCount),
     autor: 'HORTA, Guida N. B. Parreiras',
     aparic: 11,
     obra: 'Os Gregos e seu Idioma'
+  }, {
+    id: increment(getCount),
+    autor: 'BRANDÃO, Jacyntho L.',
+    aparic: 10,
+    obra: 'Hellenika – Introdução ao grego antigo.'
+  }, {
+    id: increment(getCount),
+    autor: 'LIDDELL, Henry George ',
+    aparic: 10,
+    obra: 'Greek-English Lexicon'
   },
   {
     id: increment(getCount),
-    autor: 'CONTE, G. B.',
+    autor: 'MALHADAS, Daisi',
     aparic: 10,
-    obra: 'Latin Literature - A History'
-  },
-  {
-    id: increment(getCount),
-    autor: 'HOMERO',
-    aparic: 10,
-    obra: 'Odisseia'
+    obra: 'Dicionário Grego-Português'
   },
   {
     id: increment(getCount),
@@ -173,6 +192,11 @@ export let sudeste = [
     autor: 'BALME et alii',
     aparic: 9,
     obra: 'ATHENAZE: Introduzione al greco antico'
+  }, {
+    id: increment(getCount),
+    autor: 'CART, A.',
+    aparic: 9,
+    obra: 'Gramática Latina'
   },
   {
     id: increment(getCount),
@@ -191,6 +215,11 @@ export let sudeste = [
     autor: 'GOODWIN, William Watson',
     aparic: 9,
     obra: 'Syntax of the moods and tenses of the greek verb'
+  }, {
+    id: increment(getCount),
+    autor: 'HOMERO',
+    aparic: 9,
+    obra: 'Ilíada'
   },
   {
     id: increment(getCount),
@@ -198,12 +227,7 @@ export let sudeste = [
     aparic: 9,
     obra: 'The verb ‘be’ in ancient Greek'
   },
-  {
-    id: increment(getCount),
-    autor: 'LIDDELL, Henry George ',
-    aparic: 9,
-    obra: 'Greek-English Lexicon'
-  },
+
   {
     id: increment(getCount),
     autor: 'RUCK, C. A. P.',
@@ -221,39 +245,60 @@ export let sudeste = [
     autor: 'URMSON, J.O. ',
     aparic: 9,
     obra: 'The Greek Philosophical Vocabulary'
+  }, {
+    id: increment(getCount),
+    autor: 'VIRGÍLIO',
+    aparic: 9,
+    obra: 'Eneida'
+  }, {
+    id: increment(getCount),
+    autor: 'ACHCAR, Francisco',
+    aparic: 8,
+    obra: 'Lírica e lugar-comum'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'ARISTÓTELES ',
+    aparic: 8,
+    obra: 'Poética'
+  },
   {
     id: increment(getCount),
     autor: 'FREIRE, A.',
     aparic: 8,
     obra: 'Gramática latina'
   },
-  {
-    id: increment(getCount),
-    autor: 'MALHADAS, Daisi',
-    aparic: 8,
-    obra: 'Dicionário Grego-Português'
-  },
+
   {
     id: increment(getCount),
     autor: 'MARTINS, Paulo',
     aparic: 8,
     obra: 'Literatura latina'
-  },
-  {
+  }, {
     id: increment(getCount),
-    autor: 'ARISTÓTELES ',
-    aparic: 7,
-    obra: 'Poética'
+    autor: 'MARTIN, R.',
+    aparic: 8,
+    obra: 'Les genres littéraires à Rome'
   },
+
   {
     id: increment(getCount),
     autor: 'CAVALLO, Guglielmo',
     aparic: 7,
     obra: 'O Espaço literário da Roma antiga'
+  }, {
+    id: increment(getCount),
+    autor: 'FREIRE, A.',
+    aparic: 7,
+    obra: 'Gramática grega'
   },
 
+  {
+    id: increment(getCount),
+    autor: 'RAMOS, Péricles Eugênio da Silva',
+    aparic: 7,
+    obra: 'Poesia grega e latina'
+  },
   {
     id: increment(getCount),
     autor: 'SARAIVA, F. ',
@@ -272,12 +317,7 @@ export let sudeste = [
     aparic: 7,
     obra: 'A sociedade romana'
   },
-  {
-    id: increment(getCount),
-    autor: 'VIRGÍLIO',
-    aparic: 7,
-    obra: 'Eneida'
-  },
+
   {
     id: increment(getCount),
     autor: 'ALMENDRA, Maria Ana',
@@ -298,33 +338,31 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'FREIRE, A.',
-    aparic: 6,
-    obra: 'Gramática grega'
-  },
-  {
-    id: increment(getCount),
     autor: 'FUNARI, Pedro P. A.',
     aparic: 6,
     obra: 'Grécia e Roma: Vida pública e vida privada, cultura, pensamento, mitologia, amor e sexualidade'
   },
+
   {
     id: increment(getCount),
-    autor: 'BRANDÃO, Jacyntho L.',
+    autor: 'GRIMAL, Pierre',
     aparic: 6,
-    obra: 'Hellenika – Introdução ao grego antigo.'
-  },
-  {
+    obra: 'O teatro antigo'
+  }, {
     id: increment(getCount),
-    autor: 'HOMERO',
+    autor: 'NOVAK, M. da Glória',
     aparic: 6,
-    obra: 'Ilíada'
-  },
-  {
+    obra: 'Poesia Lírica latina'
+  }, {
     id: increment(getCount),
-    autor: 'MARTIN, R.',
+    autor: 'OVÍDIO',
     aparic: 6,
-    obra: 'Les genres littéraires à Rome'
+    obra: 'Metamorfoses'
+  }, {
+    id: increment(getCount),
+    autor: 'VERNANT, J. P.',
+    aparic: 6,
+    obra: 'Mito e tragédia na Grécia antiga'
   },
   {
     id: increment(getCount),
@@ -332,12 +370,7 @@ export let sudeste = [
     aparic: 6,
     obra: 'O império greco-romano'
   },
-  {
-    id: increment(getCount),
-    autor: 'ACHCAR, Francisco',
-    aparic: 5,
-    obra: 'Lírica e lugar-comum'
-  },
+
   {
     id: increment(getCount),
     autor: 'ALMEIDA, Napoleão Mendes de',
@@ -346,15 +379,20 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'ARISTÓTELES; HORÁCIO; LONGINO',
+    autor: 'BAYET, Jean',
     aparic: 5,
-    obra: 'A Poética clássica'
+    obra: 'Littérature latine'
   },
   {
     id: increment(getCount),
-    autor: 'CART, A.',
+    autor: 'COMBA, Júlio',
     aparic: 5,
-    obra: 'Gramática Latina'
+    obra: 'Programa de latim'
+  }, {
+    id: increment(getCount),
+    autor: 'CURTIUS, Ernst Robert',
+    aparic: 5,
+    obra: 'Literatura européia e idade média latina'
   },
   {
     id: increment(getCount),
@@ -370,9 +408,9 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'GRIMAL, Pierre',
+    autor: 'HARRISON, S',
     aparic: 5,
-    obra: 'O teatro antigo'
+    obra: 'A Companion to Latin Literature'
   },
 
   {
@@ -380,24 +418,50 @@ export let sudeste = [
     autor: 'HORÁCIO; LONGINO',
     aparic: 5,
     obra: 'A Poética clássica'
-  },
-  {
+  }, {
     id: increment(getCount),
-    autor: 'OVÍDIO',
+    autor: 'LESKY, Albin.',
     aparic: 5,
-    obra: 'Metamorfoses'
+    obra: 'História da Literatura Grega'
   },
+
   {
     id: increment(getCount),
     autor: 'PLAUTO',
     aparic: 5,
     obra: 'Anfitrião'
+  }, {
+    id: increment(getCount),
+    autor: 'SMYTH, H. W. ',
+    aparic: 5,
+    obra: 'Greek grammar'
   },
   {
     id: increment(getCount),
     autor: 'TANNUS, Carlos A.',
     aparic: 5,
     obra: 'O latim e suas estruturas'
+  }, {
+    id: increment(getCount),
+    autor: 'VEYNE, P.',
+    aparic: 5,
+    obra: 'História da vida privada'
+  }, {
+    id: increment(getCount),
+    autor: 'VIRGÍLIO',
+    aparic: 6,
+    obra: 'Bucólicas'
+  }, {
+    id: increment(getCount),
+    autor: 'ARISTÓFANES',
+    aparic: 4,
+    obra: 'As vespas, as aves, as rãs'
+  },
+  {
+    id: increment(getCount),
+    autor: 'BENVENISTE, Émile',
+    aparic: 4,
+    obra: 'O vocabulário das instituições indo-europeias'
   },
   {
     id: increment(getCount),
@@ -422,6 +486,11 @@ export let sudeste = [
     autor: 'ERNOUT, A',
     aparic: 4,
     obra: 'Dictionnaire étymologique de la langue latine: histoire des mots'
+  }, {
+    id: increment(getCount),
+    autor: 'ÉSQUILO',
+    aparic: 4,
+    obra: 'Orestia : Agamêmnon, Coéforas, Eumênides'
   },
   {
     id: increment(getCount),
@@ -429,12 +498,23 @@ export let sudeste = [
     aparic: 4,
     obra: 'Le lyrisme à Rome'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'HESÍODO',
+    aparic: 4,
+    obra: 'Teogonia: a origem dos deuses'
+  },
   {
     id: increment(getCount),
     autor: 'HORÁCIO',
     aparic: 4,
     obra: 'Arte Poética'
+  },
+  {
+    id: increment(getCount),
+    autor: 'HORÁCIO',
+    aparic: 4,
+    obra: 'Odes e Epodos'
   },
   {
     id: increment(getCount),
@@ -449,25 +529,25 @@ export let sudeste = [
     obra: 'The World of Athens – an introduction to classical Athenian culture'
   },
 
-  {
-    id: increment(getCount),
-    autor: 'LESKY, Albin.',
-    aparic: 4,
-    obra: 'História da Literatura Grega'
-  },
+
   {
     id: increment(getCount),
     autor: 'LIPPARINI, G.',
     aparic: 4,
     obra: 'Sintaxe latina'
   },
+
   {
     id: increment(getCount),
-    autor: 'NOVAK, M. da Glória',
+    autor: 'OVÍDIO',
     aparic: 4,
-    obra: 'Poesia Lírica latina'
+    obra: 'Amores & Arte de amar'
+  }, {
+    id: increment(getCount),
+    autor: 'RAGUSA, Giuliana',
+    aparic: 4,
+    obra: 'Lira grega. Antologia de poesia arcaica'
   },
-
   {
     id: increment(getCount),
     autor: 'REZENDE, Antônio Martinez de',
@@ -479,6 +559,11 @@ export let sudeste = [
     autor: 'SIHLER, Andrew L.',
     aparic: 4,
     obra: 'New comparative Grammar of Greek and Latin'
+  }, {
+    id: increment(getCount),
+    autor: 'SILVA NETO, Serafim da',
+    aparic: 4,
+    obra: 'História do latim vulgar'
   },
   {
     id: increment(getCount),
@@ -498,18 +583,14 @@ export let sudeste = [
     aparic: 3,
     obra: 'Res romana – curso universitário de Latin. Libro I Lecturas'
   },
+
   {
     id: increment(getCount),
-    autor: 'ARISTÓFANES',
+    autor: 'ARISTÓTELES',
     aparic: 3,
-    obra: 'As vespas, as aves, as rãs'
+    obra: 'Arte retórica e arte poética'
   },
-  {
-    id: increment(getCount),
-    autor: 'BAYET, Jean',
-    aparic: 3,
-    obra: 'Littérature latine'
-  },
+
   {
     id: increment(getCount),
     autor: 'CARTLEDGE, Paul',
@@ -521,31 +602,36 @@ export let sudeste = [
     autor: 'CHRISTIDIS, A.',
     aparic: 3,
     obra: 'A history of classical Greek: from beginnings to Late Antiquity'
-  },
-  {
+  }, {
     id: increment(getCount),
-    autor: 'CURTIUS, Ernst Robert',
+    autor: 'CORRÊA, Paula da Cunha',
     aparic: 3,
-    obra: 'Literatura européia e idade média latina'
+    obra: 'Armas e varões'
   },
+
   {
     id: increment(getCount),
     autor: 'FERREIRA, Antonio Gomes',
     aparic: 3,
     obra: 'Dicionário de Latim-Português'
+  }, {
+    id: increment(getCount),
+    autor: 'GRIMAL, Pierre',
+    aparic: 3,
+    obra: 'O amor em Roma'
   },
   {
     id: increment(getCount),
     autor: 'GRIMAL, Pierre',
     aparic: 3,
     obra: 'Virgílio ou o segundo nascimento'
-  },
-  {
+  }, {
     id: increment(getCount),
     autor: 'HESÍODO',
     aparic: 3,
-    obra: 'Teogonia: a origem dos deuses'
+    obra: 'Teogonia'
   },
+
   {
     id: increment(getCount),
     autor: 'ILARI, Rodolfo ',
@@ -563,12 +649,37 @@ export let sudeste = [
     autor: 'LESKY, Albin.',
     aparic: 3,
     obra: 'A tragédia grega'
+  }, {
+    id: increment(getCount),
+    autor: 'LUCANO',
+    aparic: 3,
+    obra: 'Farsália: cantos de I a V'
+  }, {
+    id: increment(getCount),
+    autor: 'MARMORALE. E.',
+    aparic: 3,
+    obra: 'História da literatura latina'
+  }, {
+    id: increment(getCount),
+    autor: 'OLIVA NETO, João Angelo',
+    aparic: 3,
+    obra: 'Falo no Jardim'
+  }, {
+    id: increment(getCount),
+    autor: 'ORBERG, H.',
+    aparic: 3,
+    obra: 'Familia Romana*'
   },
   {
     id: increment(getCount),
     autor: 'PHEDRE',
     aparic: 3,
     obra: 'Fables'
+  }, {
+    id: increment(getCount),
+    autor: 'PLATÃO',
+    aparic: 3,
+    obra: 'A República'
   },
   {
     id: increment(getCount),
@@ -587,30 +698,55 @@ export let sudeste = [
     autor: 'PLAUTO',
     aparic: 3,
     obra: 'Comédias'
+  }, {
+    id: increment(getCount),
+    autor: 'PLAUTO E TERÊNCIO',
+    aparic: 3,
+    obra: 'A comédia latina'
   },
   {
     id: increment(getCount),
     autor: 'PROPERCE',
     aparic: 3,
     obra: 'Élegies'
+  }, {
+    id: increment(getCount),
+    autor: 'RAGON, E.',
+    aparic: 3,
+    obra: 'Grammaire grecque'
+  }, {
+    id: increment(getCount),
+    autor: 'RAGUSA, Giuliana',
+    aparic: 3,
+    obra: 'Fragmentos de uma deusa. A representação de Afrodite na lírica de Safo'
   },
   {
     id: increment(getCount),
     autor: 'ROMILLY, Jacqueline de',
     aparic: 3,
     obra: 'A Tragédia Grega'
+  }, {
+    id: increment(getCount),
+    autor: 'RÓNAI, Paulo',
+    aparic: 3,
+    obra: 'Curso básico de latim II: gradus secundus'
   },
   {
     id: increment(getCount),
     autor: 'RUBIO, L.',
     aparic: 3,
     obra: 'Introducción a la sintaxis estructural del Latin. Vol I. Casos y preposiciones'
+  }, {
+    id: increment(getCount),
+    autor: 'SÓFOCLES',
+    aparic: 3,
+    obra: 'A trilogia tebana'
   },
   {
     id: increment(getCount),
-    autor: 'SMYTH, H. W. ',
+    autor: 'SÓFOCLES',
     aparic: 3,
-    obra: 'Greek grammar'
+    obra: 'Édipo Rei'
   },
   {
     id: increment(getCount),
@@ -618,18 +754,7 @@ export let sudeste = [
     aparic: 3,
     obra: 'Horacio, poeta da festa: navegar não é preciso'
   },
-  {
-    id: increment(getCount),
-    autor: 'VERNANT, J. P.',
-    aparic: 3,
-    obra: 'Mito e tragédia na Grécia antiga'
-  },
-  {
-    id: increment(getCount),
-    autor: 'VIRGÍLIO',
-    aparic: 3,
-    obra: 'Bucólicas'
-  },
+
   {
     id: increment(getCount),
     autor: 'VIRGÍLIO',
@@ -656,12 +781,6 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'ARISTÓTELES',
-    aparic: 2,
-    obra: 'Arte retórica e arte poética'
-  },
-  {
-    id: increment(getCount),
     autor: 'BAKKER, E. J. ',
     aparic: 2,
     obra: 'A Companion to the Ancient Greek Language'
@@ -671,18 +790,48 @@ export let sudeste = [
     autor: 'BORNECQUE, Henri',
     aparic: 2,
     obra: 'Roma e os romanos'
+  }, {
+    id: increment(getCount),
+    autor: 'BRANDÃO, J. Lins',
+    aparic: 2,
+    obra: 'A Poética do Hipocentauro'
+  }, {
+    id: increment(getCount),
+    autor: 'BRANDÃO, J. L.',
+    aparic: 2,
+    obra: 'Antiga Musa'
   },
   {
     id: increment(getCount),
     autor: 'BRITO, G. S. de',
     aparic: 2,
     obra: 'Lições de latim'
+  }, {
+    id: increment(getCount),
+    autor: 'BUCK, Carl',
+    aparic: 2,
+    obra: 'The Greek Dialects'
   },
   {
     id: increment(getCount),
     autor: 'CAESAR, Caius Iulius',
     aparic: 2,
     obra: 'Guerre des gaules'
+  }, {
+    id: increment(getCount),
+    autor: 'CALVINO, I. ',
+    aparic: 2,
+    obra: 'Por que ler os clássicos'
+  }, {
+    id: increment(getCount),
+    autor: 'CASSIN, B.',
+    aparic: 2,
+    obra: 'Efeito Sofístico'
+  }, {
+    id: increment(getCount),
+    autor: 'CHANTRAINE, Pierre',
+    aparic: 2,
+    obra: 'Morphologie historic du grec'
   },
   {
     id: increment(getCount),
@@ -696,12 +845,7 @@ export let sudeste = [
     aparic: 2,
     obra: 'O teatro romano e as comédias de Plauto'
   },
-  {
-    id: increment(getCount),
-    autor: 'CORRÊA, Paula da Cunha',
-    aparic: 2,
-    obra: 'Armas e varões'
-  },
+
   {
     id: increment(getCount),
     autor: 'CORRÊA, Paula da Cunha',
@@ -728,9 +872,14 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'ÉSQUILO',
+    autor: 'DOVER, K. J.',
     aparic: 2,
-    obra: 'Orestia : Agamêmnon, Coéforas, Eumênides'
+    obra: 'Ancient Greek Literature'
+  }, {
+    id: increment(getCount),
+    autor: 'EURÍPEDES',
+    aparic: 2,
+    obra: 'Medeia ; Hipolito : As troianas'
   },
   {
     id: increment(getCount),
@@ -750,24 +899,19 @@ export let sudeste = [
     aparic: 2,
     obra: 'Dictionnaire de la mythologie grecque et romaine'
   },
-  {
-    id: increment(getCount),
-    autor: 'GRIMAL, Pierre',
-    aparic: 2,
-    obra: 'O amor em Roma'
-  },
+
   {
     id: increment(getCount),
     autor: 'HAVELOCK, Eric Alfred',
     aparic: 2,
     obra: 'A revolução da escrita na Grécia e suas conseqüências culturais'
-  },
-  {
+  }, {
     id: increment(getCount),
-    autor: 'HESÍODO',
+    autor: 'HESIODO',
     aparic: 2,
-    obra: 'Teogonia'
+    obra: 'Os trabalhos e os dias'
   },
+
   {
     id: increment(getCount),
     autor: 'HOPKINSON, Neil',
@@ -786,12 +930,7 @@ export let sudeste = [
     aparic: 2,
     obra: 'Obras Completas '
   },
-  {
-    id: increment(getCount),
-    autor: 'HORÁCIO',
-    aparic: 2,
-    obra: 'Odes e Epodos'
-  },
+
   {
     id: increment(getCount),
     autor: 'HOWATSON, M.C.',
@@ -803,18 +942,33 @@ export let sudeste = [
     autor: 'HUNTER, Richard L.',
     aparic: 2,
     obra: 'A Comédia Nova da Grécia e de Roma'
+  }, {
+    id: increment(getCount),
+    autor: 'JAEGER, W.',
+    aparic: 2,
+    obra: 'Paidéia'
   },
   {
     id: increment(getCount),
     autor: 'JUVENAL',
     aparic: 2,
     obra: 'Sátiras'
+  }, {
+    id: increment(getCount),
+    autor: 'KENNEY, E. J.',
+    aparic: 2,
+    obra: 'Historia de la literatura clásica'
   },
   {
     id: increment(getCount),
     autor: 'KITTO, H. D. F. ',
     aparic: 2,
     obra: 'A tragédia grega'
+  }, {
+    id: increment(getCount),
+    autor: 'LAUSBERG, Heinrich',
+    aparic: 2,
+    obra: 'Elementos de retórica literária'
   },
   {
     id: increment(getCount),
@@ -824,9 +978,19 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'LUCANO',
+    autor: 'MARTINS, Paulo',
     aparic: 2,
-    obra: 'Farsália: cantos de I a V'
+    obra: 'Elegia Romana'
+  }, {
+    id: increment(getCount),
+    autor: 'MEILLET, Antoine',
+    aparic: 2,
+    obra: "Aperçu d'une histoire de la langue grecque"
+  }, {
+    id: increment(getCount),
+    autor: 'MINOIS, Georges',
+    aparic: 2,
+    obra: 'História do riso e do escárnio'
   },
   {
     id: increment(getCount),
@@ -858,31 +1022,21 @@ export let sudeste = [
     aparic: 2,
     obra: 'A ARTE DE AMAR; INCLUINDO, OS REMÉDIOS PARA O AMOR E OS REMÉDIOS DE BELEZA PARA O ROSTO DA MULHER'
   },
+  {
+    id: increment(getCount),
+    autor: 'PALMER',
+    aparic: 2,
+    obra: 'The Latin Language'
+  },
+
 
   {
     id: increment(getCount),
-    autor: 'PLAUTO E TERÊNCIO',
+    autor: 'PETRÔNIO ',
     aparic: 2,
-    obra: 'A comédia latina'
+    obra: 'Satíricon.'
   },
-  {
-    id: increment(getCount),
-    autor: 'RAGON, E.',
-    aparic: 2,
-    obra: 'Grammaire grecque'
-  },
-  {
-    id: increment(getCount),
-    autor: 'RAGUSA, Giuliana',
-    aparic: 2,
-    obra: 'Fragmentos de uma deusa. A representação de Afrodite na lírica de Safo'
-  },
-  {
-    id: increment(getCount),
-    autor: 'RAGUSA, Giuliana',
-    aparic: 2,
-    obra: 'Lira grega. Antologia de poesia arcaica'
-  },
+
   {
     id: increment(getCount),
     autor: 'REALE, Giovanni',
@@ -894,7 +1048,13 @@ export let sudeste = [
     autor: 'REVERMANN, M.',
     aparic: 2,
     obra: 'The Cambridge Companion to Greek Comedy'
+  }, {
+    id: increment(getCount),
+    autor: 'ROSE, H. J.',
+    aparic: 2,
+    obra: 'A Handbook of Latin Literature'
   },
+
   {
     id: increment(getCount),
     autor: 'RUBIO, Lisardo',
@@ -937,12 +1097,7 @@ export let sudeste = [
     aparic: 2,
     obra: 'Antígona'
   },
-  {
-    id: increment(getCount),
-    autor: 'SÓFOCLES',
-    aparic: 2,
-    obra: 'Édipo Rei'
-  },
+
   {
     id: increment(getCount),
     autor: 'SPALDING, Tassilo Orpheu',
@@ -1027,6 +1182,17 @@ export let sudeste = [
     autor: 'ADRADOS, F. Rodriguez',
     aparic: 1,
     obra: 'El mundo de la lírica griega antigua'
+  }, {
+    id: increment(getCount),
+    autor: 'ADRADOS, F. R.',
+    aparic: 1,
+    obra: 'Nueva sintaxis del griego antigo'
+  },
+  {
+    id: increment(getCount),
+    autor: 'AGNOLON, Alexandre',
+    aparic: 1,
+    obra: 'O catálogo das mulheres: os epigramas misóginos de Marcial'
   },
   {
     id: increment(getCount),
@@ -1141,19 +1307,40 @@ export let sudeste = [
     autor: 'ARISTÓFANES',
     aparic: 1,
     obra: 'Lisístrata e Tesmoforiantes'
+  }, {
+    id: increment(getCount),
+    autor: 'ARISTÓFANES',
+    aparic: 1,
+    obra: 'As Aves'
+  }, {
+    id: increment(getCount),
+    autor: 'ARISTÓFANES',
+    aparic: 1,
+    obra: 'Rãs'
   },
   {
     id: increment(getCount),
     autor: 'ARISTÓTELES',
     aparic: 1,
     obra: 'Metafísica (livro I e livro II)'
+  }, {
+    id: increment(getCount),
+    autor: 'ARISTÓFANES; MENANDRO',
+    aparic: 1,
+    obra: 'A paz; O misantropo'
   },
   {
     id: increment(getCount),
     autor: 'AUBRETON, R.',
     aparic: 1,
     obra: 'Introdução a Homero'
+  }, {
+    id: increment(getCount),
+    autor: 'AUERBACH, Erich',
+    aparic: 1,
+    obra: 'A cicatriz de Ulisses'
   },
+
   {
     id: increment(getCount),
     autor: 'AUERBACH, Erich',
@@ -1189,12 +1376,22 @@ export let sudeste = [
     autor: 'BEARD, M',
     aparic: 1,
     obra: 'Antiguidade Clássica: o essencial'
+  }, {
+    id: increment(getCount),
+    autor: 'BECHARA, E',
+    aparic: 1,
+    obra: 'Moderna gramática portuguesa'
   },
   {
     id: increment(getCount),
     autor: 'BELFIORE, E.',
     aparic: 1,
     obra: 'Murder Among Friends: Violation of Philia in Greek Tragedy'
+  }, {
+    id: increment(getCount),
+    autor: 'BELL, R. T.',
+    aparic: 1,
+    obra: 'Translation and translating: theory and practice'
   },
   {
     id: increment(getCount),
@@ -1207,6 +1404,11 @@ export let sudeste = [
     autor: 'BERGSON, Henri',
     aparic: 1,
     obra: 'O riso'
+  }, {
+    id: increment(getCount),
+    autor: 'BERTRAND, Joëlle',
+    aparic: 1,
+    obra: 'Nouvelle grammaire grecque'
   },
   {
     id: increment(getCount),
@@ -1250,17 +1452,23 @@ export let sudeste = [
     aparic: 1,
     obra: 'A Consolação da Filosofia'
   },
-  {
-    id: increment(getCount),
-    autor: 'BRANDÃO, J. Lins',
-    aparic: 1,
-    obra: 'A Poética do Hipocentauro'
-  },
+
+
   {
     id: increment(getCount),
     autor: 'BRANDÃO, Junito de Souza',
     aparic: 1,
     obra: 'Mitologia grega'
+  }, {
+    id: increment(getCount),
+    autor: 'BRASETE, Maria Fernanda',
+    aparic: 1,
+    obra: 'Máscaras, vozes e gestos: nos caminhos do teatro clássico'
+  }, {
+    id: increment(getCount),
+    autor: 'BRAUND, Susanna Morton',
+    aparic: 1,
+    obra: 'Juvenal and Persius'
   },
   {
     id: increment(getCount),
@@ -1292,12 +1500,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'As elegias de Tirteu. Poesia e performance na Esparta Arcaica'
   },
-  {
-    id: increment(getCount),
-    autor: 'BUCK, Carl',
-    aparic: 1,
-    obra: 'The Greek Dialects'
-  },
+
   {
     id: increment(getCount),
     autor: 'BUDELMANN, Felix',
@@ -1309,12 +1512,22 @@ export let sudeste = [
     autor: 'BURKE, P.',
     aparic: 1,
     obra: 'Linguagem, Indivíduo e Sociedade'
+  }, {
+    id: increment(getCount),
+    autor: 'BURKERT, Walter',
+    aparic: 1,
+    obra: 'Mito e mitologia'
   },
   {
     id: increment(getCount),
     autor: 'BURKERT, Walter',
     aparic: 1,
     obra: 'Religião grega na época clássica e arcaica'
+  }, {
+    id: increment(getCount),
+    autor: 'CALIMACO.',
+    aparic: 1,
+    obra: 'Aetia, Iambi, Hecale and other fragments'
   },
   {
     id: increment(getCount),
@@ -1322,12 +1535,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'A Sátira Latina'
   },
-  {
-    id: increment(getCount),
-    autor: 'CALVINO, I. ',
-    aparic: 1,
-    obra: 'Por que ler os clássicos'
-  },
+
   {
     id: increment(getCount),
     autor: 'CANDIDO, M. R. ',
@@ -1383,12 +1591,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Gramática histórica'
   },
-  {
-    id: increment(getCount),
-    autor: 'CASSIN, B.',
-    aparic: 1,
-    obra: 'Efeito Sofístico'
-  },
+
   {
     id: increment(getCount),
     autor: 'CASSIN, B.',
@@ -1400,6 +1603,11 @@ export let sudeste = [
     autor: 'CATULLUS',
     aparic: 1,
     obra: 'The poems of Catullus'
+  }, {
+    id: increment(getCount),
+    autor: 'CATULLUS',
+    aparic: 1,
+    obra: 'CATULLUS; TIBULLUS; PERVIGILLIUM VENERIS'
   },
   {
     id: increment(getCount),
@@ -1413,7 +1621,12 @@ export let sudeste = [
     aparic: 1,
     obra: 'Poésies'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'CATULO, Caio Valério',
+    aparic: 1,
+    obra: 'Catullus; Tibullus; Pervigilium veneris'
+  },
   {
     id: increment(getCount),
     autor: 'CATULO',
@@ -1432,12 +1645,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Grammaire Homérique. Phonétique et Morphologie'
   },
-  {
-    id: increment(getCount),
-    autor: 'CHANTRAINE, Pierre',
-    aparic: 1,
-    obra: 'Morphologie historic du grec'
-  },
+
   {
     id: increment(getCount),
     autor: 'CHASSANG,A.',
@@ -1535,12 +1743,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'A Historical Greek Reader: Mycenaean to the Koiné'
   },
-  {
-    id: increment(getCount),
-    autor: 'COMBA, Júlio',
-    aparic: 1,
-    obra: 'Programa de latim'
-  },
+
   {
     id: increment(getCount),
     autor: 'COMMELIN, P.',
@@ -1734,13 +1937,13 @@ export let sudeste = [
     autor: 'ÉSQUILO',
     aparic: 1,
     obra: 'Agamêmnon'
-  },
-  {
+  }, {
     id: increment(getCount),
     autor: 'EURÍPEDES',
     aparic: 1,
-    obra: 'Medeia ; Hipolito : As troianas'
+    obra: 'Hécuba'
   },
+
   {
     id: increment(getCount),
     autor: 'EURÍPEDES',
@@ -1794,6 +1997,11 @@ export let sudeste = [
     autor: 'FARIA, Ruth Junqueira.',
     aparic: 1,
     obra: 'A Sátira Latina'
+  }, {
+    id: increment(getCount),
+    autor: 'FAVERSANI, Fábio',
+    aparic: 1,
+    obra: 'A pobreza no Satyricon, de Petrônio'
   },
   {
     id: increment(getCount),
@@ -1812,6 +2020,11 @@ export let sudeste = [
     autor: 'FERREIRA, José Ribeiro',
     aparic: 1,
     obra: 'Hélade e Helenos: Génese e Evolução de um conceito'
+  }, {
+    id: increment(getCount),
+    autor: 'FINKELBERG, M.',
+    aparic: 1,
+    obra: 'The birth of literary fiction in Ancient Greece'
   },
   {
     id: increment(getCount),
@@ -1830,6 +2043,11 @@ export let sudeste = [
     autor: 'FONTANA, D.',
     aparic: 1,
     obra: 'Curso de latim'
+  }, {
+    id: increment(getCount),
+    autor: 'FONTES, Joaquim Brasil',
+    aparic: 1,
+    obra: 'Eros, tecelão de mitos: a poesia de Safo de Lesbos'
   },
   {
     id: increment(getCount),
@@ -1885,6 +2103,11 @@ export let sudeste = [
     autor: 'GOUVÊA JR, Márcio Meirelles',
     aparic: 1,
     obra: 'Medeias latinas'
+  }, {
+    id: increment(getCount),
+    autor: 'GREENOUGH, J.',
+    aparic: 1,
+    obra: 'New Latin Grammar'
   },
   {
     id: increment(getCount),
@@ -1916,6 +2139,11 @@ export let sudeste = [
     autor: 'GUERRERO, Gustavo',
     aparic: 1,
     obra: 'Teorias de la lírica'
+  }, {
+    id: increment(getCount),
+    autor: 'GUIDI, M.',
+    aparic: 1,
+    obra: 'Problemata. Dizionario grammaticale del greco antico'
   },
   {
     id: increment(getCount),
@@ -1934,6 +2162,11 @@ export let sudeste = [
     autor: 'HALL, J. A.',
     aparic: 1,
     obra: 'A Companion to Roman Rhetoric'
+  }, {
+    id: increment(getCount),
+    autor: 'HALLIWELL, S.',
+    aparic: 1,
+    obra: 'The subjection from mythos to logos. Plato’s citations of the poets'
   },
   {
     id: increment(getCount),
@@ -1959,12 +2192,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Antiguidade Clássica: uma brevíssima introdução'
   },
-  {
-    id: increment(getCount),
-    autor: 'HESIODO',
-    aparic: 1,
-    obra: 'Os trabalhos e os dias'
-  },
+
   {
     id: increment(getCount),
     autor: 'HESÍODO',
@@ -2067,6 +2295,11 @@ export let sudeste = [
     autor: 'HOUATSON, M. C.',
     aparic: 1,
     obra: 'The Oxford Companion to Classical Literature'
+  }, {
+    id: increment(getCount),
+    autor: 'HUMBERT,  J.',
+    aparic: 1,
+    obra: 'Syntaxe grecque'
   },
   {
     id: increment(getCount),
@@ -2074,12 +2307,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Discursos I'
   },
-  {
-    id: increment(getCount),
-    autor: 'JAEGER, W.',
-    aparic: 1,
-    obra: 'Paidéia'
-  },
+
   {
     id: increment(getCount),
     autor: 'JESUS, Carlos A. Martins de',
@@ -2171,18 +2399,18 @@ export let sudeste = [
     aparic: 1,
     obra: 'Sobre la muerte de los perseguidores'
   },
-  {
-    id: increment(getCount),
-    autor: 'LAUSBERG, Heinrich',
-    aparic: 1,
-    obra: 'Elementos de retórica literária'
-  },
+
 
   {
     id: increment(getCount),
     autor: 'LEITE, Leni Ribeiro',
     aparic: 1,
     obra: 'Épica II: Ovídio, Lucano e Estácio'
+  }, {
+    id: increment(getCount),
+    autor: 'LEFEVERE, A.',
+    aparic: 1,
+    obra: 'Tradução, reescrita e manipulação da fama literária'
   },
   {
     id: increment(getCount),
@@ -2238,6 +2466,11 @@ export let sudeste = [
     autor: 'MAFRA, Johny J. ',
     aparic: 1,
     obra: 'Formação da comédia romana; a fábula palliata'
+  }, {
+    id: increment(getCount),
+    autor: 'MAILLOT, J.',
+    aparic: 1,
+    obra: 'A tradução científica e técnica'
   },
   {
     id: increment(getCount),
@@ -2257,12 +2490,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Epigramas de Marco Valério Marcial'
   },
-  {
-    id: increment(getCount),
-    autor: 'MARMORALE. E.',
-    aparic: 1,
-    obra: 'História da literatura latina'
-  },
+
   {
     id: increment(getCount),
     autor: 'MARMORALE. Enzo',
@@ -2274,6 +2502,11 @@ export let sudeste = [
     autor: 'MAROUZEAU, J.',
     aparic: 1,
     obra: 'L’ordre des mots dans la phrase Latine I: les groupes nominaux'
+  }, {
+    id: increment(getCount),
+    autor: 'MARSHALL, Francisco',
+    aparic: 1,
+    obra: 'Édipo tirano: a tragedia do saber'
   },
   {
     id: increment(getCount),
@@ -2292,6 +2525,11 @@ export let sudeste = [
     autor: 'MAY, J. M',
     aparic: 1,
     obra: "Brill's companion to Cicero: oratory and rhetoric"
+  }, {
+    id: increment(getCount),
+    autor: 'McDONALD, Marianne',
+    aparic: 1,
+    obra: 'The Cambridge companion to Greek and Roman theatre'
   },
   {
     id: increment(getCount),
@@ -2312,12 +2550,7 @@ export let sudeste = [
     obra: 'Ovid: Amores. Text, prolegomena and commentary in four volumes. Volume III: a commentary on Book Two'
   },
 
-  {
-    id: increment(getCount),
-    autor: 'MEILLET, Antoine',
-    aparic: 1,
-    obra: "Aperçu d'une histoire de la langue grecque"
-  },
+
   {
     id: increment(getCount),
     autor: 'MEILLET, A.',
@@ -2335,6 +2568,11 @@ export let sudeste = [
     autor: 'MIGNE, J. P.',
     aparic: 1,
     obra: 'Patrologia latina'
+  }, {
+    id: increment(getCount),
+    autor: 'MILTON, J.',
+    aparic: 1,
+    obra: 'Tradução: teoria e prática'
   },
   {
     id: increment(getCount),
@@ -2421,12 +2659,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'A arte de amar'
   },
-  {
-    id: increment(getCount),
-    autor: 'OVÍDIO',
-    aparic: 1,
-    obra: 'Amores & Arte de amar'
-  },
+
   {
     id: increment(getCount),
     autor: 'OVÍDIO',
@@ -2487,12 +2720,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Satiricon.'
   },
-  {
-    id: increment(getCount),
-    autor: 'PETRÔNIO ',
-    aparic: 1,
-    obra: 'Satíricon.'
-  },
+
   {
     id: increment(getCount),
     autor: 'PETRÔNIO ',
@@ -2528,6 +2756,11 @@ export let sudeste = [
     autor: 'PLATÃO',
     aparic: 1,
     obra: 'Diálogos III: a República'
+  }, {
+    id: increment(getCount),
+    autor: 'PLATÃO',
+    aparic: 1,
+    obra: 'Fedro'
   },
   {
     id: increment(getCount),
@@ -2576,6 +2809,28 @@ export let sudeste = [
     autor: 'PROPÉRCIO',
     aparic: 1,
     obra: 'Elegias'
+  },
+  {
+    id: increment(getCount),
+    autor: 'PROPERTIUS',
+    aparic: 1,
+    obra: 'Elegies'
+  }, {
+    id: increment(getCount),
+    autor: 'QUINTILIAN',
+    aparic: 1,
+    obra: 'The orator’s education'
+  }, {
+    id: increment(getCount),
+    autor: 'QUIRK, R.',
+    aparic: 1,
+    obra: 'A Comprehensive Grammar of the English Language'
+  },
+  {
+    id: increment(getCount),
+    autor: 'RAGUSA, Giuliana',
+    aparic: 1,
+    obra: 'Lira, mito e erotismo: Afrodite na poesia mélica grega arcaica'
   },
   {
     id: increment(getCount),
@@ -2642,6 +2897,16 @@ export let sudeste = [
     autor: 'ROMILLY, Jacqueline de',
     aparic: 1,
     obra: 'Homero: Introdução aos Poemas Homéricos'
+  }, {
+    id: increment(getCount),
+    autor: 'RÓNAI, Paulo',
+    aparic: 1,
+    obra: 'Curso básico de latim I: gradus primus'
+  }, {
+    id: increment(getCount),
+    autor: 'RORTY, A. O.',
+    aparic: 1,
+    obra: 'Essays on Aristotle’s Poetics'
   },
   {
     id: increment(getCount),
@@ -2672,6 +2937,11 @@ export let sudeste = [
     autor: 'SANTO AGOSTINHO ',
     aparic: 1,
     obra: 'Confissões'
+  }, {
+    id: increment(getCount),
+    autor: 'SANTOS, Magda G.',
+    aparic: 1,
+    obra: 'Morte e amor: a construção do humano na lírica grega arcaica'
   },
   {
     id: increment(getCount),
@@ -2781,7 +3051,13 @@ export let sudeste = [
     autor: 'SILVA, Luiz Carlos Mangia',
     aparic: 1,
     obra: 'O masculino e o feminino no epigrama grego'
+  }, {
+    id: increment(getCount),
+    autor: 'SILVA, Maria de Fátima Souza',
+    aparic: 1,
+    obra: 'Aristófanes. As rãs'
   },
+
   {
     id: increment(getCount),
     autor: 'SILVA, Maria de Fátima Souza',
@@ -2811,6 +3087,11 @@ export let sudeste = [
     autor: 'SISSA, Giulia',
     aparic: 1,
     obra: 'Os deuses gregos'
+  }, {
+    id: increment(getCount),
+    autor: 'SNELL, Bruno',
+    aparic: 1,
+    obra: 'Cultura grega e as origens do pensamento europeu'
   },
   {
     id: increment(getCount),
@@ -2818,12 +3099,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Ájax'
   },
-  {
-    id: increment(getCount),
-    autor: 'SÓFOCLES',
-    aparic: 1,
-    obra: 'A trilogia tebana'
-  },
+
   {
     id: increment(getCount),
     autor: 'SÓFOCLES',
@@ -2853,6 +3129,11 @@ export let sudeste = [
     autor: 'SPINA, S.',
     aparic: 1,
     obra: 'Introdução à poética clássica'
+  }, {
+    id: increment(getCount),
+    autor: 'SVENBRO, J.',
+    aparic: 1,
+    obra: 'La parole et le marbre. Aux origines de la poétique grecque'
   },
   {
     id: increment(getCount),
@@ -2969,6 +3250,11 @@ export let sudeste = [
     autor: 'VENTRIS, Michael',
     aparic: 1,
     obra: 'Documents in Mycenaean Greek'
+  }, {
+    id: increment(getCount),
+    autor: 'VENUTI, L',
+    aparic: 1,
+    obra: 'The translation studies reader'
   },
   {
     id: increment(getCount),
@@ -2987,6 +3273,11 @@ export let sudeste = [
     autor: 'VERNANT, J. P.',
     aparic: 1,
     obra: 'Mito e religião na Grécia antiga'
+  }, {
+    id: increment(getCount),
+    autor: 'VEYNE, P.',
+    aparic: 1,
+    obra: 'A elegia erótica romana: o amor, a poesia e o ocidente'
   },
   {
     id: increment(getCount),
@@ -2994,12 +3285,7 @@ export let sudeste = [
     aparic: 1,
     obra: 'Como se escreve a História'
   },
-  {
-    id: increment(getCount),
-    autor: 'VEYNE, P.',
-    aparic: 1,
-    obra: 'História da vida privada'
-  },
+
   {
     id: increment(getCount),
     autor: 'VEYNE, Paul',
@@ -3014,15 +3300,14 @@ export let sudeste = [
   },
   {
     id: increment(getCount),
-    autor: 'VIRGILIO ',
-    aparic: 1,
-    obra: 'Bucólicas'
-  },
-  {
-    id: increment(getCount),
     autor: 'VIRGÍLIO',
     aparic: 1,
     obra: 'Eneida portuguesa.'
+  }, {
+    id: increment(getCount),
+    autor: 'VIRGÍLIO',
+    aparic: 1,
+    obra: 'Geórgicas III'
   },
   {
     id: increment(getCount),

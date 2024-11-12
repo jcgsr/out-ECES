@@ -156,7 +156,9 @@
 				pesquisar por autor
 			{/if}</button
 		>
-		<button on:click={sendBack} class="arrow-up"><a href="#top"><Magnify {size} /></a></button>
+		<button on:click={sendBack} class="arrow-up dark:text-papyrus"
+			><a href="#top"><Magnify {size} /></a></button
+		>
 		<Table striped={true} shadow hoverable={true} class="text-sm dark:text-papyrus">
 			<TableHead>
 				<TableHeadCell padding="px-2 py1">Posição</TableHeadCell>

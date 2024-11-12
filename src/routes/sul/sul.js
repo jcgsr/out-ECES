@@ -10,13 +10,13 @@ export let sul = [
   {
     id: increment(getCount),
     autor: 'CARDOSO, Zélia de Almeida',
-    aparic: 17,
+    aparic: 22,
     obra: 'Iniciação ao latim'
   },
   {
     id: increment(getCount),
     autor: 'GRIMAL, P.',
-    aparic: 13,
+    aparic: 18,
     obra: 'Gramática latina'
   },
   {
@@ -109,7 +109,12 @@ export let sul = [
     aparic: 6,
     obra: 'Wheelock’s Latin'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'ALMEIDA, Napoleão M. de',
+    aparic: 5,
+    obra: 'Gramática latina'
+  },
   {
     id: increment(getCount),
     autor: 'FARIA, E.',
@@ -152,7 +157,12 @@ export let sul = [
     aparic: 5,
     obra: 'Latina essentia: preparação ao latim'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'TORRINHA, Francisco',
+    aparic: 5,
+    obra: 'Dicionário latino-português'
+  },
   {
     id: increment(getCount),
     autor: 'BRANDÃO, J. L.',
