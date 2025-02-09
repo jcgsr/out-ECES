@@ -72,49 +72,36 @@
 
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left dark:text-papyrus">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região Sudeste possui 15 universidades federais oferecendo 59 cursos de Letras (não estão
-				inclusos os cursos de Libras nessa pesquisa). Cinco dessas universidades possuem cursos que
-				não oferecem qualquer disciplina referente ao latim ou ao grego. Por outro lado, a UFRJ tem
-				cursos de Letras Clássicas (Latim e Grego) assim como a UFF.
+				A região Sudeste possui 18 universidades públicas federais que oferecem cursos de Letras.
+				Dessas universidades, 12 possuem cursos que oferecem disciplinas referente ao latim ou ao
+				grego, ao passo que a UFRJ tem cursos de línguas clássicas (Português-Latim e
+				Português-Grego), assim como a UFF (Letras Grego e Letras Latim), a UFJF e a UFMG.
+				habilitações de Letras que compuseram os dados da pesquisa.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 341 autores e as 504 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 376 autores e as 560 obras extraídas do <a
 					href={corpus}
 					download="corpus_sudeste"
 					target="_blank">corpus</a
 				>, a mais indicada, 26 vezes, foi um dicionário,
 				<em>Dicionário latino-português</em> de <em>Francisco Torrinha</em>. A ele se seguiram duas
 				obras de Ernesto Faria: uma gramática, <em>Gramática superior da língua latina</em>, com 22
-				indicações e o seu dicionário, <em>Dicionário escolar latino-português</em>, com 19, que se
-				encontra em
-				<a
-					target="_blank"
-					href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=24675"
-					>domínio público</a
-				>, podendo ser baixado portanto, além de um site em fase de testes,
-				<a target="_blank" href="https://www.dicionariolatino.com/?"
-					>o Dicionário Latino-Português</a
-				>, no qual se pode pesquisar as entradas em latim.
+				indicações e a terceira obra mais indicada, um dicionário de língua estrangeira, de Anatole
+				Bailly, <em>Dictionnaire Grec-français</em>, com 20 ocorrências — empatada com
+				<em>Latinitas: leitura de textos em língua latina</em> de José Amarante Santos Sobrinho —, sendo
+				essa obra tanto relativa ao grego quanto a obra de estrangeira mais bem colocada, considerando-se
+				as cinco regiões geográficas.
 			</p>
-			<p class="aos-hidden-left my-4" class:aos-show={y >= 380}>
-				Interessante destacar que a quarta obra mais indicada, 18 vezes, foi um dicionário de língua
-				estrangeira de Anatole Bailly, <em>Dictionnaire Grec-français</em>, sendo ela tanto a obra
-				relativa ao grego quanto estrangeira melhor colocada considerando-se todas as cinco regiões
-				geográficas brasileiras.
-			</p>
+
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				A primeira obra literária apareceu na 25ª posição com dez indicações, <em>Odisseia</em>, de
-				Homero. Obras histórico-literárias foram 19 ao todo, sendo <em>A Literatura Latina</em> de Zélia
-				de Almeida Cardoso a mais indicada, 13 vezes.
+				A primeira obra literária apareceu na 16ª posição com 13 indicações, <em>Odisseia</em>, de
+				Homero. Obras histórico-literárias foram 24 ao todo, sendo <em>A Literatura Latina</em> de Zélia
+				de Almeida Cardoso a mais indicada, 15 vezes.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
-				Obras (gramáticas, manuais, dicionários, mitologia etc.) relativas ao idioma grego foram 77:
-				37 em português, 25 em inglês, oito em francês, seis em espanhol e uma italiano. Obras no
-				idioma latino foram 11, dentre elas <em
-					>ANTIPHONTIS ORATIONES ET FRAGMENTA: adivnctis Gorgiae, Antisthenis, Alcidamantis,
-					declamationibvs</em
-				>, <em>Catullus, Tibullus, Pervigilium veneris</em>, <em>Epistulae ad familiares</em> e
-				<em>Homeri Odyssea</em>.
+				No idioma latino original foram 11, dentre elas Antiphontis Orationes et Fragmenta:
+				adivnctis Gorgiae, Antisthenis, Alcidamantis, declamationibvs, Catullus, Tibullus,
+				Pervigilium veneris, Epistulae ad familiares e Homeri Odyssea.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
 				<Info />

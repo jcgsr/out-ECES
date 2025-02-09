@@ -73,60 +73,61 @@
 				<td>1ª</td>
 				<td>Zélia de Almeida Cardoso</td>
 				<td>Iniciação ao latim</td>
-				<td>84</td>
+				<td>98</td>
 			</tr>
 			<tr>
 				<td>2ª</td> <td>Ernesto Faria</td>
 				<td>Dicionário escolar latino-português</td>
-				<td>62</td>
+				<td>81</td>
 			</tr>
 			<tr>
 				<td>3ª</td>
-				<td>Zélia de Almeida Cardoso</td>
-				<td>A Literatura Latina</td>
-				<td>49</td>
+				<td>Maria Helena da Rocha Pereira</td>
+				<td>Estudos da história da cultura clássica</td>
+				<td>57</td>
 			</tr>
 			<tr>
-				<td>4ª</td> <td>Ernesto Faria</td>
-				<td>Gramática Superior da Língua latina</td>
-				<td>46</td>
+				<td>4ª</td> <td>Napoleão Mendes de Almeida</td>
+				<td>Gramática latina: curso único e completo</td>
+				<td>57</td>
 			</tr>
 			<tr>
 				<td>5ª</td>
-				<td>Paulo Rónai</td>
-				<td>Gradus Primus</td>
-				<td>40</td>
+				<td>Zélia de Almeida Cardoso</td>
+				<td>A Literatura Latina</td>
+				<td>50</td>
 			</tr>
 
 			<tr>
-				<td>6ª</td> <td>Napoleão Mendes de Almeida</td>
-				<td>Gramática latina: curso único e completo</td>
-				<td>39</td>
+				<td>6ª</td> <td>Ernesto Faria</td>
+				<td>Gramática Superior da Língua latina</td>
+				<td>48</td>
 			</tr>
+
 			<tr>
 				<td>7ª</td>
+				<td>F. R. dos Santos Saraiva</td>
+				<td>Novíssimo dicionário latino-português</td>
+				<td>45</td>
+			</tr>
+
+			<tr>
+				<td>8ª</td>
+				<td>Paulo Rónai</td>
+				<td>Gradus Primus</td>
+				<td>41</td>
+			</tr>
+			<tr>
+				<td>9ª</td>
 				<td>Damião Berge</td>
 				<td>Ars Latina</td>
 				<td>37</td>
 			</tr>
 			<tr>
-				<td>8ª</td>
-				<td>F. R. dos Santos Saraiva</td>
-				<td>Novíssimo dicionário latino-português</td>
-				<td>37</td>
-			</tr>
-
-			<tr>
-				<td>9ª</td>
+				<td>10ª</td>
 				<td>Janete Melasso Garcia</td>
 				<td>Introdução à teoria e prática do latim</td>
-				<td>35</td>
-			</tr>
-			<tr>
-				<td>10ª</td>
-				<td>Maria Helena da Rocha Pereira</td>
-				<td> Estudos de história da cultura clássica</td>
-				<td>34</td>
+				<td>36</td>
 			</tr>
 		</table>
 	</section>

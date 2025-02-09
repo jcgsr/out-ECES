@@ -16,7 +16,7 @@ export let nordeste = [
   {
     id: increment(getCount),
     autor: 'ALMEIDA, Napoleão Mendes de',
-    aparic: 31,
+    aparic: 33,
     obra: 'Gramática latina'
   },
   {
@@ -24,7 +24,8 @@ export let nordeste = [
     autor: 'HARVEY Paul',
     aparic: 21,
     obra: 'Dicionário Oxford de literatura clássica grega e latina'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'FARIA, E.',
     aparic: 20,
@@ -60,7 +61,8 @@ export let nordeste = [
     autor: 'SARAIVA, F.R dos Santos. ',
     aparic: 15,
     obra: 'Novíssimo dicionário latino-português'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'BERGE, Damião',
     aparic: 14,
@@ -158,7 +160,8 @@ export let nordeste = [
     autor: 'MURACHCO, Henrique',
     aparic: 10,
     obra: 'Gramática do grego do Novo Testamento'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'REZENDE, Antônio Martinez de',
     aparic: 10,
@@ -188,6 +191,11 @@ export let nordeste = [
     autor: 'BONAZZI, Benedetto',
     aparic: 9,
     obra: 'Dizionario greco-italiano'
+  }, {
+    id: increment(getCount),
+    autor: 'CART, A.',
+    aparic: 9,
+    obra: 'Gramática latina'
   },
   {
     id: increment(getCount),
@@ -224,18 +232,14 @@ export let nordeste = [
     autor: 'PETER, José L.',
     aparic: 8,
     obra: 'Grammatica grega para os gymnasios do Brazil'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'RAVIZZA, Pe. João',
     aparic: 8,
     obra: 'Gramática Latina'
   },
-  {
-    id: increment(getCount),
-    autor: 'CART, A.',
-    aparic: 7,
-    obra: 'Gramática latina'
-  },
+
   {
     id: increment(getCount),
     autor: 'COMBA, Júlio',
@@ -261,6 +265,11 @@ export let nordeste = [
     autor: 'ALMENDRA, Maria Ana',
     aparic: 6,
     obra: 'Compêndio de gramática latina'
+  }, {
+    id: increment(getCount),
+    autor: 'FARIA, E.',
+    aparic: 6,
+    obra: 'Gramática da língua latina'
   },
   {
     id: increment(getCount),
@@ -276,6 +285,12 @@ export let nordeste = [
   },
   {
     id: increment(getCount),
+    autor: 'ØRBERG, H. H.',
+    aparic: 6,
+    obra: 'Lingua latina per se illustrata. Familia Romana. Pars I'
+  },
+  {
+    id: increment(getCount),
     autor: 'BRANDÃO, Junito de Souza',
     aparic: 5,
     obra: 'Mitologia grega'
@@ -285,7 +300,8 @@ export let nordeste = [
     autor: 'COMBA, Júlio',
     aparic: 5,
     obra: 'Gramática latina'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'FURLAN, O. A.',
     aparic: 5,
@@ -324,12 +340,7 @@ export let nordeste = [
     aparic: 4,
     obra: 'Fonética histórica do latim'
   },
-  {
-    id: increment(getCount),
-    autor: 'FARIA, E.',
-    aparic: 4,
-    obra: 'Gramática da língua latina'
-  },
+
   {
     id: increment(getCount),
     autor: 'GARIZIO, E. ',
@@ -383,6 +394,12 @@ export let nordeste = [
     autor: 'SOARES, João S.',
     aparic: 4,
     obra: 'Latim 1 iniciação ao latim e à civilização romana'
+  },
+  {
+    id: increment(getCount),
+    autor: 'ØRBERG, H. H.',
+    aparic: 4,
+    obra: 'Lingua latina per se illustrata. Familia Romana. Pars II'
   },
   {
     id: increment(getCount),
@@ -510,7 +527,8 @@ export let nordeste = [
     autor: 'BURNET, John',
     aparic: 2,
     obra: 'A aurora da filosofia grega'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'BUSSARELLO, Raulino',
     aparic: 2,
@@ -582,13 +600,19 @@ export let nordeste = [
     autor: 'FARIA, E.',
     aparic: 2,
     obra: 'Introdução à didática do latim'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'FERREIRA, António Gomes',
     aparic: 2,
     obra: 'Dicionário de latim-português'
   },
-
+  {
+    id: increment(getCount),
+    autor: 'FIGUEIREDO, José Nunes de',
+    aparic: 2,
+    obra: 'Initia latina I'
+  },
   {
     id: increment(getCount),
     autor: 'FORNARA, Charles W.',
@@ -600,6 +624,11 @@ export let nordeste = [
     autor: 'FREIRE, A.',
     aparic: 2,
     obra: 'Gramática latina'
+  }, {
+    id: increment(getCount),
+    autor: 'GIORDANI, Mário Curtis',
+    aparic: 2,
+    obra: 'História de Roma'
   },
   {
     id: increment(getCount),
@@ -618,18 +647,6 @@ export let nordeste = [
     autor: 'KNOX, Bernard',
     aparic: 2,
     obra: 'Édipo em Tebas: o herói trágico de Sófocles e seu tempo'
-  },
-  {
-    id: increment(getCount),
-    autor: 'OVIDIO ',
-    aparic: 2,
-    obra: 'A arte de amar'
-  },
-  {
-    id: increment(getCount),
-    autor: 'OVIDIO ',
-    aparic: 2,
-    obra: 'Poemas da carne e do exílio'
   },
   {
     id: increment(getCount),
@@ -654,6 +671,11 @@ export let nordeste = [
     autor: 'LUNA, Sandra.',
     aparic: 2,
     obra: 'Arqueologia da ação trágica: o legado grego'
+  }, {
+    id: increment(getCount),
+    autor: 'MACHADO, Raul',
+    aparic: 2,
+    obra: 'Questões de gramática latina. Vols. I e II'
   },
   {
     id: increment(getCount),
@@ -679,6 +701,31 @@ export let nordeste = [
     aparic: 2,
     obra: 'Introdução à Tragédia de Sófocles'
   },
+  {
+    id: increment(getCount),
+    autor: 'OLIVEIRA, Josenir Alcântara de',
+    aparic: 2,
+    obra: 'Apostila de gráficos latinos'
+  },
+  {
+    id: increment(getCount),
+    autor: 'OLIVEIRA, Roberto Arruda de',
+    aparic: 2,
+    obra: 'Propedêutica ao latim. Vol. I'
+  },
+  {
+    id: increment(getCount),
+    autor: 'OVIDIO ',
+    aparic: 2,
+    obra: 'A arte de amar'
+  },
+  {
+    id: increment(getCount),
+    autor: 'OVIDIO ',
+    aparic: 2,
+    obra: 'Poemas da carne e do exílio'
+  },
+
   {
     id: increment(getCount),
     autor: 'PARATORE, Ettore',
@@ -788,12 +835,7 @@ export let nordeste = [
     aparic: 2,
     obra: 'Uma leitura estóica da tragédia Medéia de Sêneca'
   },
-  {
-    id: increment(getCount),
-    autor: 'ORBERG, H. H.',
-    aparic: 2,
-    obra: 'Lingua latina per se illustrata. Familia Romana. Pars I'
-  },
+
   {
     id: increment(getCount),
     autor: 'AGOSTINHO, Santo',
@@ -907,7 +949,8 @@ export let nordeste = [
     autor: 'BATISTA, José Paulino',
     aparic: 1,
     obra: 'O Bucolismo Vergiliano'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'E. BAUDIFFIER et alii.',
     aparic: 1,
@@ -1116,7 +1159,8 @@ export let nordeste = [
     autor: 'DELISLE, Jean',
     aparic: 1,
     obra: 'Translators through History'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'DESESSARD, C.',
     aparic: 1,
@@ -1508,7 +1552,8 @@ export let nordeste = [
     autor: 'REÑONES, Albor Vives',
     aparic: 1,
     obra: 'O riso doído: atualizando o mito, o rito e o teatro grego'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'RESENDE, Antônio M',
     aparic: 1,
@@ -1532,7 +1577,8 @@ export let nordeste = [
     autor: 'ROMILLY, Jacqueline de',
     aparic: 1,
     obra: 'A tragédia grega'
-  }, {
+  },
+  {
     id: increment(getCount),
     autor: 'RONAI, Paulo',
     aparic: 1,

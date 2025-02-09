@@ -71,45 +71,46 @@
 		>
 		<section class="mb-4 w-3/4 md:w-2/4 text-lg m-auto text-left dark:text-papyrus">
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 180}>
-				A região Sul possui dez universidades federais oferecendo um total de 92 cursos de Letras
-				(não estão inclusos os cursos de Libras nessa pesquisa). A UTFPR, a UFFS e a UFSC não
-				possuem qualquer curso no qual haja uma disciplina com referência à lingua latina ou à
-				grega. Por outro lado, a UFPR e a UFRGS oferecem Letras Português-Latim e Português-Grego.
+				A região Sul possui dez universidades federais, das quais sete oferecem disciplinas
+				referentes ao grego e/ou ao latim. A UTFP e a UFFS não possuem nenhum curso no qual haja uma
+				disciplina com referência às línguas mencionadas. Por outro lado, a UFPR e a UFRGS oferecem
+				cursos específicos na área de Letras Clássicas (Latim-Português e Grego-Português da
+				primeira, e Língua Portuguesa e Literaturas de Língua Portuguesa, Língua Grega e Literatura
+				de Língua Grega e Língua Portuguesa e Literaturas de Língua Portuguesa, Língua Latina e
+				Literatura de Língua Latina da última). Em relação à UFRGS, infelizmente não foi possível
+				obtermos as obras e os autores usados em seus cursos de Letras. Devido a essa
+				impossibilidade, os dados referentes a todos os cursos de Letras dessa universidade não
+				estão contemplados no <a href={corpus} download="corpus_sul" target="_blank">corpus</a>. que
+				apresenta 546 obras e 443 autores.
 			</p>
-			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Infelizmente, não foi possível obtermos as obras e os autores que são usados na UFRGS. Por
-				tanto, os dados referentes a essa universidade não estão contemplados no <a
-					href={corpus}
-					download="corpus_sul"
-					target="_blank">corpus</a
-				>, que apresenta 544 obras e 441 autores.
-			</p>
-			<p class="aos-hidden-left my-4" class:aos-show={y >= 380} />
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				A obra mais indicada, 17 vezes, foi <em>Iniciação ao latim</em> de Zélia de Almeida Cardoso.
-				Na segunda posição, com 13 indicações, uma gramática latina,
+				A obra mais indicada, 22 vezes, foi <em>Iniciação ao latim</em> de Zélia de Almeida Cardoso.
+				Na segunda posição, com 18 indicações, uma gramática latina,
 				<em>Gramática Latina</em>, de Pierre Grimal. O dicionário latino mais indicado foi de
 				Raulino Bussarelo na 11ª posição com seis indicações,
 				<em>Dicionário básico latino-português</em>. A primeira obra literária apareceu apenas na
-				44ª posição com três indicações, <em>Os Trabalhos e os Dias</em>, de Hesíodo.
+				46ª posição com três indicações, <em>Os Trabalhos e os Dias</em>, de Hesíodo.
 			</p>
 			<p class="aos-hidden-left my-4" class:aos-show={y >= 580}>
 				A primeira obra referente ao grego foi a gramática de Antônio Freire, <em
 					>Gramática grega</em
 				>, com nove indicações na 4ª posição. Depois, veio a obra de sintaxe,
-				<em>Syntaxe grecque</em>, de Jean Humbert na 16ª com 6 indicações. Em terceiro lugar, no que
+				<em>Syntaxe grecque</em>, de Jean Humbert na 15ª com 6 indicações. Em terceiro lugar, no que
 				se refere apenas ao grego, apareceu o curso, <em>Aprendendo Grego</em>, com cinco
-				indicações. O primeiro dicionário grego só apareceu na 31ª colocação com 4 indicações,
-				<em>Dicionário grego-português</em>, de Daisi Malhadas. Já a primeira obra literária só
-				apareceu na 45ª posição com três indicações,
-				<em>Os Trabalhos e os Dias</em>, de Hesíodo.
+				indicações. O primeiro dicionário grego só apareceu na 33ª colocação com 4 indicações,
+				<em>Dicionário grego-português</em>, de Daisi Malhadas, professora da UNESP. Vale ressaltar
+				que a região Sul foi a única região que teve obras genuinamente em língua grega:
+				<em
+					>Γραμματική της Νέας Ελληνικής: Δομολειτουργική–Επικοινωνιακή, Βασιλειου ∆ιγενους Ακριτου
+					e Ο Βασιλειος Διγενης Ακριτης και το άσμα του Αρμυρή</em
+				>, no curso de Grego-Português da UFPR.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 680}>
 				Obras estrangeiras sem tradução abundaram. Foram, aproximadamente, "aproximadamente" porque
 				algumas obras não pudemos identificar o idioma:
 			</p>
 			<ol class="aos-hidden-left my-4" class:aos-show={y >= 780}>
-				<li>220 em inglês</li>
+				<li>182 em inglês</li>
 				<li>25 em francês</li>
 				<li>15 em espanhol</li>
 				<li>14 em latim</li>

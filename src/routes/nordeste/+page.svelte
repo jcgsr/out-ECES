@@ -78,13 +78,13 @@
 				(Latim e Grego). A UFC possui departamento de Letras Clássicas assim como a UFBA.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 280}>
-				Como se pode verificar abaixo, dentre os 222 autores e as 281 obras extraídas do <a
+				Como se pode verificar abaixo, dentre os 227 autores e as 287 obras extraídas do <a
 					href={corpus}
 					download="corpus_nordeste"
 					target="_blank">corpus</a
 				>, a mais indicada, 34 vezes, foi um livro de Zélia de Almeida Cardoso,
 				<em>Iniciação ao latim</em>. A ela se seguiram a gramática de Napoleão Mendes de Almeida com
-				31 indicações,
+				33 indicações,
 				<em>Gramática Latina</em>, e um dicionário de literatura de Paul Harvey,
 				<em>Dicionário Oxford de literatura clássica grega e latina</em>, com 21 indicações.
 			</p>
@@ -103,7 +103,7 @@
 				Robert Scott.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 480}>
-				Gramáticas foram, no total, 28 indicações: 19 em português (13 latinas e seis gregas), duas
+				Gramáticas foram, no total, 29 indicações: 24 em português (14 latinas e seis gregas), duas
 				em francês (uma latina e outra comparada latim e grego), duas em inglês (uma grega e outra
 				comparada de grego e latim) e uma em italiano.
 			</p>
@@ -112,7 +112,7 @@
 				Obras histórico-literárias foram 18 aparições, sendo a mais indicada a <em
 					>Literatura Latina</em
 				>
-				de Zélia de Almeida Cardoso com 18 indicações. E literárias, 57, tendo Homero como o mais indicado
+				de Zélia de Almeida Cardoso com 20 indicações. E literárias, 57, tendo Homero como o mais indicado
 				(quatro vezes) na 56ª posição com a <em>A Ilíada</em>.
 			</p>
 			<p class="aos-hidden-right my-4" class:aos-show={y >= 580}>
