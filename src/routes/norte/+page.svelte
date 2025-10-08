@@ -37,11 +37,11 @@
 
 	// auto counter
 	/* let counter = 0;
-	let increment = () => {
-		counter++;
-		return counter;
-	};
-	const getCount = counter; */
+  let increment = () => {
+    counter++;
+    return counter;
+  };
+  const getCount = counter; */
 
 	// aos
 	let y;
@@ -176,7 +176,7 @@
 					{#each filteredBooks as item}<TableBodyRow>
 							<TableBodyCell>{item.id}</TableBodyCell>
 							<!--<TableBodyCell>{increment(getCount)}</TableBodyCell>
-              -->
+                                                      -->
 							<TableHeadCell>
 								<a
 									href="https://www.amazon.com.br/s?k={item.autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1"
@@ -196,32 +196,32 @@
 			</TableBody>
 		</Table>
 		<!-- <table class="aos-hidden-bottom border text-sm md:text-lg m-auto" class:aos-show={y >= 400}> -->
-		<!-- 	<tr class="border p-1 md:p-3"> -->
-		<!-- 		<th class="border p-1 md:p-3">Posição</th> -->
-		<!-- 		<th class="border p-1 md:p-3">Autor</th> -->
-		<!-- 		<th class="border p-1 md:p-3">Obra</th> -->
-		<!-- 		<th class="border p-1 md:p-3">Indicações</th> -->
-		<!-- 	</tr> -->
-		<!-- 	{#each norte as { autor, aparic, obra }} -->
-		<!-- 		<tr> -->
-		<!-- 			<td class="border">{increment(getCount)}</td> -->
-		<!-- 			<td class="border p-2 md:p-3"> -->
-		<!-- 				<a -->
-		<!-- 					href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
-		<!-- 					target="_blank">{autor}</a -->
-		<!-- 				> -->
-		<!-- 			</td> -->
-		<!-- 			<td class="border p-1"> -->
-		<!-- 				<a -->
-		<!-- 					href="https://www.amazon.com.br/s?k={obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
-		<!-- 					target="_blank" -->
-		<!-- 				> -->
-		<!-- 					<em>{obra}</em> -->
-		<!-- 				</a> -->
-		<!-- 			</td> -->
-		<!-- 			<td class="border">{aparic}</td> -->
-		<!-- 		</tr> -->
-		<!-- 	{/each} -->
+		<!--  <tr class="border p-1 md:p-3"> -->
+		<!--    <th class="border p-1 md:p-3">Posição</th> -->
+		<!--    <th class="border p-1 md:p-3">Autor</th> -->
+		<!--    <th class="border p-1 md:p-3">Obra</th> -->
+		<!--    <th class="border p-1 md:p-3">Indicações</th> -->
+		<!--  </tr> -->
+		<!--  {#each norte as { autor, aparic, obra }} -->
+		<!--    <tr> -->
+		<!--      <td class="border">{increment(getCount)}</td> -->
+		<!--      <td class="border p-2 md:p-3"> -->
+		<!--        <a -->
+		<!--          href="https://www.amazon.com.br/s?k={autor}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
+		<!--          target="_blank">{autor}</a -->
+		<!--        > -->
+		<!--      </td> -->
+		<!--      <td class="border p-1"> -->
+		<!--        <a -->
+		<!--          href="https://www.amazon.com.br/s?k={obra}&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HC1VFZZ26I7G&sprefix=latim%2Caps%2C203&ref=nb_sb_noss_1" -->
+		<!--          target="_blank" -->
+		<!--        > -->
+		<!--          <em>{obra}</em> -->
+		<!--        </a> -->
+		<!--      </td> -->
+		<!--      <td class="border">{aparic}</td> -->
+		<!--    </tr> -->
+		<!--  {/each} -->
 		<!-- </table> -->
 		<hr class="text-black w-2/4 m-auto pt-4 mt-6" />
 
@@ -352,10 +352,10 @@
 		opacity: 0.8;
 	}
 	/* .norte { */
-	/* 	display: flex; */
-	/* 	flex-direction: column; */
-	/* 	text-align: center; */
-	/* 	width: 70%; */
-	/* 	margin: 0 auto; */
+	/*  display: flex; */
+	/*  flex-direction: column; */
+	/*  text-align: center; */
+	/*  width: 70%; */
+	/*  margin: 0 auto; */
 	/* } */
 </style>
